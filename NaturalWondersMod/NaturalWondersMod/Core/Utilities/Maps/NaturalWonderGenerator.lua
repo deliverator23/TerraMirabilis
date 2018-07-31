@@ -285,11 +285,6 @@ function CustomGetMultiTileFeaturePlotList(pPlot, eFeatureType, aPlots)
             return true;
         end
 
-        local pSEPlot = Map.GetAdjacentPlot(pPlot:GetX(), pPlot:GetY(), DirectionTypes.DIRECTION_SOUTHEAST);
-        if (pSEPlot ~= nil and pSEPlot:IsWater() and pSEPlot:IsLake() == false) then
-            return true;
-        end
-
 	-- 2 tiles, one on coastal land and one in water, try to face camera if possible
 	elseif (customPlacement == "PLACEMENT_GIANTS_CAUSEWAY") then
 
