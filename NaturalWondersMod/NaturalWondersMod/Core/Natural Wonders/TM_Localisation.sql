@@ -231,8 +231,8 @@ VALUES
 -----------------------------------------------
 
 	("LOC_FEATURE_OLD_FAITHFUL_NAME",					"Old Faithful"	),
-	("LOC_TM_FEATURE_OLD_FAITHFUL_DESCRIPTION",			"One tile natural wonder. Yields +2 [ICON_Science] Science, +1 [ICON_Culture] Culture, and +1 [ICON_Gold] Gold."	),
-	("LOC_TM_FEATURE_OLD_FAITHFUL_EFFECT_DESCRIPTION",	"One tile natural wonder. Yields +2 [ICON_Science] Science, +1 [ICON_Culture] Culture, and +1 [ICON_Gold] Gold.[NEWLINE][NEWLINE]Campus districts trigger a culture bomb and receive double adjacency bonuses if their City has a National Park."	),
+	("LOC_TM_FEATURE_OLD_FAITHFUL_DESCRIPTION",			"One tile natural wonder. Yields +3 [ICON_Science] Science, +1 [ICON_Faith] Faith, and +1 [ICON_Gold] Gold."	),
+	("LOC_TM_FEATURE_OLD_FAITHFUL_EFFECT_DESCRIPTION",	"One tile natural wonder. Yields +3 [ICON_Science] Science, +1 [ICON_Faith] Faith, and +1 [ICON_Gold] Gold.[NEWLINE][NEWLINE]Campus districts trigger a culture bomb and receive double adjacency bonuses if their City has a National Park."	),
 	
 	('LOC_TM_FEATURE_OLD_FAITHFUL_QUOTE',	
 	'"It spouted at regular intervals nine times during our stay, the columns of boiling water being thrown from ninety to one hundred and twenty-five feet at each discharge, which lasted from fifteen to twenty minutes. We gave it the name of Old Faithful."[NEWLINE]- Nathaniel P. Langford'	),
