@@ -1,5 +1,3 @@
 # TerraMirabilis
 
-hello world
-
-hello world 2
+Git is awesome!
