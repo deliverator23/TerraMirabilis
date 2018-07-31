@@ -1,3 +1,3 @@
-# TerraMirabilis
+# Terra Mirabilis
 
 Git is awesome!
