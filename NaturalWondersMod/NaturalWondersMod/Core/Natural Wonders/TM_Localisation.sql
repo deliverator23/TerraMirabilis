@@ -122,7 +122,7 @@ VALUES
 	'"Conservation means the wise use of the earth and its resources for the lasting good of men."[NEWLINE]- Gifford Pinchot'	),
 	
 	("LOC_PEDIA_FEATURES_PAGE_FEATURE_GRAND_MESA_CHAPTER_HISTORY_PARA_1",	
-	"The Grand Mesa is a large geologic formation in Colorado, the United States of America. Rising some 1,500 meters (5,000 feet) above the surrounding territory and with an area of 1300 square kilometers (500 square miles), it is the largest mesa in the world. The Grand Mesa has a layer of volcanic basalt on top, which resists erosion. It did not so much rise into the air, as it remained at its original height, as the surrounding terrain was eroded by the action of the Colorado and Gunnison rivers."	),
+	"The Grand Mesa is a large geologic formation in Colorado, the United States of America. Rising some 1,500 meters (5,000 feet) above the surrounding territory and with an area of 1300 square kilometers (500 square miles), it is the largest mesa in the world. The Grand Mesa has a layer of volcanic basalt on top, which resists erosion. It did not so much rise into the air, as it remained at its original height, as the surrounding terrain was eroded by the action of the Colorado and Gunnison rivers.  The Grand Mesa National Forest (originally called Battlement Mesa Forest Reserve) was created by Benjamin Harrison on December 24, 1892. It was the third forest reserve created in United States."	),
 
 -----------------------------------------------
 -- HA LONG BAY
@@ -186,7 +186,7 @@ VALUES
 	'"I saw that old father Nile without any doubt rises in the Victoria Nyanza, and as I had foretold, that lake is the great source of the holy river which cradled the first expounder of our religious belief."[NEWLINE]- John Hanning Speke'	),
 	
 	("LOC_PEDIA_FEATURES_PAGE_FEATURE_LAKE_VICTORIA_CHAPTER_HISTORY_PARA_1",	
-	"With a surface area over 26,000 square miles (68,800 km²), Lake Victoria is the largest lake in Africa, the second largest freshwater lake on Earth, and the largest tropical lake in the world. Two large rivers leave the lake, the White Nile and the Katonga. The first historical records of the lake come from Arab traders seeking gold, ivory and other commodities from the natives as they pushed inland from the coast. The search by European explorers for the source of the Nile led to the discovery of the lake by the Englishman John Speke in 1858 AD, who named it after the then British monarch."	),
+	"With a surface area over 26,000 square miles (68,800 kmï¿½), Lake Victoria is the largest lake in Africa, the second largest freshwater lake on Earth, and the largest tropical lake in the world. Two large rivers leave the lake, the White Nile and the Katonga. The first historical records of the lake come from Arab traders seeking gold, ivory and other commodities from the natives as they pushed inland from the coast. The search by European explorers for the source of the Nile led to the discovery of the lake by the Englishman John Speke in 1858 AD, who named it after the then British monarch."	),
 
 -----------------------------------------------
 -- LYSEFJORDEN
