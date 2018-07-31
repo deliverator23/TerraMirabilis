@@ -14,3 +14,15 @@ The code below has to be copied into the built-out TerrainStyle.artdef file *aft
 	</Element>			
 			
 This is because the Ha Long Bay asset is not available in the SDK Assets and so the entry is blanked out by the build.
+
+--
+
+This code needs to replace the action criteria section in the modinfo file after the mod has been built.
+
+    <ActionCriteria>
+        <Criteria id="XP1">
+            <GameCoreInUse>Expansion1</GameCoreInUse>
+        </Criteria>
+    </ActionCriteria>
+
+This will work alongside the action criteria that we set against some of the fileactions in ModBuddy to ensure that no expansion-specific effects or requirements are referenced if the user does not have them.
