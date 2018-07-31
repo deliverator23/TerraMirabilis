@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects::AssetInstance>
+	<m_BehaviorData>
+		<m_behaviorDataSets>
+			<m_animationBindings>
+				<m_Bindings/>
+			</m_animationBindings>
+			<m_timelineBindings>
+				<m_Bindings>
+					<Element>
+						<m_SlotName text="IDLE_A"/>
+						<m_TimelineName text="IDLE_A"/>
+					</Element>
+				</m_Bindings>
+			</m_timelineBindings>
+			<m_timelines>
+				<m_Timelines>
+					<Element>
+						<m_Name text="IDLE_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text=""/>
+						<m_fDuration>10.000000</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="1"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Building_Steam"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_Bone_1"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>-1.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="2"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Building_Steam"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_Bone_2"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>-1.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+						</m_Triggers>
+					</Element>
+				</m_Timelines>
+			</m_timelines>
+			<m_attachmentPoints>
+				<m_Points>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects::BLPEntryValue">
+									<m_EntryName text=""/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text=""/>
+									<m_BLPPackage text=""/>
+									<m_LibraryName text=""/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects::StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects::StringValue">
+									<m_Value text="OPTIONAL"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_orientation>
+						<m_Name text="FX_Bone_1"/>
+						<m_BoneName text="NWON_Origin_Dummy"/>
+						<m_ModelInstanceName text="NWON_Origin_Dummy"/>
+						<m_scale>3</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects::BLPEntryValue">
+									<m_EntryName text=""/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text=""/>
+									<m_BLPPackage text=""/>
+									<m_LibraryName text=""/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects::StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects::StringValue">
+									<m_Value text="OPTIONAL"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_orientation>
+						<m_Name text="FX_Bone_2"/>
+						<m_BoneName text="NWON_Origin_Dummy"/>
+						<m_ModelInstanceName text="NWON_Origin_Dummy"/>
+						<m_scale>3</m_scale>
+					</Element>
+				</m_Points>
+			</m_attachmentPoints>
+		</m_behaviorDataSets>
+		<m_behaviorInstances/>
+		<m_dsgName text="Standard_TerrainElementAsset"/>
+		<m_referenceGeometryNames/>
+	</m_BehaviorData>
+	<m_GeometrySet>
+		<m_ModelInstances>
+			<Element>
+				<m_Name text="NWON_Origin_Dummy"/>
+				<m_GeoName text="NWON_Origin_Dummy"/>
+				<m_GroupStates>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects::ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects::BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects::ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects::ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Standardmaterial"/>
+						<m_MeshName text="NWON_Origin_Dummy"/>
+						<m_StateName text="Default"/>
+					</Element>
+				</m_GroupStates>
+			</Element>
+		</m_ModelInstances>
+	</m_GeometrySet>
+	<m_CookParams>
+		<m_Values>
+			<Element class="AssetObjects::BoolValue">
+				<m_bValue>true</m_bValue>
+				<m_ParamName text="CastShadows"/>
+			</Element>
+			<Element class="AssetObjects::BoolValue">
+				<m_bValue>true</m_bValue>
+				<m_ParamName text="CastAO"/>
+			</Element>
+		</m_Values>
+	</m_CookParams>
+	<m_Version>
+		<major>3</major>
+		<minor>0</minor>
+		<build>211</build>
+		<revision>939</revision>
+	</m_Version>
+	<m_ParticleEffects/>
+	<m_Geometries/>
+	<m_Animations/>
+	<m_Materials/>
+	<m_ClassName text="TerrainElementAsset"/>
+	<m_DataFiles/>
+	<m_Name text="NWON_Old_Faithful"/>
+	<m_Description text=""/>
+	<m_Tags>
+		<Element text="TerrainElementAsset"/>
+	</m_Tags>
+	<m_Groups/>
+</AssetObjects::AssetInstance>

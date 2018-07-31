@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..MaterialInstance>
+	<m_CookParams>
+		<m_Values>
+			<Element class="AssetObjects..ObjectValue">
+				<m_ObjectName text="TER_Grass_B"/>
+				<m_eObjectType>TEXTURE</m_eObjectType>
+				<m_ParamName text="BaseColor"/>
+			</Element>
+			<Element class="AssetObjects..ObjectValue">
+				<m_ObjectName text="TER_Grass_H"/>
+				<m_eObjectType>TEXTURE</m_eObjectType>
+				<m_ParamName text="Heightmap"/>
+			</Element>
+			<Element class="AssetObjects..ObjectValue">
+				<m_ObjectName text="TER_Grass_G"/>
+				<m_eObjectType>TEXTURE</m_eObjectType>
+				<m_ParamName text="Spec"/>
+			</Element>
+			<Element class="AssetObjects..ObjectValue">
+				<m_ObjectName text="FOW_Ground_Grass_2k"/>
+				<m_eObjectType>TEXTURE</m_eObjectType>
+				<m_ParamName text="FOWColor"/>
+			</Element>
+			<Element class="AssetObjects..IntValue">
+				<m_nValue>0</m_nValue>
+				<m_ParamName text="BlendLevel"/>
+			</Element>
+			<Element class="AssetObjects..ObjectValue">
+				<m_ObjectName text="TER_Grass_F"/>
+				<m_eObjectType>TEXTURE</m_eObjectType>
+				<m_ParamName text="Fuzz"/>
+			</Element>
+			<Element class="AssetObjects..RGBValue">
+				<m_r>80</m_r>
+				<m_g>190</m_g>
+				<m_b>0</m_b>
+				<m_ParamName text="ColorIdentifier"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>225</m_fValue>
+				<m_ParamName text="AlphaIdentifier"/>
+			</Element>
+			<Element class="AssetObjects..IntValue">
+				<m_nValue>1</m_nValue>
+				<m_ParamName text="Priority"/>
+			</Element>
+		</m_Values>
+	</m_CookParams>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="TerrainMaterial"/>
+	<m_DataFiles/>
+	<m_Name text="TER_Grassland_ShortBlend"/>
+	<m_Description text="Grassland MAT"/>
+	<m_Tags>
+		<Element text="Terrain "/>
+		<Element text="Grassland"/>
+		<Element text="Material"/>
+		<Element text="TerrainMaterial"/>
+	</m_Tags>
+	<m_Groups/>
+</AssetObjects..MaterialInstance>
+

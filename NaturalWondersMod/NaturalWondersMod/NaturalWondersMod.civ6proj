@@ -1,0 +1,782 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>Terra Mirabilis</Name>
+    <Guid>74c5c3d9-5408-4315-9e0a-b0c369f82bcd</Guid>
+    <ProjectGuid>4a671998-0439-4547-afba-8dab5d29459e</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>Adds new Natural Wonders to Civilization VI and makes owning Natural Wonder tiles worthwhile</Teaser>
+    <Description>Adds new Natural Wonders to Civilization VI and makes all Natural Wonders more valuable to own. With yield balances, changes to existing effects and the introduction of new ones, each Natural Wonder in the game will now provide special bonuses to your cities, so long as you own at least one of their tiles. Various other changes include Naturalists being purchased with Gold, district adjacency changes, and many other options available to edit in a user settings file for maximum flexibility.</Description>
+    <Authors>Deliverator, ChimpanG</Authors>
+    <SpecialThanks>
+    </SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <AssemblyName>NaturalWondersMod</AssemblyName>
+    <RootNamespace>NaturalWondersMod</RootNamespace>
+    <InGameActionData><![CDATA[<InGameActions><UpdateArt id="ArtDep"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="TM_Framework_DB"><Properties><LoadOrder>1</LoadOrder></Properties><File priority="1">Core/Framework/TM_Schema.sql</File></UpdateDatabase><UpdateDatabase id="TM_Master_DB"><Properties><LoadOrder>250</LoadOrder></Properties><File priority="1">Core/Framework/TM_Master.sql</File><File>Core/Framework/TM_Validation.sql</File></UpdateDatabase><UpdateDatabase id="TM_Preliminaries_DB"><Properties><LoadOrder>300</LoadOrder></Properties><File priority="1">Core/Natural Wonders/TM_Features.sql</File><File>Core/Natural Wonders/TM_Preliminaries.sql</File></UpdateDatabase><UpdateDatabase id="TM_Wonders_Base_DB"><Properties><LoadOrder>315</LoadOrder></Properties><File>Core/Natural Wonders/Features/Base/TM_BarrierReef.sql</File><File>Core/Natural Wonders/Features/Base/TM_CliffsDover.sql</File><File>Core/Natural Wonders/Features/Base/TM_CraterLake.sql</File><File>Core/Natural Wonders/Features/Base/TM_DeadSea.sql</File><File>Core/Natural Wonders/Features/Base/TM_Everest.sql</File><File>Core/Natural Wonders/Features/Base/TM_Galapagos.sql</File><File>Core/Natural Wonders/Features/Base/TM_Kilimanjaro.sql</File><File>Core/Natural Wonders/Features/Base/TM_Pantanal.sql</File><File>Core/Natural Wonders/Features/Base/TM_Piopiotahi.sql</File><File>Core/Natural Wonders/Features/Base/TM_TorresDelPaine.sql</File><File>Core/Natural Wonders/Features/Base/TM_Tsingy.sql</File><File>Core/Natural Wonders/Features/Base/TM_Yosemite.sql</File></UpdateDatabase><UpdateDatabase id="TM_Wonders_DLC_DB"><Properties><LoadOrder>315</LoadOrder></Properties><File>Core/Natural Wonders/Features/DLC/TM_Eyjafjallajokull.sql</File><File>Core/Natural Wonders/Features/DLC/TM_GiantsCauseway.sql</File><File>Core/Natural Wonders/Features/DLC/TM_HaLongBay.sql</File><File>Core/Natural Wonders/Features/DLC/TM_Lysefjorden.sql</File><File>Core/Natural Wonders/Features/DLC/TM_Uluru.sql</File></UpdateDatabase><UpdateDatabase id="TM_Wonders_DB"><Properties><LoadOrder>315</LoadOrder></Properties><File>Core/Natural Wonders/Features/Terra Mirabilis/TM_BarringerCrater.sql</File><File>Core/Natural Wonders/Features/Terra Mirabilis/TM_CerroDePotosi.sql</File><File>Core/Natural Wonders/Features/Terra Mirabilis/TM_Gibraltar.sql</File><File>Core/Natural Wonders/Features/Terra Mirabilis/TM_GrandMesa.sql</File><File>Core/Natural Wonders/Features/Terra Mirabilis/TM_Kailash.sql</File><File>Core/Natural Wonders/Features/Terra Mirabilis/TM_Krakatoa.sql</File><File>Core/Natural Wonders/Features/Terra Mirabilis/TM_LakeVictoria.sql</File><File>Core/Natural Wonders/Features/Terra Mirabilis/TM_MotlatseCanyon.sql</File><File>Core/Natural Wonders/Features/Terra Mirabilis/TM_OldFaithful.sql</File><File>Core/Natural Wonders/Features/Terra Mirabilis/TM_SalarDeUyuni.sql</File><File>Core/Natural Wonders/Features/Terra Mirabilis/TM_Sinai.sql</File><File>Core/Natural Wonders/Features/Terra Mirabilis/TM_SriPada.sql</File><File>Core/Natural Wonders/Features/Terra Mirabilis/TM_Wulingyuan.sql</File></UpdateDatabase><UpdateDatabase id="TM_Wonders_XP1_DB"><Properties><LoadOrder>317</LoadOrder></Properties><File>Core/Natural Wonders/Features/XP1/TM_DelicateArch.sql</File><File>Core/Natural Wonders/Features/XP1/TM_EyeOfTheSahara.sql</File><File>Core/Natural Wonders/Features/XP1/TM_Krakatoa_XP1.sql</File><File>Core/Natural Wonders/Features/XP1/TM_LakeRetba.sql</File><File>Core/Natural Wonders/Features/XP1/TM_Matterhorn.sql</File><File>Core/Natural Wonders/Features/XP1/TM_Roraima.sql</File><File>Core/Natural Wonders/Features/XP1/TM_Ubsunur_Hollow.sql</File><File>Core/Natural Wonders/Features/XP1/TM_Zhangye_Danxia.sql</File></UpdateDatabase><UpdateDatabase id="TM_Preliminaries_XP1_DB"><Properties><LoadOrder>316</LoadOrder></Properties><File>Core/Natural Wonders/XP1/TM_Preliminaries_XP1.sql</File><File>Core/Natural Wonders/XP1/TM_Features_XP1.sql</File></UpdateDatabase><UpdateDatabase id="TM_UserSettings_DB"><Properties><LoadOrder>310</LoadOrder></Properties><File>Core/User Settings/TM_UserSettings.sql</File></UpdateDatabase><UpdateDatabase id="TM_Globals_DB"><Properties><LoadOrder>320</LoadOrder></Properties><File>Core/Natural Wonders/TM_Globals.sql</File></UpdateDatabase><UpdateText id="TM_Wonders_Text"><Properties><LoadOrder>300</LoadOrder></Properties><File>Core/Natural Wonders/TM_Localisation.sql</File></UpdateText><UpdateIcons id="TM_Wonders_Icons"><Properties><LoadOrder>300</LoadOrder></Properties><File>Core/Natural Wonders/TM_Icons.sql</File></UpdateIcons><UpdateDatabase id="TM_ModSupport_DB"><Properties><LoadOrder>325</LoadOrder></Properties><File>Core/Mod Support/Map Scripts/TM_MS_YNAMP.sql</File></UpdateDatabase><UpdateDatabase id="TM_Globals_XP1_DB"><Properties><LoadOrder>320</LoadOrder></Properties><File>Core/Natural Wonders/XP1/TM_Globals_XP1.sql</File></UpdateDatabase><ImportFiles id="TM_Utilities"><Properties><LoadOrder>1000</LoadOrder></Properties><File>Core/Utilities/Maps/NaturalWonderGenerator.lua</File></ImportFiles></InGameActions>]]></InGameActionData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="Mod.Art.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ArtDefs\Clutter.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Features.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\StrategicView.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\TerrainStyle.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\NWON_Crater.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\NWON_Kailash.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\NWON_Sri_Pada_Decal.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\NWON_Krakatoa.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\NWON_Old_Faithful.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\RES_Silver_Decal01_Sm.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\RES_Silver_Decal02_Sm.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\RES_Silver_Rock_Indiv_01.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\RES_Silver_Rock_Indiv_02.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\RES_Silver_Rock_Indiv_03.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Framework\TM_Master.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Framework\TM_Schema.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Framework\TM_Validation.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Mod Support\Map Scripts\TM_MS_YNAMP.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Natural Wonders\Features\Base\TM_BarrierReef.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Natural Wonders\Features\Base\TM_CliffsDover.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Natural Wonders\Features\Base\TM_CraterLake.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Natural Wonders\Features\Base\TM_DeadSea.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Natural Wonders\Features\Base\TM_Everest.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Natural Wonders\Features\Base\TM_Galapagos.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Natural Wonders\Features\Base\TM_Kilimanjaro.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Natural Wonders\Features\Base\TM_Pantanal.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Natural Wonders\Features\Base\TM_Piopiotahi.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Natural Wonders\Features\Base\TM_TorresDelPaine.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Natural Wonders\Features\Base\TM_Tsingy.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Natural Wonders\Features\Base\TM_Yosemite.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Natural Wonders\Features\DLC\TM_Eyjafjallajokull.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Natural Wonders\Features\DLC\TM_GiantsCauseway.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Natural Wonders\Features\DLC\TM_HaLongBay.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Natural Wonders\Features\DLC\TM_Lysefjorden.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Natural Wonders\Features\DLC\TM_Uluru.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Natural Wonders\Features\Terra Mirabilis\TM_BarringerCrater.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Natural Wonders\Features\Terra Mirabilis\TM_CerroDePotosi.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Natural Wonders\Features\Terra Mirabilis\TM_Gibraltar.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Natural Wonders\Features\Terra Mirabilis\TM_GrandMesa.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Natural Wonders\Features\Terra Mirabilis\TM_Kailash.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Natural Wonders\Features\Terra Mirabilis\TM_Krakatoa.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Natural Wonders\Features\Terra Mirabilis\TM_LakeVictoria.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Natural Wonders\Features\Terra Mirabilis\TM_MotlatseCanyon.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Natural Wonders\Features\Terra Mirabilis\TM_OldFaithful.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Natural Wonders\Features\Terra Mirabilis\TM_SalarDeUyuni.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Natural Wonders\Features\Terra Mirabilis\TM_Sinai.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Natural Wonders\Features\Terra Mirabilis\TM_SriPada.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Natural Wonders\Features\Terra Mirabilis\TM_Wulingyuan.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Natural Wonders\Features\XP1\TM_DelicateArch.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Natural Wonders\Features\XP1\TM_EyeOfTheSahara.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Natural Wonders\Features\XP1\TM_Krakatoa_XP1.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Natural Wonders\Features\XP1\TM_LakeRetba.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Natural Wonders\Features\XP1\TM_Matterhorn.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Natural Wonders\Features\XP1\TM_Roraima.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Natural Wonders\Features\XP1\TM_Ubsunur_Hollow.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Natural Wonders\Features\XP1\TM_Zhangye_Danxia.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Natural Wonders\TM_Features.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Natural Wonders\TM_Globals.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Natural Wonders\TM_Icons.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Natural Wonders\TM_Localisation.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Natural Wonders\TM_Preliminaries.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Natural Wonders\XP1\TM_Globals_XP1.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Natural Wonders\XP1\TM_Features_XP1.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Natural Wonders\XP1\TM_Preliminaries_XP1.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\User Settings\TM_UserSettings.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Utilities\Maps\NaturalWonderGenerator.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\RES_Silver_Decal01_Sm.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\RES_Silver_Decal01_Sm.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\RES_Silver_Decal02_Sm.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\RES_Silver_Decal02_Sm.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\RES_Silver_Rock_Indiv01.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\RES_Silver_Rock_Indiv01.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\RES_Silver_Rock_Indiv02.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\RES_Silver_Rock_Indiv02.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\RES_Silver_Rock_Indiv03.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\RES_Silver_Rock_Indiv03.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\NWON_Crater_Decal.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\NWON_Kailash_Decal.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\NWON_SriPada_Decal.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\TerrainElement_Barringer_Crater.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\TerrainElement_Cerro_de_Potosi.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\TerrainElement_Gibraltar.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\TerrainElement_Grand_Mesa.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\TerrainElement_Kailash.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\TerrainElement_Krakatoa.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\TerrainElement_Lake_Victoria.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\TerrainElement_Motlatse_Canyon.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\TerrainElement_Old_Faithful.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\TerrainElement_Salar_de_Uyuni.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\TerrainElement_Sinai.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\TerrainElement_Sri_Pada.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\TER_Grassland_ShortBlend.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\TER_Mesa.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\TER_Salt_Flat.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\TER_Volcano.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\TER_White_Cliff_Mountain.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Barringer_Crater_Revealed.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Barringer_Crater_Revealed.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Barringer_Crater_Sunk2_HM.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Barringer_Crater_Sunk2_HM.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Barringer_Crater_Sunk_HM.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Barringer_Crater_Sunk_HM.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Barringer_Crater_Sunk_H_BLEND.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Barringer_Crater_Sunk_H_BLEND.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Barringer_Crater_Visible.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Barringer_Crater_Visible.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Cerro_de_Potosi_HM.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Cerro_de_Potosi_HM.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Cerro_de_Potosi_H_BLEND.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Cerro_de_Potosi_H_BLEND.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Cerro_de_Potosi_ID_2.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Cerro_de_Potosi_ID_2.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Gibraltar_HM.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Gibraltar_HM.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Gibraltar_H_BLEND2.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Gibraltar_H_BLEND2.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Gibraltar_ID_4.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Gibraltar_ID_4.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Gibraltar_Revealed.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Gibraltar_Revealed.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Gibraltar_Visible.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Gibraltar_Visible.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Kailash_HM.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Kailash_HM.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Kailash_H_BLEND.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Kailash_H_BLEND.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Kailash_ID.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Kailash_ID.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Kailash_Revealed.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Kailash_Revealed.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Kailash_Visible.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Kailash_Visible.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Krakatoa_HM_4.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Krakatoa_HM_4.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Krakatoa_H_BLEND_4.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Krakatoa_H_BLEND_4.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Krakatoa_ID_4.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Krakatoa_ID_4.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Krakatoa_Revealed.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Krakatoa_Revealed.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Krakatoa_Visible.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Krakatoa_Visible.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Lake_Victoria_HM_2.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Lake_Victoria_HM_2.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Lake_Victoria_H_BLEND.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Lake_Victoria_H_BLEND.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Lake_Victoria_ID.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Lake_Victoria_ID.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Lake_Victoria_Revealed.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Lake_Victoria_Revealed.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Lake_Victoria_Visible.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Lake_Victoria_Visible.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mesa_HM.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mesa_HM.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mesa_H_BLEND.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mesa_H_BLEND.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mesa_ID.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mesa_ID.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Motlatse_HM_Sq3.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Motlatse_HM_Sq3.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Motlatse_H_BLEND_Sq2.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Motlatse_H_BLEND_Sq2.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Motlatse_ID_Sq3.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Motlatse_ID_Sq3.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Motlatse_Revealed.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Motlatse_Revealed.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Motlatse_Visible.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Motlatse_Visible.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\NWON_Crater_Decal4_B.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\NWON_Crater_Decal4_B.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\NWON_Crater_Decal4_FOW.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\NWON_Crater_Decal4_FOW.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\NWON_Crater_Decal_H.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\NWON_Crater_Decal_H.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\NWON_Kailash_Decal2_H.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\NWON_Kailash_Decal2_H.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\NWON_Kailash_Decal3_B.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\NWON_Kailash_Decal3_B.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\NWON_Kailash_Decal3_FOW.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\NWON_Kailash_Decal3_FOW.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\NWON_Kailash_Decal3_S.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\NWON_Kailash_Decal3_S.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\NWON_SriPadaS7_Decal_B.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\NWON_SriPadaS7_Decal_B.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\NWON_SriPadaS7_Decal_FOW.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\NWON_SriPadaS7_Decal_FOW.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\NWON_SriPadaS7_Decal_H.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\NWON_SriPadaS7_Decal_H.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Old_Faithful_HMS3.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Old_Faithful_HMS3.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Old_Faithful_H_BLENDS.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Old_Faithful_H_BLENDS.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Old_Faithful_ID_2.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Old_Faithful_ID_2.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Salar_de_Uyuni_HM_3.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Salar_de_Uyuni_HM_3.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Salar_de_Uyuni_H_BLEND_2.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Salar_de_Uyuni_H_BLEND_2.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Salar_de_Uyuni_ID_7.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Salar_de_Uyuni_ID_7.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Salar_Revealed.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Salar_Revealed.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Salar_Visible.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Salar_Visible.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Sinai_HM.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Sinai_HM.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Sinai_H_BLEND.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Sinai_H_BLEND.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Sinai_ID_2.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Sinai_ID_2.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Sri_Pada_HM.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Sri_Pada_HM.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Sri_Pada_H_BLEND.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Sri_Pada_H_BLEND.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Sri_Pada_ID.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Sri_Pada_ID.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Sri_Pada_Revealed.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Sri_Pada_Revealed.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Sri_Pada_Visible.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Sri_Pada_Visible.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TER_Black_G.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TER_Black_G.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TER_Mesa_Base.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TER_Mesa_Base.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TER_Mesa_H.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TER_Mesa_H.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TER_Mountain_LessDeep_H.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TER_Mountain_LessDeep_H.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TER_Salt_Flat_B2.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TER_Salt_Flat_B2.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TER_Salt_Flat_FOW.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TER_Salt_Flat_FOW.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TER_Salt_Flat_H2.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TER_Salt_Flat_H2.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TER_Volcano_Base_1024_2.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TER_Volcano_Base_1024_2.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TER_Volcano_Heightmap_1024.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TER_Volcano_Heightmap_1024.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\clutter.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\StrategicView_Features.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\TerrainAssetSet_Base.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\TerrainElementSet_Base.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\TerrainMaterialSet_Base.xlp">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ArtDefs\" />
+    <Folder Include="Assets\" />
+    <Folder Include="Core\" />
+    <Folder Include="Core\Framework\" />
+    <Folder Include="Core\Mod Support\Map Scripts" />
+    <Folder Include="Core\Natural Wonders\" />
+    <Folder Include="Core\Natural Wonders\Features\" />
+    <Folder Include="Core\Natural Wonders\Features\Base\" />
+    <Folder Include="Core\Natural Wonders\Features\DLC\" />
+    <Folder Include="Core\Natural Wonders\Features\Terra Mirabilis\" />
+    <Folder Include="Core\Natural Wonders\Features\XP1\" />
+    <Folder Include="Core\Natural Wonders\XP1\" />
+    <Folder Include="Core\Mod Support" />
+    <Folder Include="Core\Utilities" />
+    <Folder Include="Core\User Settings\" />
+    <Folder Include="Core\Utilities\Maps" />
+    <Folder Include="Geometries\" />
+    <Folder Include="Materials\" />
+    <Folder Include="Textures\" />
+    <Folder Include="XLPs\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

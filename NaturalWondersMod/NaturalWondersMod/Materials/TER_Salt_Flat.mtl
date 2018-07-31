@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..MaterialInstance>
+	<m_CookParams>
+		<m_Values>
+			<Element class="AssetObjects..ObjectValue">
+				<m_ObjectName text="TER_Salt_Flat_B2"/>
+				<m_eObjectType>TEXTURE</m_eObjectType>
+				<m_ParamName text="BaseColor"/>
+			</Element>
+			<Element class="AssetObjects..ObjectValue">
+				<m_ObjectName text="TER_Salt_Flat_H2"/>
+				<m_eObjectType>TEXTURE</m_eObjectType>
+				<m_ParamName text="Heightmap"/>
+			</Element>
+			<Element class="AssetObjects..ObjectValue">
+				<m_ObjectName text="TER_Salt_G"/>
+				<m_eObjectType>TEXTURE</m_eObjectType>
+				<m_ParamName text="Spec"/>
+			</Element>
+			<Element class="AssetObjects..ObjectValue">
+				<m_ObjectName text="FOW_Ground_Salt_Base"/>
+				<m_eObjectType>TEXTURE</m_eObjectType>
+				<m_ParamName text="FOWColor"/>
+			</Element>
+			<Element class="AssetObjects..IntValue">
+				<m_nValue>3</m_nValue>
+				<m_ParamName text="BlendLevel"/>
+			</Element>
+			<Element class="AssetObjects..ObjectValue">
+				<m_ObjectName text=""/>
+				<m_eObjectType>TEXTURE</m_eObjectType>
+				<m_ParamName text="Fuzz"/>
+			</Element>
+			<Element class="AssetObjects..RGBValue">
+				<m_r>128.00000000</m_r>
+				<m_g>128.00000000</m_g>
+				<m_b>128.00000000</m_b>
+				<m_ParamName text="ColorIdentifier"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>228.00000000</m_fValue>
+				<m_ParamName text="AlphaIdentifier"/>
+			</Element>
+			<Element class="AssetObjects..IntValue">
+				<m_nValue>20</m_nValue>
+				<m_ParamName text="Priority"/>
+			</Element>
+		</m_Values>
+	</m_CookParams>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="TerrainMaterial"/>
+	<m_DataFiles/>
+	<m_Name text="TER_Salt_Flat"/>
+	<m_Description text=""/>
+	<m_Tags>
+		<Element text="TerrainMaterial"/>
+	</m_Tags>
+	<m_Groups/>
+</AssetObjects..MaterialInstance>
+
