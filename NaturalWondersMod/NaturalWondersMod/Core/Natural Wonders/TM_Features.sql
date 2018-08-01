@@ -42,6 +42,7 @@ INSERT INTO Features
 		DefenseModifier,
 		Settlement,
 		DoubleAdjacentTerrainYield,
+		CustomPlacement,
 		FollowRulesInWB
 		)
 SELECT	FeatureType,
@@ -62,13 +63,14 @@ SELECT	FeatureType,
 		RequiresRiver,
 		NoRiver,
 		AddsFreshWater,
-		1, -- NoResource
+		0, -- NoResource
 		NoAdjacentFeatures,
 		MovementChange,
 		SightThroughModifier,
 		DefenseModifier,
 		0, -- Settlement
 		DoubleAdjacentTerrainYield,
+		CustomPlacement,
 		0 -- FollowRulesInWB
 FROM	TM_Master WHERE New = 1;
 

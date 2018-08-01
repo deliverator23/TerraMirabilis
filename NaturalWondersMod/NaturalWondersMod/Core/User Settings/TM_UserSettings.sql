@@ -53,7 +53,7 @@ VALUES
 -- Our Default: 1
 -----------------------------------------------
 	
-	('NW_ADJACENCY_BUILDING',	NULL,	0),
+	('NW_ADJACENCY_BUILDING',	NULL,	1),
 
 -----------------------------------------------
 -- SECTION E
@@ -105,7 +105,7 @@ VALUES
 -- Minimum Start Distances between Major/Minor Civilization and Natural Wonder
 -----------------------------------------------
 
-	('START_DISTANCE_MAJOR',	NULL,	2), -- Game Default 3 (tiles)
+	('START_DISTANCE_MAJOR',	NULL,	3), -- Game Default 3 (tiles)
 	('START_DISTANCE_MINOR',	NULL,	5), -- Game Default 3 (tiles)
 
 -----------------------------------------------

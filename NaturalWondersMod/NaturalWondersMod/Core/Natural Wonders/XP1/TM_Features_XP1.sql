@@ -4,14 +4,6 @@
 */
 
 -----------------------------------------------
--- Features
------------------------------------------------
-
-UPDATE	Features
-SET		CustomPlacement = 'PLACEMENT_RORAIMA'
-WHERE	FeatureType IN (SELECT FeatureType FROM TM_Master WHERE CustomPlacement = 'PLACEMENT_RORAIMA');
-
------------------------------------------------
 -- MomentIllustrations
 -----------------------------------------------
 

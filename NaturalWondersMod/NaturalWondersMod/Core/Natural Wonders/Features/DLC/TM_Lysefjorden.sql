@@ -32,15 +32,23 @@ WHERE	FeatureType = 'FEATURE_LYSEFJORDEN';
 -----------------------------------------------
 
 INSERT INTO Modifiers
-		(ModifierId,										ModifierType,						SubjectRequirementSetId						)
-VALUES	('MODIFIER_TM_FEATURE_LYSEFJORDEN_ATTACH_CITIES',	'MODTYPE_TM_ATTACH_ALL_CITIES',		'REQSET_TM_CITY_HAS_FEATURE_LYSEFJORDEN'	),
-		('MODIFIER_TM_FEATURE_LYSEFJORDEN_NAVAL_PROMOTION',	'MODTYPE_TM_GRANT_UNIT_EXPERIENCE',	'REQSET_TM_UNIT_IS_NAVAL'					);
+		(ModifierId,										ModifierType,						SubjectRequirementSetId	)
+SELECT	'MODIFIER_TM_FEATURE_LYSEFJORDEN_ATTACH_CITIES',	'MODTYPE_TM_ATTACH_ALL_CITIES',		'REQSET_TM_CITY_HAS_FEATURE_LYSEFJORDEN'
+WHERE EXISTS (SELECT * FROM Features WHERE FeatureType = 'FEATURE_LYSEFJORDEN');
+				
+INSERT INTO Modifiers
+		(ModifierId,										ModifierType,						SubjectRequirementSetId		)
+VALUES	('MODIFIER_TM_FEATURE_LYSEFJORDEN_NAVAL_PROMOTION',	'MODTYPE_TM_GRANT_UNIT_EXPERIENCE',	'REQSET_TM_UNIT_IS_NAVAL'	);
 
 -----------------------------------------------
 -- ModifierArguments
 -----------------------------------------------
 
 INSERT INTO ModifierArguments
+		(ModifierId,										Name,			Value	)
+SELECT	'MODIFIER_TM_FEATURE_LYSEFJORDEN_ATTACH_CITIES',	'ModifierId',	'MODIFIER_TM_FEATURE_LYSEFJORDEN_NAVAL_PROMOTION'
+WHERE EXISTS (SELECT * FROM Features WHERE FeatureType = 'FEATURE_LYSEFJORDEN');
+		
+INSERT INTO ModifierArguments
 		(ModifierId,										Name,			Value												)
-VALUES	('MODIFIER_TM_FEATURE_LYSEFJORDEN_ATTACH_CITIES',	'ModifierId',	'MODIFIER_TM_FEATURE_LYSEFJORDEN_NAVAL_PROMOTION'	),
-		('MODIFIER_TM_FEATURE_LYSEFJORDEN_NAVAL_PROMOTION',	'Amount',		-1													);
+VALUES	('MODIFIER_TM_FEATURE_LYSEFJORDEN_NAVAL_PROMOTION',	'Amount',		-1													);

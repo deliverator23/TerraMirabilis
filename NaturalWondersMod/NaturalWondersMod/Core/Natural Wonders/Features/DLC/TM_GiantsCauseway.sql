@@ -32,15 +32,23 @@ WHERE	FeatureType = 'FEATURE_GIANTS_CAUSEWAY';
 -----------------------------------------------
 
 INSERT INTO Modifiers
-		(ModifierId,											ModifierType,						SubjectRequirementSetId							)
-VALUES	('MODIFIER_TM_FEATURE_GIANTS_CAUSEWAY_ATTACH_CITIES',	'MODTYPE_TM_ATTACH_ALL_CITIES',		'REQSET_TM_CITY_HAS_FEATURE_GIANTS_CAUSEWAY'	),
-		('MODIFIER_TM_FEATURE_GIANTS_CAUSEWAY_LAND_PROMOTION',	'MODTYPE_TM_GRANT_UNIT_EXPERIENCE',	'REQSET_TM_UNIT_IS_LAND'						);
+		(ModifierId,											ModifierType,					SubjectRequirementSetId	)
+SELECT	'MODIFIER_TM_FEATURE_GIANTS_CAUSEWAY_ATTACH_CITIES',	'MODTYPE_TM_ATTACH_ALL_CITIES',	'REQSET_TM_CITY_HAS_FEATURE_GIANTS_CAUSEWAY'
+WHERE EXISTS (SELECT * FROM Features WHERE FeatureType = 'FEATURE_GIANTS_CAUSEWAY');
+
+INSERT INTO Modifiers
+		(ModifierId,											ModifierType,						SubjectRequirementSetId		)
+VALUES	('MODIFIER_TM_FEATURE_GIANTS_CAUSEWAY_LAND_PROMOTION',	'MODTYPE_TM_GRANT_UNIT_EXPERIENCE',	'REQSET_TM_UNIT_IS_LAND'	);
 
 -----------------------------------------------
 -- ModifierArguments
 -----------------------------------------------
 
 INSERT INTO ModifierArguments
-		(ModifierId,											Name,			Value													)
-VALUES	('MODIFIER_TM_FEATURE_GIANTS_CAUSEWAY_ATTACH_CITIES',	'ModifierId',	'MODIFIER_TM_FEATURE_GIANTS_CAUSEWAY_LAND_PROMOTION'	),
-		('MODIFIER_TM_FEATURE_GIANTS_CAUSEWAY_LAND_PROMOTION',	'Amount',		-1														);
+		(ModifierId,											Name,			Value	)
+SELECT	'MODIFIER_TM_FEATURE_GIANTS_CAUSEWAY_ATTACH_CITIES',	'ModifierId',	'MODIFIER_TM_FEATURE_GIANTS_CAUSEWAY_LAND_PROMOTION'
+WHERE EXISTS (SELECT * FROM Features WHERE FeatureType = 'FEATURE_GIANTS_CAUSEWAY');
+		
+INSERT INTO ModifierArguments
+		(ModifierId,											Name,			Value	)
+VALUES	('MODIFIER_TM_FEATURE_GIANTS_CAUSEWAY_LAND_PROMOTION',	'Amount',		-1		);

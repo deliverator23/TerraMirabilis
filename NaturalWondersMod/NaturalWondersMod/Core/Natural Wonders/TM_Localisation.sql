@@ -325,8 +325,8 @@ VALUES
 -- TORRES DEL PAINE
 -----------------------------------------------
 
-	("LOC_TM_FEATURE_TORRES_DEL_PAINE_DESCRIPTION",			"Two tile impassable natural wonder. Appears as a Mountain. Doubles the terrain yields of adjacent tiles."	),
-	("LOC_TM_FEATURE_TORRES_DEL_PAINE_EFFECT_DESCRIPTION",	"Two tile impassable natural wonder. Appears as a Mountain. Doubles the terrain yields of adjacent tiles.[NEWLINE][NEWLINE]Any City that owns at least one of these tiles may build one extra District than the [ICON_Citizen] Population would normally allow."	),
+	("LOC_TM_FEATURE_TORRES_DEL_PAINE_DESCRIPTION",			"Two tile impassable natural wonder. Doubles the terrain yields of adjacent tiles."	),
+	("LOC_TM_FEATURE_TORRES_DEL_PAINE_EFFECT_DESCRIPTION",	"Two tile impassable natural wonder. Doubles the terrain yields of adjacent tiles.[NEWLINE][NEWLINE]Any City that owns at least one of these tiles may build one extra District than the [ICON_Citizen] Population would normally allow."	),
 
 -----------------------------------------------
 -- TSINGY
