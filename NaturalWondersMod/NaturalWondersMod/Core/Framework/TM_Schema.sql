@@ -30,6 +30,7 @@ CREATE TABLE IF NOT EXISTS TM_Master
 	Appeal							INTEGER		DEFAULT 0,
 	DoubleAdjacentTerrainYield		INTEGER		DEFAULT 0,
 	CustomPlacement					TEXT		DEFAULT NULL,
+	DependsOnDLC					TEXT		DEFAULT NULL,
 
 	PRIMARY KEY	(FeatureType)				
 	);

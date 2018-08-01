@@ -8,20 +8,20 @@
 -----------------------------------------------
 
 INSERT INTO TM_Master
-		(FeatureType,					Tiles,	Impassable, NoAdjacentFeatures,	Coast,	NoCoast,	MinDistanceLand,	MaxDistanceLand,	Lake,	NotCliff,	RequiresRiver,	NoRiver,	AddsFreshWater,	MovementChange,	SightThroughModifier,	DefenseModifier,	Appeal,	DoubleAdjacentTerrainYield,	CustomPlacement			)
-VALUES	('FEATURE_BARRINGER_CRATER',	1,		0,			0,					0,		1,			0,					0,					0,		0,			0,				1,			0,				0,				1,						0,					2,		0,							NULL					),
-		('FEATURE_GIBRALTAR',			1,		1,			0,					1,		0,			0,					0,					0,		0,			0,				1,			0,				0,				2,						0,					2,		1,							'PLACEMENT_GIBRALTAR'	),
-		('FEATURE_GRAND_MESA',			1,		1,			0,					0,		1,			0,					0,					0,		0,			0,				1,			0,				0,				2,						0,					2,		0,							NULL					),
-		('FEATURE_KAILASH',				1,		1,			0,					0,		1,			0,					0,					0,		0,			0,				1,			0,				0,				2,						0,					2,		0,							NULL					),
-		('FEATURE_KRAKATOA',			1,		1,			0,					1,		0,			0,					0,					0,		0,			0,				1,			0,				0,				1,						0,					2,		0,							NULL					),
-		('FEATURE_LAKE_VICTORIA',		4,		0,			0,					0,		1,			0,					0,					1,		0,			0,				1,			1,				0,				2,						0,					2,		0,							NULL					),
-		('FEATURE_MOTLATSE_CANYON',		4,		1,			0,					0,		1,			0,					0,					0,		0,			1,				0,			1,				0,				2,						0,					3,		0,							'PLACEMENT_RORAIMA'		),
-		('FEATURE_OLD_FAITHFUL',		1,		0,			0,					0,		1,			0,					0,					0,		0,			0,				1,			0,				0,				0,						0,					2,		0,							NULL					),
-		('FEATURE_CERRO_DE_POTOSI',		1,		1,			0,					0,		0,			0,					0,					0,		0,			0,				1,			0,				0,				2,						0,					2,		0,							NULL					),
-		('FEATURE_SALAR_DE_UYUNI',		4,		0,			1,					0,		1,			0,					0,					0,		0,			0,				1,			0,				0,				0,						0,					2,		0,							NULL					),
-		('FEATURE_SINAI',				1,		1,			0,					0,		1,			0,					0,					0,		0,			0,				1,			0,				0,				2,						0,					2,		0,							NULL					),
-		('FEATURE_SRI_PADA',			1,		1,			0,					0,		0,			0,					0,					0,		0,			0,				1,			0,				0,				2,						0,					2,		0,							NULL					),
-		('FEATURE_WULINGYUAN',			2,		1,			0,					0,		1,			0,					0,					0,		0,			0,				1,			0,				0,				2,						0,					2,		0,							NULL					);
+		(FeatureType,					Tiles,	Impassable, NoAdjacentFeatures,	Coast,	NoCoast,	MinDistanceLand,	MaxDistanceLand,	Lake,	NotCliff,	RequiresRiver,	NoRiver,	AddsFreshWater,	MovementChange,	SightThroughModifier,	DefenseModifier,	Appeal,	DoubleAdjacentTerrainYield,	CustomPlacement,		DependsOnDLC		)
+VALUES	('FEATURE_BARRINGER_CRATER',	1,		0,			0,					0,		1,			0,					0,					0,		0,			0,				1,			0,				0,				1,						0,					2,		0,							NULL,					NULL				),
+		('FEATURE_GIBRALTAR',			1,		1,			0,					1,		0,			0,					0,					0,		0,			0,				1,			0,				0,				2,						0,					2,		1,							'PLACEMENT_GIBRALTAR',	NULL				),
+		('FEATURE_GRAND_MESA',			1,		1,			0,					0,		1,			0,					0,					0,		0,			0,				1,			0,				0,				2,						0,					2,		0,							NULL,					NULL				),
+		('FEATURE_KAILASH',				1,		1,			0,					0,		1,			0,					0,					0,		0,			0,				1,			0,				0,				2,						0,					2,		0,							NULL,					NULL				),
+		('FEATURE_KRAKATOA',			1,		1,			0,					1,		0,			0,					0,					0,		0,			0,				1,			0,				0,				1,						0,					2,		0,							NULL,					NULL				),
+		('FEATURE_LAKE_VICTORIA',		4,		0,			0,					0,		1,			0,					0,					1,		0,			0,				1,			1,				0,				2,						0,					2,		0,							NULL,					NULL				),
+		('FEATURE_MOTLATSE_CANYON',		4,		1,			0,					0,		1,			0,					0,					0,		0,			1,				0,			1,				0,				2,						0,					3,		0,							'PLACEMENT_RORAIMA',	NULL				),
+		('FEATURE_OLD_FAITHFUL',		1,		0,			0,					0,		1,			0,					0,					0,		0,			0,				1,			0,				0,				0,						0,					2,		0,							NULL,					NULL				),
+		('FEATURE_CERRO_DE_POTOSI',		1,		1,			0,					0,		0,			0,					0,					0,		0,			0,				1,			0,				0,				2,						0,					2,		0,							NULL,					NULL				),
+		('FEATURE_SALAR_DE_UYUNI',		4,		0,			1,					0,		1,			0,					0,					0,		0,			0,				1,			0,				0,				0,						0,					2,		0,							NULL,					NULL				),
+		('FEATURE_SINAI',				1,		1,			0,					0,		1,			0,					0,					0,		0,			0,				1,			0,				0,				2,						0,					2,		0,							NULL,					NULL				),
+		('FEATURE_SRI_PADA',			1,		1,			0,					0,		0,			0,					0,					0,		0,			0,				1,			0,				0,				2,						0,					2,		0,							NULL,					NULL				),
+		('FEATURE_WULINGYUAN',			2,		1,			0,					0,		1,			0,					0,					0,		0,			0,				1,			0,				0,				2,						0,					2,		0,							NULL,					'INDONESIA_KHMER'	);
 		
 -----------------------------------------------
 -- TM_FeatureYields
