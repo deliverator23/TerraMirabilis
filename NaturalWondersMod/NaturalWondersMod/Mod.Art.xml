@@ -20,6 +20,7 @@
 			<consumerName text="Clutter"/>
 			<relativeArtDefPaths>
 				<Element text="Clutter.artdef"/>
+				<Element text="Clutter.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="Landmark"/>
@@ -597,6 +598,7 @@
 		<Element>
 			<libraryName text="Water"/>
 			<relativePackagePaths>
+				<Element text="Water"/>
 			</relativePackagePaths>
 		</Element>
 		<Element>
