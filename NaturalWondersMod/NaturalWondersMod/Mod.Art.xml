@@ -20,7 +20,6 @@
 			<consumerName text="Clutter"/>
 			<relativeArtDefPaths>
 				<Element text="Clutter.artdef"/>
-				<Element text="Clutter.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="Landmark"/>
