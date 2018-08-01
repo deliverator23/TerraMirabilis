@@ -45,7 +45,7 @@ VALUES	('FEATURE_BARRIER_REEF',		'BASE'				),
 		('FEATURE_SALAR_DE_UYUNI',		'TM'				),
 		('FEATURE_SINAI',				'TM'				),
 		('FEATURE_SRI_PADA',			'TM'				),
-		('FEATURE_WULINGYUAN',			'TM'				),
+		('FEATURE_WULINGYUAN',			'INDONESIA_KHMER'	), -- Added by Terra Mirabilis, but depends on DLC
 		('FEATURE_SUK_FUJI',			'SUKRITACT'			);
 
 UPDATE	TM_Validation

@@ -72,7 +72,68 @@ SELECT	FeatureType,
 		DoubleAdjacentTerrainYield,
 		CustomPlacement,
 		0 -- FollowRulesInWB
-FROM	TM_Master WHERE New = 1;
+FROM	TM_Master WHERE New = 1 AND DependsOnDLC IS NULL;
+
+-- IndonesiaKhmer DLC
+INSERT INTO Features
+		(
+		FeatureType,
+		Name,
+		Description,
+		Quote,
+		NaturalWonder,
+		Tiles,
+		Impassable,
+		Appeal,
+		MinDistanceNW,
+		Coast,
+		NoCoast,
+		Lake,
+		NotCliff,
+		MinDistanceLand,
+		MaxDistanceLand,
+		RequiresRiver,
+		NoRiver,
+		AddsFreshWater,
+		NoResource,
+		NoAdjacentFeatures,
+		MovementChange,
+		SightThroughModifier,
+		DefenseModifier,
+		Settlement,
+		DoubleAdjacentTerrainYield,
+		CustomPlacement,
+		FollowRulesInWB
+		)
+SELECT	FeatureType,
+		'LOC_'||FeatureType||'_NAME',
+		'LOC_TM_'||FeatureType||'_DESCRIPTION',
+		'LOC_TM_'||FeatureType||'_QUOTE',
+		1, -- NaturalWonder
+		Tiles,
+		Impassable,
+		Appeal,
+		8, -- MinDistanceNW
+		Coast,
+		NoCoast,
+		Lake,
+		NotCliff,
+		MinDistanceLand,
+		MaxDistanceLand,
+		RequiresRiver,
+		NoRiver,
+		AddsFreshWater,
+		0, -- NoResource
+		NoAdjacentFeatures,
+		MovementChange,
+		SightThroughModifier,
+		DefenseModifier,
+		0, -- Settlement
+		DoubleAdjacentTerrainYield,
+		CustomPlacement,
+		0 -- FollowRulesInWB
+FROM	TM_Master WHERE New = 1 AND DependsOnDLC = 'INDONESIA_KHMER'
+AND EXISTS (SELECT * FROM Civilizations WHERE CivilizationType = 'CIVILIZATION_KHMER');
 
 UPDATE	TM_Validation
 SET		Active = 1
