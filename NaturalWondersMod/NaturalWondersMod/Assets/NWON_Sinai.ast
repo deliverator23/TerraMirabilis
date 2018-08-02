@@ -121,7 +121,16 @@
 		</m_ModelInstances>
 	</m_GeometrySet>
 	<m_CookParams>
-		<m_Values/>
+		<m_Values>
+			<Element class="AssetObjects..BoolValue">
+				<m_bValue>true</m_bValue>
+				<m_ParamName text="CastShadows"/>
+			</Element>
+			<Element class="AssetObjects..BoolValue">
+				<m_bValue>true</m_bValue>
+				<m_ParamName text="CastAO"/>
+			</Element>
+		</m_Values>
 	</m_CookParams>
 	<m_Version>
 		<major>1</major>
