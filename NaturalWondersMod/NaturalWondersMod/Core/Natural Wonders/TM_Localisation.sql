@@ -381,4 +381,10 @@ VALUES
 -- MISC - Naturlist
 -----------------------------------------------
 
-	("LOC_TM_UNIT_NATURALIST_DESCRIPTION",			"A late-game civilian who can create a single National Park to attract [ICON_Tourism] Tourists. Must be purchased with [ICON_Gold] Gold."	);
+	("LOC_TM_UNIT_NATURALIST_DESCRIPTION",			"A late-game civilian who can create a single National Park to attract [ICON_Tourism] Tourists. Must be purchased with [ICON_Gold] Gold."	),
+
+-----------------------------------------------
+-- MOD SUPPORT
+-----------------------------------------------
+
+	("LOC_TM_FEATURE_FUJI_DESCRIPTION",		"One tile impassable natural wonder. Appears as a Mountain. Adjacent plots yield +1 [ICON_Culture] Culture and +1 [ICON_Faith] Faith. Districts built in adjacent tiles provide an additional +2 [ICON_GreatPerson] Great Person points of their type."	);
