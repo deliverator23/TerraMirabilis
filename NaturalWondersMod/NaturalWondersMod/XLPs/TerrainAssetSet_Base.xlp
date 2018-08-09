@@ -33,6 +33,10 @@
 			<m_EntryID text="NWON_Sinai"/>
 			<m_ObjectName text="NWON_Sinai"/>
 		</Element>
+		<Element>
+			<m_EntryID text="NWON_Mosi_oa_Tunya"/>
+			<m_ObjectName text="NWON_Mosi_oa_Tunya"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>
