@@ -593,6 +593,7 @@
 		<Element>
 			<libraryName text="VFX"/>
 			<relativePackagePaths>
+				<Element text="NW_VFX"/>
 			</relativePackagePaths>
 		</Element>
 		<Element>

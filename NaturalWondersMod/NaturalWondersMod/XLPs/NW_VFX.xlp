@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects::XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>251</build>
+		<revision>114</revision>
+	</m_Version>
+	<m_ClassName text="VFX"/>
+	<m_PackageName text="NW_VFX"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="FXm_Mosi_Waterfall"/>
+			<m_ObjectName text="FXm_Mosi_Waterfall"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects::XLP>

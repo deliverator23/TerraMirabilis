@@ -57,6 +57,14 @@
 			<m_EntryID text="TerrainElement_Motlatse_Canyon"/>
 			<m_ObjectName text="TerrainElement_Motlatse_Canyon"/>
 		</Element>
+		<Element>
+			<m_EntryID text="TerrainElement_Namib"/>
+			<m_ObjectName text="TerrainElement_Namib"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TerrainElement_Mosi_oa_Tunya"/>
+			<m_ObjectName text="TerrainElement_Mosi_oa_Tunya"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>
