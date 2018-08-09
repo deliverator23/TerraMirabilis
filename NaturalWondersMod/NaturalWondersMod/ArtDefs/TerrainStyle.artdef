@@ -1130,7 +1130,7 @@
 							<m_ParamName text="ForceTerrainType"/>
 						</Element>
 						<Element class="AssetObjects..BLPEntryValue">
-							<m_EntryName text="Water/Lake"/>
+							<m_EntryName text="LakeOriginal"/>
 							<m_XLPClass text="Water"/>
 							<m_XLPPath text="Water.xlp"/>
 							<m_BLPPackage text="Water"/>

@@ -13,6 +13,10 @@
 			<m_EntryID text="RiverMod"/>
 			<m_ObjectName text="RiverMod"/>
 		</Element>
+		<Element>
+			<m_EntryID text="LakeOriginal"/>
+			<m_ObjectName text="LakeOriginal"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>IOS</Element>
