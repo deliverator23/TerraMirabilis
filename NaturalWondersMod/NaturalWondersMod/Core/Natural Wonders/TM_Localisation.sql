@@ -192,8 +192,8 @@ VALUES
 -- LYSEFJORDEN
 -----------------------------------------------
 
-	("LOC_TM_FEATURE_LYSEFJORDEN_DESCRIPTION",			"Two tile natural wonder. Yields +2 [ICON_CULTURE] Culture, +2 [ICON_GOLD] Gold, +1 [ICON_PRODUCTION] Production."	),
-	("LOC_TM_FEATURE_LYSEFJORDEN_EFFECT_DESCRIPTION",	"Two tile natural wonder. Yields +2 [ICON_CULTURE] Culture, +2 [ICON_GOLD] Gold, +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]Naval units trained in a City that owns at least one of these tiles start with a free [ICON_Promotion] Promotion."	),
+	("LOC_TM_FEATURE_LYSEFJORDEN_DESCRIPTION",			"Two tile natural wonder. Adjacent plots yield +1 [ICON_Culture] Culture and +1 [ICON_Science] Science"	),
+	("LOC_TM_FEATURE_LYSEFJORDEN_EFFECT_DESCRIPTION",	"Two tile natural wonder. Adjacent plots yield +1 [ICON_Culture] Culture and +1 [ICON_Science] Science.[NEWLINE][NEWLINE]Naval units trained in a City that owns at least one of these tiles start with a free [ICON_Promotion] Promotion."	),
 
 -----------------------------------------------
 -- MATTERHORN
