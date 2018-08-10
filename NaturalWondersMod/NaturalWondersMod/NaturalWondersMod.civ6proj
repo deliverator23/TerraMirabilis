@@ -198,27 +198,6 @@
     <Content Include="Core\Utilities\Maps\NaturalWonderGenerator.lua">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="XLPs\clutter.xlp">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="XLPs\Icons.xlp">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="XLPs\StrategicView_Features.xlp">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="XLPs\TerrainAssetSet_Base.xlp">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="XLPs\TerrainElementSet_Base.xlp">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="XLPs\TerrainMaterialSet_Base.xlp">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="XLPs\Water.xlp">
-      <SubType>Content</SubType>
-    </Content>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ArtDefs\" />
@@ -237,7 +216,6 @@
     <Folder Include="Core\Utilities" />
     <Folder Include="Core\User Settings\" />
     <Folder Include="Core\Utilities\Maps" />
-    <Folder Include="XLPs\" />
   </ItemGroup>
   <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
 </Project>
