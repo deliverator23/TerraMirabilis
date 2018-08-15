@@ -32,9 +32,16 @@ VALUES
 	('WONDERS_STANDARD',	'NW_MAP_SIZE',	15), -- Game Default 5
 	('WONDERS_LARGE',		'NW_MAP_SIZE',	18), -- Game Default 6
 	('WONDERS_HUGE',		'NW_MAP_SIZE',	21), -- Game Default 7
-	('WONDERS_ENORMOUS',	'NW_MAP_SIZE',	24), -- YNAMP ONLY. Default 8
-	('WONDERS_GIANT',		'NW_MAP_SIZE',	36), -- YNAMP ONLY. Default 12
-	('WONDERS_LUDICROUS',	'NW_MAP_SIZE',	48), -- YNAMP ONLY. Default 16
+
+	-- Gedemon's YNAMP
+	('WONDERS_ENORMOUS',	'NW_MAP_SIZE',	24), -- Default 8
+	('WONDERS_GIANT',		'NW_MAP_SIZE',	36), -- Default 12
+	('WONDERS_LUDICROUS',	'NW_MAP_SIZE',	48), -- Default 16
+
+	-- pOkiehl's Larger Map Sizes
+	('WONDERS_MASSIVE',		'NW_MAP_SIZE',	24), -- Default 8
+	('WONDERS_GIGANTIC',	'NW_MAP_SIZE',	36), -- Default 12
+	('WONDERS_COLOSSAL',	'NW_MAP_SIZE',	48), -- Default 16
 
 -----------------------------------------------
 -- SECTION C

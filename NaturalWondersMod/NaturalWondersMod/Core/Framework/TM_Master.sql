@@ -15,7 +15,7 @@ VALUES	('FEATURE_BARRINGER_CRATER',	1,		0,			1,					0,		1,			0,					0,					0,		0
 		('FEATURE_KAILASH',				1,		1,			0,					0,		1,			0,					0,					0,		0,			0,				1,			0,				0,				2,						0,					2,		0,							NULL,					NULL				),
 		('FEATURE_KRAKATOA',			1,		1,			0,					1,		0,			0,					0,					0,		0,			0,				1,			0,				0,				1,						0,					2,		0,							NULL,					NULL				),
 		('FEATURE_LAKE_VICTORIA',		4,		0,			0,					0,		1,			0,					0,					1,		0,			0,				1,			1,				0,				2,						0,					2,		0,							NULL,					NULL				),
-		('FEATURE_MOTLATSE_CANYON',		4,		1,			0,					0,		1,			0,					0,					0,		0,			1,				0,			1,				0,				2,						0,					3,		0,							'PLACEMENT_RORAIMA',	NULL				),
+		('FEATURE_MOTLATSE_CANYON',		4,		1,			0,					0,		1,			0,					0,					0,		0,			1,				0,			1,				0,				2,						0,					2,		0,							'PLACEMENT_RORAIMA',	NULL				),
 		('FEATURE_OLD_FAITHFUL',		1,		0,			0,					0,		1,			0,					0,					0,		0,			0,				1,			0,				0,				0,						0,					2,		0,							NULL,					NULL				),
 		('FEATURE_CERRO_DE_POTOSI',		1,		1,			0,					0,		0,			0,					0,					0,		0,			0,				1,			0,				0,				2,						0,					2,		0,							NULL,					NULL				),
 		('FEATURE_SALAR_DE_UYUNI',		4,		0,			1,					0,		1,			0,					0,					0,		0,			0,				1,			0,				0,				0,						0,					2,		0,							NULL,					NULL				),
