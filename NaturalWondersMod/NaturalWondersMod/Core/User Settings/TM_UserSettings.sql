@@ -68,7 +68,8 @@ VALUES
 -----------------------------------------------
 -- SECTION E
 
--- All wonders have effects?
+-- All wonders have ownership effects?
+
 -- 1 = Yes, 0 = No
 -- Our Default: 1
 -----------------------------------------------
@@ -127,7 +128,19 @@ VALUES
 	('NW_REVEAL_XP',	NULL,	15), -- Game Default 10
 
 -----------------------------------------------
--- SECTION K
+-- SECTION K (Rise & Fall Only)
+
+-- Adjust EraScore earned for finding or settling Natural Wonders.
+
+-- NOTE: The more wonders you have on the map, the more likely you'll see a Golden Age due to Era Score
+-----------------------------------------------
+
+	('ERASCORE_SETTLE',				NULL,	2), -- Game Default 3
+	('ERASCORE_DISCOVERED',			NULL,	1), -- Game Default 1
+	('ERASCORE_DISCOVERED_FIRST',	NULL,	2), -- Game Default 3
+
+-----------------------------------------------
+-- SECTION L
 
 -- Enable Natural Wonders
 -- Change the word Enabled to Disabled below
