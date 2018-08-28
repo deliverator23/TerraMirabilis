@@ -15,7 +15,7 @@ VALUES	('FEATURE_BARRINGER_CRATER',	1,		0,			1,					0,		1,			0,					0,					0,		0
 		('FEATURE_KAILASH',				1,		1,			0,					0,		1,			0,					0,					0,		0,			0,				1,			0,				0,				2,						0,					2,		0,							NULL,					NULL				),
 		('FEATURE_KRAKATOA',			1,		1,			0,					1,		0,			0,					0,					0,		0,			0,				1,			0,				0,				1,						0,					2,		0,							NULL,					NULL				),
 		('FEATURE_LAKE_VICTORIA',		4,		0,			0,					0,		1,			0,					0,					1,		0,			0,				1,			1,				0,				2,						0,					2,		0,							NULL,					NULL				),
-		('FEATURE_MOTLATSE_CANYON',		4,		1,			0,					0,		1,			0,					0,					0,		0,			1,				0,			1,				0,				2,						0,					3,		0,							'PLACEMENT_RORAIMA',	NULL				),
+		('FEATURE_MOTLATSE_CANYON',		4,		1,			0,					0,		1,			0,					0,					0,		0,			1,				0,			1,				0,				2,						0,					2,		0,							'PLACEMENT_RORAIMA',	NULL				),
 		('FEATURE_OLD_FAITHFUL',		1,		0,			0,					0,		1,			0,					0,					0,		0,			0,				1,			0,				0,				0,						0,					2,		0,							NULL,					NULL				),
 		('FEATURE_CERRO_DE_POTOSI',		1,		1,			0,					0,		0,			0,					0,					0,		0,			0,				1,			0,				0,				2,						0,					2,		0,							NULL,					NULL				),
 		('FEATURE_SALAR_DE_UYUNI',		4,		0,			1,					0,		1,			0,					0,					0,		0,			0,				1,			0,				0,				0,						0,					2,		0,							NULL,					NULL				),
@@ -59,7 +59,7 @@ VALUES	-- TERRA MIRABILIS
 		('FEATURE_WULINGYUAN',			1,			'YIELD_CULTURE',	2,				'WULINGYUAN_CULTURE'			),
 		
 		-- FIRAXIS
-		('FEATURE_BARRIER_REEF',		0,			'YIELD_FOOD',		3,				'BARRIER_REEF_FOOD'				),
+		('FEATURE_BARRIER_REEF',		0,			'YIELD_FOOD',		2,				'BARRIER_REEF_FOOD'				),
 		('FEATURE_BARRIER_REEF',		0,			'YIELD_GOLD',		1,				'BARRIER_REEF_GOLD'				),
 		('FEATURE_BARRIER_REEF',		0,			'YIELD_SCIENCE',	2,				'BARRIER_REEF_SCIENCE'			),
 		('FEATURE_CLIFFS_DOVER',		0,			'YIELD_FOOD',		1,				'CLIFFS_DOVER_FOOD'				),
@@ -71,7 +71,7 @@ VALUES	-- TERRA MIRABILIS
 		('FEATURE_DEAD_SEA',			0,			'YIELD_CULTURE',	2,				'DEAD_SEA_CULTURE'				),
 		('FEATURE_DEAD_SEA',			0,			'YIELD_FAITH',		2,				'DEAD_SEA_FAITH'				),
 		('FEATURE_DELICATE_ARCH',		1,			'YIELD_CULTURE',	1,				'DELICATE_ARCH_CULTURE'			),
-		('FEATURE_DELICATE_ARCH',		1,			'YIELD_FAITH',		2,				'DELICATE_ARCH_FAITH'			),
+		('FEATURE_DELICATE_ARCH',		1,			'YIELD_GOLD',		1,				'DELICATE_ARCH_GOLD'			),
 		('FEATURE_EVEREST',				1,			'YIELD_FAITH',		2,				'EVEREST_FAITH'					),
 		('FEATURE_EYE_OF_THE_SAHARA',	0,			'YIELD_PRODUCTION',	2,				'EYE_OF_THE_SAHARA_PRODUCTION'	),
 		('FEATURE_EYE_OF_THE_SAHARA',	0,			'YIELD_GOLD',		1,				'EYE_OF_THE_SAHARA_GOLD'		),
@@ -101,8 +101,8 @@ VALUES	-- TERRA MIRABILIS
 		('FEATURE_UBSUNUR_HOLLOW',		0,			'YIELD_FOOD',		1,				'UBSUNUR_HOLLOW_FOOD'			),
 		('FEATURE_UBSUNUR_HOLLOW',		0,			'YIELD_PRODUCTION',	2,				'UBSUNUR_HOLLOW_PRODUCTION'		),
 		('FEATURE_UBSUNUR_HOLLOW',		0,			'YIELD_FAITH',		2,				'UBSUNUR_HOLLOW_FAITH'			),
-		('FEATURE_ULURU',				1,			'YIELD_CULTURE',	2,				'ULURU_CULTURE'					),
-		('FEATURE_ULURU',				1,			'YIELD_FAITH',		2,				'ULURU_FAITH'					),
+		('FEATURE_ULURU',				1,			'YIELD_CULTURE',	1,				'ULURU_CULTURE'					),
+		('FEATURE_ULURU',				1,			'YIELD_FAITH',		1,				'ULURU_FAITH'					),
 		('FEATURE_YOSEMITE',			1,			'YIELD_GOLD',		1,				'YOSEMITE_GOLD'					),
 		('FEATURE_YOSEMITE',			1,			'YIELD_SCIENCE',	1,				'YOSEMITE_SCIENCE'				),
 		('FEATURE_ZHANGYE_DANXIA',		1,			'YIELD_SCIENCE',	2,				'ZHANGYE_DANXIA_SCIENCE'		),
@@ -123,6 +123,8 @@ VALUES	-- Base
 		('FEATURE_CLIFFS_DOVER',		'TERRAIN',	'PLAINS_HILLS',		'VALID_TERRAINS'	),
 		('FEATURE_CRATER_LAKE',			'TERRAIN',	'PLAINS',			'VALID_TERRAINS'	),
 		('FEATURE_CRATER_LAKE',			'TERRAIN',	'PLAINS_HILLS',		'VALID_TERRAINS'	),
+		('FEATURE_CRATER_LAKE',			'TERRAIN',	'GRASS',			'VALID_TERRAINS'	),
+		('FEATURE_CRATER_LAKE',			'TERRAIN',	'GRASS_HILLS',		'VALID_TERRAINS'	),
 		('FEATURE_DEAD_SEA',			'TERRAIN',	'DESERT',			'VALID_TERRAINS'	),
 		('FEATURE_DEAD_SEA',			'TERRAIN',	'DESERT_HILLS',		'VALID_TERRAINS'	),
 		('FEATURE_EVEREST',				'TERRAIN',	'DESERT_MOUNTAIN',	'VALID_TERRAINS'	),
@@ -340,6 +342,10 @@ VALUES	-- Base
 INSERT INTO TM_Placement
 		(FeatureType,					Type,		Object,				Reference				)
 VALUES	-- Base
+		('FEATURE_CRATER_LAKE',			'TERRAIN',	'TUNDRA',			'NOT_ADJACENT_TERRAINS'	),
+		('FEATURE_CRATER_LAKE',			'TERRAIN',	'TUNDRA_HILLS',		'NOT_ADJACENT_TERRAINS'	),
+		('FEATURE_CRATER_LAKE',			'TERRAIN',	'SNOW',				'NOT_ADJACENT_TERRAINS'	),
+		('FEATURE_CRATER_LAKE',			'TERRAIN',	'SNOW_HILLS',		'NOT_ADJACENT_TERRAINS'	),
 		('FEATURE_DEAD_SEA',			'TERRAIN',	'GRASS_MOUNTAIN',	'NOT_ADJACENT_TERRAINS'	),
 		('FEATURE_DEAD_SEA',			'TERRAIN',	'PLAINS_MOUNTAIN',	'NOT_ADJACENT_TERRAINS'	),
 		('FEATURE_DEAD_SEA',			'TERRAIN',	'DESERT_MOUNTAIN',	'NOT_ADJACENT_TERRAINS'	),
