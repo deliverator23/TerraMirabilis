@@ -37,6 +37,18 @@
 			<m_EntryID text="NWON_Mosi_oa_Tunya"/>
 			<m_ObjectName text="NWON_Mosi_oa_Tunya"/>
 		</Element>
+		<Element>
+			<m_EntryID text="NWON_2Tile_Decal"/>
+			<m_ObjectName text="NWON_2Tile_Decal"/>
+		</Element>
+		<Element>
+			<m_EntryID text="NWON_3Tile_Decal"/>
+			<m_ObjectName text="NWON_3Tile_Decal"/>
+		</Element>
+		<Element>
+			<m_EntryID text="NWON_Okavango"/>
+			<m_ObjectName text="NWON_Okavango"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

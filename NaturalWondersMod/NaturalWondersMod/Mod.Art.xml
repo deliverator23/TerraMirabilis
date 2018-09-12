@@ -245,6 +245,7 @@
 		<Element>
 			<consumerName text="Terrains"/>
 			<relativeArtDefPaths>
+				<Element text="Terrains.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 			</libraryDependencies>
@@ -295,6 +296,7 @@
 			<consumerName text="WorldView_Translate"/>
 			<relativeArtDefPaths>
 				<Element text="Features.artdef"/>
+				<Element text="Terrains.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 			</libraryDependencies>
@@ -304,6 +306,7 @@
 			<consumerName text="StrategicView_Translate"/>
 			<relativeArtDefPaths>
 				<Element text="Features.artdef"/>
+				<Element text="Terrains.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 			</libraryDependencies>
@@ -313,6 +316,7 @@
 			<consumerName text="Audio"/>
 			<relativeArtDefPaths>
 				<Element text="Features.artdef"/>
+				<Element text="Terrains.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 			</libraryDependencies>
@@ -360,6 +364,7 @@
 			<consumerName text="IndirectGrid"/>
 			<relativeArtDefPaths>
 				<Element text="Features.artdef"/>
+				<Element text="Terrains.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 			</libraryDependencies>

@@ -65,6 +65,22 @@
 			<m_EntryID text="TerrainElement_Mosi_oa_Tunya"/>
 			<m_ObjectName text="TerrainElement_Mosi_oa_Tunya"/>
 		</Element>
+		<Element>
+			<m_EntryID text="TerrainElement_Angel_Glacier"/>
+			<m_ObjectName text="TerrainElement_Angel_Glacier"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TerrainElement_OkavangoDelta"/>
+			<m_ObjectName text="TerrainElement_OkavangoDelta"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TerrainElement_Ounianga"/>
+			<m_ObjectName text="TerrainElement_Ounianga"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TerrainElement_VredefortDome"/>
+			<m_ObjectName text="TerrainElement_VredefortDome"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>
