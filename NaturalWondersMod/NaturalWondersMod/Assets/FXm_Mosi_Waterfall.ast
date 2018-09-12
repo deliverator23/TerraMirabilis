@@ -24,7 +24,7 @@
 		<m_ModelInstances>
 			<Element>
 				<m_Name text="FXm_AQD_Tower_Water"/>
-				<m_GeoName text="FXm_Mosi_Waterfall"/>
+				<m_GeoName text="FXm_Mosi_Waterfall_V2"/>
 				<m_GroupStates>
 					<Element>
 						<m_Values>

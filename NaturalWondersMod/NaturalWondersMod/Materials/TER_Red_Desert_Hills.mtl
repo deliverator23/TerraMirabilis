@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..MaterialInstance>
+	<m_CookParams>
+		<m_Values>
+			<Element class="AssetObjects..ObjectValue">
+				<m_ObjectName text="TER_Red_Desert_Hills_B2"/>
+				<m_eObjectType>TEXTURE</m_eObjectType>
+				<m_ParamName text="BaseColor"/>
+			</Element>
+			<Element class="AssetObjects..ObjectValue">
+				<m_ObjectName text="TER_Desert_Hills_H"/>
+				<m_eObjectType>TEXTURE</m_eObjectType>
+				<m_ParamName text="Heightmap"/>
+			</Element>
+			<Element class="AssetObjects..ObjectValue">
+				<m_ObjectName text="TER_Desert_G"/>
+				<m_eObjectType>TEXTURE</m_eObjectType>
+				<m_ParamName text="Spec"/>
+			</Element>
+			<Element class="AssetObjects..ObjectValue">
+				<m_ObjectName text="FOW_Ground_Desert_Top"/>
+				<m_eObjectType>TEXTURE</m_eObjectType>
+				<m_ParamName text="FOWColor"/>
+			</Element>
+			<Element class="AssetObjects..IntValue">
+				<m_nValue>5</m_nValue>
+				<m_ParamName text="BlendLevel"/>
+			</Element>
+			<Element class="AssetObjects..ObjectValue">
+				<m_ObjectName text="TER_Desert_F"/>
+				<m_eObjectType>TEXTURE</m_eObjectType>
+				<m_ParamName text="Fuzz"/>
+			</Element>
+			<Element class="AssetObjects..RGBValue">
+				<m_r>157</m_r>
+				<m_g>0</m_g>
+				<m_b>93</m_b>
+				<m_ParamName text="ColorIdentifier"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>230</m_fValue>
+				<m_ParamName text="AlphaIdentifier"/>
+			</Element>
+			<Element class="AssetObjects..IntValue">
+				<m_nValue>26</m_nValue>
+				<m_ParamName text="Priority"/>
+			</Element>
+		</m_Values>
+	</m_CookParams>
+	<m_Version>
+		<major>3</major>
+		<minor>0</minor>
+		<build>154</build>
+		<revision>590</revision>
+	</m_Version>
+	<m_ClassName text="TerrainMaterial"/>
+	<m_DataFiles/>
+	<m_Name text="TER_Red_Desert_Hills"/>
+	<m_Description text=""/>
+	<m_Tags>
+		<Element text="TerrainMaterial"/>
+	</m_Tags>
+	<m_Groups/>
+</AssetObjects..MaterialInstance>
+
