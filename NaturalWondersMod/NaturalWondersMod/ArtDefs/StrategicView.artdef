@@ -662,24 +662,7 @@
 						<Element class="AssetObjects..CollectionValue">
 							<m_eObjectType>INVALID</m_eObjectType>
 							<m_eValueType>ARTDEF_REF</m_eValueType>
-							<m_Values>
-								<Element class="AssetObjects..ArtDefReferenceValue">
-									<m_ElementName text="Plains"/>
-									<m_RootCollectionName text="TerrainTypes"/>
-									<m_ArtDefPath text="StrategicView.artdef"/>
-									<m_CollectionIsLocked>true</m_CollectionIsLocked>
-									<m_TemplateName text="StrategicView"/>
-									<m_ParamName text="TerrainTypeOverride001"/>
-								</Element>
-								<Element class="AssetObjects..ArtDefReferenceValue">
-									<m_ElementName text="Tundra"/>
-									<m_RootCollectionName text="TerrainTypes"/>
-									<m_ArtDefPath text="StrategicView.artdef"/>
-									<m_CollectionIsLocked>true</m_CollectionIsLocked>
-									<m_TemplateName text="StrategicView"/>
-									<m_ParamName text="TerrainTypeOverride002"/>
-								</Element>
-							</m_Values>
+							<m_Values/>
 							<m_ParamName text="TerrainTypeOverride"/>
 						</Element>
 						<Element class="AssetObjects..IntValue">
@@ -748,24 +731,7 @@
 						<Element class="AssetObjects..CollectionValue">
 							<m_eObjectType>INVALID</m_eObjectType>
 							<m_eValueType>ARTDEF_REF</m_eValueType>
-							<m_Values>
-								<Element class="AssetObjects..ArtDefReferenceValue">
-									<m_ElementName text="Plains"/>
-									<m_RootCollectionName text="TerrainTypes"/>
-									<m_ArtDefPath text="StrategicView.artdef"/>
-									<m_CollectionIsLocked>true</m_CollectionIsLocked>
-									<m_TemplateName text="StrategicView"/>
-									<m_ParamName text="TerrainTypeOverride001"/>
-								</Element>
-								<Element class="AssetObjects..ArtDefReferenceValue">
-									<m_ElementName text="Tundra"/>
-									<m_RootCollectionName text="TerrainTypes"/>
-									<m_ArtDefPath text="StrategicView.artdef"/>
-									<m_CollectionIsLocked>true</m_CollectionIsLocked>
-									<m_TemplateName text="StrategicView"/>
-									<m_ParamName text="TerrainTypeOverride002"/>
-								</Element>
-							</m_Values>
+							<m_Values/>
 							<m_ParamName text="TerrainTypeOverride"/>
 						</Element>
 						<Element class="AssetObjects..IntValue">
@@ -834,24 +800,7 @@
 						<Element class="AssetObjects..CollectionValue">
 							<m_eObjectType>INVALID</m_eObjectType>
 							<m_eValueType>ARTDEF_REF</m_eValueType>
-							<m_Values>
-								<Element class="AssetObjects..ArtDefReferenceValue">
-									<m_ElementName text="Plains"/>
-									<m_RootCollectionName text="TerrainTypes"/>
-									<m_ArtDefPath text="StrategicView.artdef"/>
-									<m_CollectionIsLocked>true</m_CollectionIsLocked>
-									<m_TemplateName text="StrategicView"/>
-									<m_ParamName text="TerrainTypeOverride001"/>
-								</Element>
-								<Element class="AssetObjects..ArtDefReferenceValue">
-									<m_ElementName text="Tundra"/>
-									<m_RootCollectionName text="TerrainTypes"/>
-									<m_ArtDefPath text="StrategicView.artdef"/>
-									<m_CollectionIsLocked>true</m_CollectionIsLocked>
-									<m_TemplateName text="StrategicView"/>
-									<m_ParamName text="TerrainTypeOverride002"/>
-								</Element>
-							</m_Values>
+							<m_Values/>
 							<m_ParamName text="TerrainTypeOverride"/>
 						</Element>
 						<Element class="AssetObjects..IntValue">
@@ -920,24 +869,7 @@
 						<Element class="AssetObjects..CollectionValue">
 							<m_eObjectType>INVALID</m_eObjectType>
 							<m_eValueType>ARTDEF_REF</m_eValueType>
-							<m_Values>
-								<Element class="AssetObjects..ArtDefReferenceValue">
-									<m_ElementName text="Plains"/>
-									<m_RootCollectionName text="TerrainTypes"/>
-									<m_ArtDefPath text="StrategicView.artdef"/>
-									<m_CollectionIsLocked>true</m_CollectionIsLocked>
-									<m_TemplateName text="StrategicView"/>
-									<m_ParamName text="TerrainTypeOverride001"/>
-								</Element>
-								<Element class="AssetObjects..ArtDefReferenceValue">
-									<m_ElementName text="Tundra"/>
-									<m_RootCollectionName text="TerrainTypes"/>
-									<m_ArtDefPath text="StrategicView.artdef"/>
-									<m_CollectionIsLocked>true</m_CollectionIsLocked>
-									<m_TemplateName text="StrategicView"/>
-									<m_ParamName text="TerrainTypeOverride002"/>
-								</Element>
-							</m_Values>
+							<m_Values/>
 							<m_ParamName text="TerrainTypeOverride"/>
 						</Element>
 						<Element class="AssetObjects..IntValue">
@@ -1006,24 +938,7 @@
 						<Element class="AssetObjects..CollectionValue">
 							<m_eObjectType>INVALID</m_eObjectType>
 							<m_eValueType>ARTDEF_REF</m_eValueType>
-							<m_Values>
-								<Element class="AssetObjects..ArtDefReferenceValue">
-									<m_ElementName text="Plains"/>
-									<m_RootCollectionName text="TerrainTypes"/>
-									<m_ArtDefPath text="StrategicView.artdef"/>
-									<m_CollectionIsLocked>true</m_CollectionIsLocked>
-									<m_TemplateName text="StrategicView"/>
-									<m_ParamName text="TerrainTypeOverride001"/>
-								</Element>
-								<Element class="AssetObjects..ArtDefReferenceValue">
-									<m_ElementName text="Tundra"/>
-									<m_RootCollectionName text="TerrainTypes"/>
-									<m_ArtDefPath text="StrategicView.artdef"/>
-									<m_CollectionIsLocked>true</m_CollectionIsLocked>
-									<m_TemplateName text="StrategicView"/>
-									<m_ParamName text="TerrainTypeOverride002"/>
-								</Element>
-							</m_Values>
+							<m_Values/>
 							<m_ParamName text="TerrainTypeOverride"/>
 						</Element>
 						<Element class="AssetObjects..IntValue">
@@ -1092,24 +1007,7 @@
 						<Element class="AssetObjects..CollectionValue">
 							<m_eObjectType>INVALID</m_eObjectType>
 							<m_eValueType>ARTDEF_REF</m_eValueType>
-							<m_Values>
-								<Element class="AssetObjects..ArtDefReferenceValue">
-									<m_ElementName text="Plains"/>
-									<m_RootCollectionName text="TerrainTypes"/>
-									<m_ArtDefPath text="StrategicView.artdef"/>
-									<m_CollectionIsLocked>true</m_CollectionIsLocked>
-									<m_TemplateName text="StrategicView"/>
-									<m_ParamName text="TerrainTypeOverride001"/>
-								</Element>
-								<Element class="AssetObjects..ArtDefReferenceValue">
-									<m_ElementName text="Tundra"/>
-									<m_RootCollectionName text="TerrainTypes"/>
-									<m_ArtDefPath text="StrategicView.artdef"/>
-									<m_CollectionIsLocked>true</m_CollectionIsLocked>
-									<m_TemplateName text="StrategicView"/>
-									<m_ParamName text="TerrainTypeOverride002"/>
-								</Element>
-							</m_Values>
+							<m_Values/>
 							<m_ParamName text="TerrainTypeOverride"/>
 						</Element>
 						<Element class="AssetObjects..IntValue">
@@ -1178,24 +1076,7 @@
 						<Element class="AssetObjects..CollectionValue">
 							<m_eObjectType>INVALID</m_eObjectType>
 							<m_eValueType>ARTDEF_REF</m_eValueType>
-							<m_Values>
-								<Element class="AssetObjects..ArtDefReferenceValue">
-									<m_ElementName text="Plains"/>
-									<m_RootCollectionName text="TerrainTypes"/>
-									<m_ArtDefPath text="StrategicView.artdef"/>
-									<m_CollectionIsLocked>true</m_CollectionIsLocked>
-									<m_TemplateName text="StrategicView"/>
-									<m_ParamName text="TerrainTypeOverride001"/>
-								</Element>
-								<Element class="AssetObjects..ArtDefReferenceValue">
-									<m_ElementName text="Tundra"/>
-									<m_RootCollectionName text="TerrainTypes"/>
-									<m_ArtDefPath text="StrategicView.artdef"/>
-									<m_CollectionIsLocked>true</m_CollectionIsLocked>
-									<m_TemplateName text="StrategicView"/>
-									<m_ParamName text="TerrainTypeOverride002"/>
-								</Element>
-							</m_Values>
+							<m_Values/>
 							<m_ParamName text="TerrainTypeOverride"/>
 						</Element>
 						<Element class="AssetObjects..IntValue">
@@ -1264,24 +1145,7 @@
 						<Element class="AssetObjects..CollectionValue">
 							<m_eObjectType>INVALID</m_eObjectType>
 							<m_eValueType>ARTDEF_REF</m_eValueType>
-							<m_Values>
-								<Element class="AssetObjects..ArtDefReferenceValue">
-									<m_ElementName text="Plains"/>
-									<m_RootCollectionName text="TerrainTypes"/>
-									<m_ArtDefPath text="StrategicView.artdef"/>
-									<m_CollectionIsLocked>true</m_CollectionIsLocked>
-									<m_TemplateName text="StrategicView"/>
-									<m_ParamName text="TerrainTypeOverride001"/>
-								</Element>
-								<Element class="AssetObjects..ArtDefReferenceValue">
-									<m_ElementName text="Tundra"/>
-									<m_RootCollectionName text="TerrainTypes"/>
-									<m_ArtDefPath text="StrategicView.artdef"/>
-									<m_CollectionIsLocked>true</m_CollectionIsLocked>
-									<m_TemplateName text="StrategicView"/>
-									<m_ParamName text="TerrainTypeOverride002"/>
-								</Element>
-							</m_Values>
+							<m_Values/>
 							<m_ParamName text="TerrainTypeOverride"/>
 						</Element>
 						<Element class="AssetObjects..IntValue">
@@ -1350,24 +1214,7 @@
 						<Element class="AssetObjects..CollectionValue">
 							<m_eObjectType>INVALID</m_eObjectType>
 							<m_eValueType>ARTDEF_REF</m_eValueType>
-							<m_Values>
-								<Element class="AssetObjects..ArtDefReferenceValue">
-									<m_ElementName text="Plains"/>
-									<m_RootCollectionName text="TerrainTypes"/>
-									<m_ArtDefPath text="StrategicView.artdef"/>
-									<m_CollectionIsLocked>true</m_CollectionIsLocked>
-									<m_TemplateName text="StrategicView"/>
-									<m_ParamName text="TerrainTypeOverride001"/>
-								</Element>
-								<Element class="AssetObjects..ArtDefReferenceValue">
-									<m_ElementName text="Tundra"/>
-									<m_RootCollectionName text="TerrainTypes"/>
-									<m_ArtDefPath text="StrategicView.artdef"/>
-									<m_CollectionIsLocked>true</m_CollectionIsLocked>
-									<m_TemplateName text="StrategicView"/>
-									<m_ParamName text="TerrainTypeOverride002"/>
-								</Element>
-							</m_Values>
+							<m_Values/>
 							<m_ParamName text="TerrainTypeOverride"/>
 						</Element>
 						<Element class="AssetObjects..IntValue">
@@ -2156,7 +2003,16 @@
 						<Element class="AssetObjects..CollectionValue">
 							<m_eObjectType>INVALID</m_eObjectType>
 							<m_eValueType>ARTDEF_REF</m_eValueType>
-							<m_Values/>
+							<m_Values>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="Grasslands"/>
+									<m_RootCollectionName text="TerrainTypes"/>
+									<m_ArtDefPath text="StrategicView.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="StrategicView"/>
+									<m_ParamName text="TerrainTypeOverride001"/>
+								</Element>
+							</m_Values>
 							<m_ParamName text="TerrainTypeOverride"/>
 						</Element>
 						<Element class="AssetObjects..IntValue">
@@ -2396,24 +2252,7 @@
 						<Element class="AssetObjects..CollectionValue">
 							<m_eObjectType>INVALID</m_eObjectType>
 							<m_eValueType>ARTDEF_REF</m_eValueType>
-							<m_Values>
-								<Element class="AssetObjects..ArtDefReferenceValue">
-									<m_ElementName text="Grasslands"/>
-									<m_RootCollectionName text="TerrainTypes"/>
-									<m_ArtDefPath text="StrategicView.artdef"/>
-									<m_CollectionIsLocked>true</m_CollectionIsLocked>
-									<m_TemplateName text="StrategicView"/>
-									<m_ParamName text="TerrainTypeOverride001"/>
-								</Element>
-								<Element class="AssetObjects..ArtDefReferenceValue">
-									<m_ElementName text="Desert"/>
-									<m_RootCollectionName text="TerrainTypes"/>
-									<m_ArtDefPath text="StrategicView.artdef"/>
-									<m_CollectionIsLocked>true</m_CollectionIsLocked>
-									<m_TemplateName text="StrategicView"/>
-									<m_ParamName text="TerrainTypeOverride002"/>
-								</Element>
-							</m_Values>
+							<m_Values/>
 							<m_ParamName text="TerrainTypeOverride"/>
 						</Element>
 						<Element class="AssetObjects..IntValue">
@@ -2499,24 +2338,7 @@
 						<Element class="AssetObjects..CollectionValue">
 							<m_eObjectType>INVALID</m_eObjectType>
 							<m_eValueType>ARTDEF_REF</m_eValueType>
-							<m_Values>
-								<Element class="AssetObjects..ArtDefReferenceValue">
-									<m_ElementName text="Grasslands"/>
-									<m_RootCollectionName text="TerrainTypes"/>
-									<m_ArtDefPath text="StrategicView.artdef"/>
-									<m_CollectionIsLocked>true</m_CollectionIsLocked>
-									<m_TemplateName text="StrategicView"/>
-									<m_ParamName text="TerrainTypeOverride001"/>
-								</Element>
-								<Element class="AssetObjects..ArtDefReferenceValue">
-									<m_ElementName text="Desert"/>
-									<m_RootCollectionName text="TerrainTypes"/>
-									<m_ArtDefPath text="StrategicView.artdef"/>
-									<m_CollectionIsLocked>true</m_CollectionIsLocked>
-									<m_TemplateName text="StrategicView"/>
-									<m_ParamName text="TerrainTypeOverride002"/>
-								</Element>
-							</m_Values>
+							<m_Values/>
 							<m_ParamName text="TerrainTypeOverride"/>
 						</Element>
 						<Element class="AssetObjects..IntValue">
@@ -2602,24 +2424,7 @@
 						<Element class="AssetObjects..CollectionValue">
 							<m_eObjectType>INVALID</m_eObjectType>
 							<m_eValueType>ARTDEF_REF</m_eValueType>
-							<m_Values>
-								<Element class="AssetObjects..ArtDefReferenceValue">
-									<m_ElementName text="Grasslands"/>
-									<m_RootCollectionName text="TerrainTypes"/>
-									<m_ArtDefPath text="StrategicView.artdef"/>
-									<m_CollectionIsLocked>true</m_CollectionIsLocked>
-									<m_TemplateName text="StrategicView"/>
-									<m_ParamName text="TerrainTypeOverride001"/>
-								</Element>
-								<Element class="AssetObjects..ArtDefReferenceValue">
-									<m_ElementName text="Desert"/>
-									<m_RootCollectionName text="TerrainTypes"/>
-									<m_ArtDefPath text="StrategicView.artdef"/>
-									<m_CollectionIsLocked>true</m_CollectionIsLocked>
-									<m_TemplateName text="StrategicView"/>
-									<m_ParamName text="TerrainTypeOverride002"/>
-								</Element>
-							</m_Values>
+							<m_Values/>
 							<m_ParamName text="TerrainTypeOverride"/>
 						</Element>
 						<Element class="AssetObjects..IntValue">

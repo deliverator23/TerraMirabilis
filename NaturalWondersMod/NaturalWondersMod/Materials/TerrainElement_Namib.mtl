@@ -3,7 +3,7 @@
 	<m_CookParams>
 		<m_Values>
 			<Element class="AssetObjects::ObjectValue">
-				<m_ObjectName text="Namib_HM3"/>
+				<m_ObjectName text="Namib_HM7_SmoothedLevels"/>
 				<m_eObjectType>TEXTURE</m_eObjectType>
 				<m_ParamName text="Heightmap"/>
 			</Element>
@@ -32,7 +32,7 @@
 				<m_ParamName text="BlockingHex6"/>
 			</Element>
 			<Element class="AssetObjects::ObjectValue">
-				<m_ObjectName text="Namib_ID"/>
+				<m_ObjectName text="Namib_ID3"/>
 				<m_eObjectType>TEXTURE</m_eObjectType>
 				<m_ParamName text="IDMap"/>
 			</Element>
