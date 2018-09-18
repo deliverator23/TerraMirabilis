@@ -18,7 +18,7 @@ VALUES	('FEATURE_BARRINGER_CRATER',	1,		0,			1,					0,		1,			0,					0,					0,		0
 		('FEATURE_LAKE_VICTORIA',		4,		0,			0,					0,		1,			0,					0,					1,		0,			0,				1,			1,				0,				2,						0,					2,		0,							NULL,						NULL				),
 		('FEATURE_MOSI_OA_TUNYA',		1,		1,			0,					0,		1,			0,					0,					0,		0,			1,				0,			1,				0,				2,						0,					2,		0,							'PLACEMENT_MOSI_OA_TUNYA',	NULL				),
 		('FEATURE_MOTLATSE_CANYON',		4,		1,			0,					0,		1,			0,					0,					0,		0,			1,				0,			1,				0,				2,						0,					2,		0,							'PLACEMENT_RORAIMA',		NULL				),
-		('FEATURE_NAMIB',				2,		1,			0,					0,		0,			0,					0,					0,		0,			0,				1,			0,				0,				2,						0,					2,		0,							NULL,						NULL				),
+		('FEATURE_NAMIB',				3,		1,			0,					0,		0,			0,					0,					0,		0,			0,				1,			0,				0,				2,						0,					2,		0,							'PLACEMENT_ZHANGYE_DANXIA',	NULL				),
 		('FEATURE_OLD_FAITHFUL',		1,		0,			0,					0,		1,			0,					0,					0,		0,			0,				1,			0,				0,				0,						0,					2,		0,							NULL,						NULL				),
 		('FEATURE_OUNIANGA',			2,		0,			1,					0,		1,			0,					0,					0,		0,			0,				1,			1,				0,				2,						0,					2,		0,							NULL,						NULL				),
 		('FEATURE_SALAR_DE_UYUNI',		4,		0,			1,					0,		1,			0,					0,					0,		0,			0,				1,			0,				0,				0,						0,					2,		0,							NULL,						NULL				),
