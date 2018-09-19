@@ -4970,7 +4970,7 @@
 							<m_ParamName text="EdgeFalloff"/>
 						</Element>
 						<Element class="AssetObjects:FloatValue">
-							<m_fValue>0.8</m_fValue>
+							<m_fValue>0.4</m_fValue>
 							<m_ParamName text="ClipLow"/>
 						</Element>
 						<Element class="AssetObjects:FloatValue">
