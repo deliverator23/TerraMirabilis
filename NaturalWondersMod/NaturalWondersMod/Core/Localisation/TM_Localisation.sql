@@ -276,7 +276,7 @@ VALUES
 -- NAMIB
 -----------------------------------------------
 
-	("en_US",	"LOC_FEATURE_NAMIB_NAME",					"Namib"	),
+	("en_US",	"LOC_FEATURE_NAMIB_NAME",					"Namib Sand Sea"	),
 	("en_US",	"LOC_TM_FEATURE_NAMIB_DESCRIPTION",			"Two tile natural wonder. Adjacent plots yield +1 [ICON_CULTURE] Culture and +1 [ICON_GOLD] Gold."	),
 	("en_US",	"LOC_TM_FEATURE_NAMIB_EFFECT",				"Foreign [ICON_TRADEROUTE] Trade Routes that pass through your cities provide +1 [ICON_CULTURE] Culture for any Civilization that owns at least one of these tiles."	),
 	("en_US",	"LOC_TM_FEATURE_NAMIB_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_NAMIB_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_NAMIB_EFFECT}"	),
@@ -306,7 +306,7 @@ VALUES
 -- OUNIANGA
 -----------------------------------------------
 
-	("en_US",	"LOC_FEATURE_OUNIANGA_NAME",					"Ounianga"	),
+	("en_US",	"LOC_FEATURE_OUNIANGA_NAME",					"Lakes of Ounianga"	),
 	("en_US",	"LOC_TM_FEATURE_OUNIANGA_DESCRIPTION",			"Two tile natural wonder. Provides fresh water. Yields +3 [ICON_FOOD] Food, +1 [ICON_CULTURE] Culture, and +1 [ICON_GOLD] Gold."	),
 	("en_US",	"LOC_TM_FEATURE_OUNIANGA_EFFECT",				"Oases provide major adjacency bonuses to Specialty Districts for any Civilization that owns at least one of these tiles."	),
 	("en_US",	"LOC_TM_FEATURE_OUNIANGA_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_OUNIANGA_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_OUNIANGA_EFFECT}"	),
