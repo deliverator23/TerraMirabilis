@@ -288,7 +288,6 @@ function CustomGetMultiTileFeaturePlotList(pPlot, eFeatureType, aPlots)
 
 	elseif (customPlacement == "PLACEMENT_MOSI_OA_TUNYA") then
 
-        -- Assume first tile a land tile without hills, check around it in a preferred order for water
         if (pPlot:IsWater() or pPlot:IsHills()) then
             return false;
         end
