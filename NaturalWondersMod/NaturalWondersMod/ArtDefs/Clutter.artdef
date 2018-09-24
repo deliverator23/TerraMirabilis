@@ -5031,6 +5031,433 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects:BLPEntryValue">
+										<m_EntryName text="TER_Cliffs_Rock01"/>
+										<m_XLPClass text="Landmark"/>
+										<m_XLPPath text="clutter.xlp"/>
+										<m_BLPPackage text="environment/clutter"/>
+										<m_LibraryName text="Landmark"/>
+										<m_ParamName text="Asset"/>
+									</Element>
+									<Element class="AssetObjects:FloatValue">
+										<m_fValue>0.8</m_fValue>
+										<m_ParamName text="Scale"/>
+									</Element>
+									<Element class="AssetObjects:IntValue">
+										<m_nValue>2</m_nValue>
+										<m_ParamName text="Count"/>
+									</Element>
+									<Element class="AssetObjects:FloatValue">
+										<m_fValue>0.100000</m_fValue>
+										<m_ParamName text="ScaleVariation"/>
+									</Element>
+									<Element class="AssetObjects:FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="LowendReduction"/>
+									</Element>
+									<Element class="AssetObjects:IntValue">
+										<m_nValue>4</m_nValue>
+										<m_ParamName text="Priority"/>
+									</Element>
+									<Element class="AssetObjects:BoolValue">
+										<m_bValue>true</m_bValue>
+										<m_ParamName text="ShowDecal"/>
+									</Element>
+									<Element class="AssetObjects:FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Width"/>
+									</Element>
+									<Element class="AssetObjects:StringValue">
+										<m_Value text="RotateZ"/>
+										<m_ParamName text="RotateMode"/>
+									</Element>
+									<Element class="AssetObjects:BoolValue">
+										<m_bValue>false</m_bValue>
+										<m_ParamName text="IsCenterModel"/>
+									</Element>
+									<Element class="AssetObjects:BoolValue">
+										<m_bValue>true</m_bValue>
+										<m_ParamName text="AllowOverlap"/>
+									</Element>
+									<Element class="AssetObjects:IntValue">
+										<m_nValue>0</m_nValue>
+										<m_ParamName text="MinCount"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="BigRock1"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects:BLPEntryValue">
+										<m_EntryName text="TER_Cliffs_Rock02"/>
+										<m_XLPClass text="Landmark"/>
+										<m_XLPPath text="clutter.xlp"/>
+										<m_BLPPackage text="environment/clutter"/>
+										<m_LibraryName text="Landmark"/>
+										<m_ParamName text="Asset"/>
+									</Element>
+									<Element class="AssetObjects:FloatValue">
+										<m_fValue>0.8</m_fValue>
+										<m_ParamName text="Scale"/>
+									</Element>
+									<Element class="AssetObjects:IntValue">
+										<m_nValue>2</m_nValue>
+										<m_ParamName text="Count"/>
+									</Element>
+									<Element class="AssetObjects:FloatValue">
+										<m_fValue>0.100000</m_fValue>
+										<m_ParamName text="ScaleVariation"/>
+									</Element>
+									<Element class="AssetObjects:FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="LowendReduction"/>
+									</Element>
+									<Element class="AssetObjects:BoolValue">
+										<m_bValue>true</m_bValue>
+										<m_ParamName text="ShowDecal"/>
+									</Element>
+									<Element class="AssetObjects:IntValue">
+										<m_nValue>4</m_nValue>
+										<m_ParamName text="Priority"/>
+									</Element>
+									<Element class="AssetObjects:FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Width"/>
+									</Element>
+									<Element class="AssetObjects:StringValue">
+										<m_Value text="RotateZ"/>
+										<m_ParamName text="RotateMode"/>
+									</Element>
+									<Element class="AssetObjects:BoolValue">
+										<m_bValue>false</m_bValue>
+										<m_ParamName text="IsCenterModel"/>
+									</Element>
+									<Element class="AssetObjects:BoolValue">
+										<m_bValue>false</m_bValue>
+										<m_ParamName text="AllowOverlap"/>
+									</Element>
+									<Element class="AssetObjects:IntValue">
+										<m_nValue>0</m_nValue>
+										<m_ParamName text="MinCount"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="BigRock2"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects:BLPEntryValue">
+										<m_EntryName text="TER_Cliffs_Rock03"/>
+										<m_XLPClass text="Landmark"/>
+										<m_XLPPath text="clutter.xlp"/>
+										<m_BLPPackage text="environment/clutter"/>
+										<m_LibraryName text="Landmark"/>
+										<m_ParamName text="Asset"/>
+									</Element>
+									<Element class="AssetObjects:FloatValue">
+										<m_fValue>0.8</m_fValue>
+										<m_ParamName text="Scale"/>
+									</Element>
+									<Element class="AssetObjects:IntValue">
+										<m_nValue>2</m_nValue>
+										<m_ParamName text="Count"/>
+									</Element>
+									<Element class="AssetObjects:FloatValue">
+										<m_fValue>0.100000</m_fValue>
+										<m_ParamName text="ScaleVariation"/>
+									</Element>
+									<Element class="AssetObjects:FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="LowendReduction"/>
+									</Element>
+									<Element class="AssetObjects:BoolValue">
+										<m_bValue>true</m_bValue>
+										<m_ParamName text="ShowDecal"/>
+									</Element>
+									<Element class="AssetObjects:IntValue">
+										<m_nValue>4</m_nValue>
+										<m_ParamName text="Priority"/>
+									</Element>
+									<Element class="AssetObjects:FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Width"/>
+									</Element>
+									<Element class="AssetObjects:StringValue">
+										<m_Value text="RotateZ"/>
+										<m_ParamName text="RotateMode"/>
+									</Element>
+									<Element class="AssetObjects:BoolValue">
+										<m_bValue>false</m_bValue>
+										<m_ParamName text="IsCenterModel"/>
+									</Element>
+									<Element class="AssetObjects:BoolValue">
+										<m_bValue>true</m_bValue>
+										<m_ParamName text="AllowOverlap"/>
+									</Element>
+									<Element class="AssetObjects:IntValue">
+										<m_nValue>0</m_nValue>
+										<m_ParamName text="MinCount"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="BigRock3"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects:BLPEntryValue">
+										<m_EntryName text="TER_Cliffs_Rock04"/>
+										<m_XLPClass text="Landmark"/>
+										<m_XLPPath text="clutter.xlp"/>
+										<m_BLPPackage text="environment/clutter"/>
+										<m_LibraryName text="Landmark"/>
+										<m_ParamName text="Asset"/>
+									</Element>
+									<Element class="AssetObjects:FloatValue">
+										<m_fValue>0.8</m_fValue>
+										<m_ParamName text="Scale"/>
+									</Element>
+									<Element class="AssetObjects:IntValue">
+										<m_nValue>2</m_nValue>
+										<m_ParamName text="Count"/>
+									</Element>
+									<Element class="AssetObjects:FloatValue">
+										<m_fValue>0.100000</m_fValue>
+										<m_ParamName text="ScaleVariation"/>
+									</Element>
+									<Element class="AssetObjects:FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="LowendReduction"/>
+									</Element>
+									<Element class="AssetObjects:BoolValue">
+										<m_bValue>true</m_bValue>
+										<m_ParamName text="ShowDecal"/>
+									</Element>
+									<Element class="AssetObjects:IntValue">
+										<m_nValue>4</m_nValue>
+										<m_ParamName text="Priority"/>
+									</Element>
+									<Element class="AssetObjects:FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Width"/>
+									</Element>
+									<Element class="AssetObjects:StringValue">
+										<m_Value text="RotateZ"/>
+										<m_ParamName text="RotateMode"/>
+									</Element>
+									<Element class="AssetObjects:BoolValue">
+										<m_bValue>false</m_bValue>
+										<m_ParamName text="IsCenterModel"/>
+									</Element>
+									<Element class="AssetObjects:BoolValue">
+										<m_bValue>false</m_bValue>
+										<m_ParamName text="AllowOverlap"/>
+									</Element>
+									<Element class="AssetObjects:IntValue">
+										<m_nValue>0</m_nValue>
+										<m_ParamName text="MinCount"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="BigRock4"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects:BLPEntryValue">
+										<m_EntryName text="TER_Cliffs_RockSmall01"/>
+										<m_XLPClass text="Landmark"/>
+										<m_XLPPath text="clutter.xlp"/>
+										<m_BLPPackage text="environment/clutter"/>
+										<m_LibraryName text="Landmark"/>
+										<m_ParamName text="Asset"/>
+									</Element>
+									<Element class="AssetObjects:FloatValue">
+										<m_fValue>1</m_fValue>
+										<m_ParamName text="Scale"/>
+									</Element>
+									<Element class="AssetObjects:IntValue">
+										<m_nValue>2</m_nValue>
+										<m_ParamName text="Count"/>
+									</Element>
+									<Element class="AssetObjects:FloatValue">
+										<m_fValue>0.100000</m_fValue>
+										<m_ParamName text="ScaleVariation"/>
+									</Element>
+									<Element class="AssetObjects:FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="LowendReduction"/>
+									</Element>
+									<Element class="AssetObjects:BoolValue">
+										<m_bValue>true</m_bValue>
+										<m_ParamName text="ShowDecal"/>
+									</Element>
+									<Element class="AssetObjects:IntValue">
+										<m_nValue>3</m_nValue>
+										<m_ParamName text="Priority"/>
+									</Element>
+									<Element class="AssetObjects:FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Width"/>
+									</Element>
+									<Element class="AssetObjects:StringValue">
+										<m_Value text="RotateZ"/>
+										<m_ParamName text="RotateMode"/>
+									</Element>
+									<Element class="AssetObjects:BoolValue">
+										<m_bValue>false</m_bValue>
+										<m_ParamName text="IsCenterModel"/>
+									</Element>
+									<Element class="AssetObjects:BoolValue">
+										<m_bValue>true</m_bValue>
+										<m_ParamName text="AllowOverlap"/>
+									</Element>
+									<Element class="AssetObjects:IntValue">
+										<m_nValue>0</m_nValue>
+										<m_ParamName text="MinCount"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Rock1"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects:BLPEntryValue">
+										<m_EntryName text="TER_Cliffs_RockSmall02"/>
+										<m_XLPClass text="Landmark"/>
+										<m_XLPPath text="clutter.xlp"/>
+										<m_BLPPackage text="environment/clutter"/>
+										<m_LibraryName text="Landmark"/>
+										<m_ParamName text="Asset"/>
+									</Element>
+									<Element class="AssetObjects:FloatValue">
+										<m_fValue>1</m_fValue>
+										<m_ParamName text="Scale"/>
+									</Element>
+									<Element class="AssetObjects:IntValue">
+										<m_nValue>2</m_nValue>
+										<m_ParamName text="Count"/>
+									</Element>
+									<Element class="AssetObjects:FloatValue">
+										<m_fValue>0.100000</m_fValue>
+										<m_ParamName text="ScaleVariation"/>
+									</Element>
+									<Element class="AssetObjects:FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="LowendReduction"/>
+									</Element>
+									<Element class="AssetObjects:BoolValue">
+										<m_bValue>true</m_bValue>
+										<m_ParamName text="ShowDecal"/>
+									</Element>
+									<Element class="AssetObjects:IntValue">
+										<m_nValue>3</m_nValue>
+										<m_ParamName text="Priority"/>
+									</Element>
+									<Element class="AssetObjects:FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Width"/>
+									</Element>
+									<Element class="AssetObjects:StringValue">
+										<m_Value text="RotateZ"/>
+										<m_ParamName text="RotateMode"/>
+									</Element>
+									<Element class="AssetObjects:BoolValue">
+										<m_bValue>false</m_bValue>
+										<m_ParamName text="IsCenterModel"/>
+									</Element>
+									<Element class="AssetObjects:BoolValue">
+										<m_bValue>true</m_bValue>
+										<m_ParamName text="AllowOverlap"/>
+									</Element>
+									<Element class="AssetObjects:IntValue">
+										<m_nValue>0</m_nValue>
+										<m_ParamName text="MinCount"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Rock2"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects:BLPEntryValue">
+										<m_EntryName text="TER_Cliffs_RockSmall03"/>
+										<m_XLPClass text="Landmark"/>
+										<m_XLPPath text="clutter.xlp"/>
+										<m_BLPPackage text="environment/clutter"/>
+										<m_LibraryName text="Landmark"/>
+										<m_ParamName text="Asset"/>
+									</Element>
+									<Element class="AssetObjects:FloatValue">
+										<m_fValue>1</m_fValue>
+										<m_ParamName text="Scale"/>
+									</Element>
+									<Element class="AssetObjects:IntValue">
+										<m_nValue>2</m_nValue>
+										<m_ParamName text="Count"/>
+									</Element>
+									<Element class="AssetObjects:FloatValue">
+										<m_fValue>0.100000</m_fValue>
+										<m_ParamName text="ScaleVariation"/>
+									</Element>
+									<Element class="AssetObjects:FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="LowendReduction"/>
+									</Element>
+									<Element class="AssetObjects:BoolValue">
+										<m_bValue>true</m_bValue>
+										<m_ParamName text="ShowDecal"/>
+									</Element>
+									<Element class="AssetObjects:IntValue">
+										<m_nValue>3</m_nValue>
+										<m_ParamName text="Priority"/>
+									</Element>
+									<Element class="AssetObjects:FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Width"/>
+									</Element>
+									<Element class="AssetObjects:StringValue">
+										<m_Value text="RotateZ"/>
+										<m_ParamName text="RotateMode"/>
+									</Element>
+									<Element class="AssetObjects:BoolValue">
+										<m_bValue>false</m_bValue>
+										<m_ParamName text="IsCenterModel"/>
+									</Element>
+									<Element class="AssetObjects:BoolValue">
+										<m_bValue>true</m_bValue>
+										<m_ParamName text="AllowOverlap"/>
+									</Element>
+									<Element class="AssetObjects:IntValue">
+										<m_nValue>0</m_nValue>
+										<m_ParamName text="MinCount"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Rock3"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects:BLPEntryValue">
 										<m_EntryName text="Jungle_Palm_01"/>
 										<m_XLPClass text="Landmark"/>
 										<m_XLPPath text="clutter.xlp"/>
@@ -5043,7 +5470,7 @@
 										<m_ParamName text="Scale"/>
 									</Element>
 									<Element class="AssetObjects:IntValue">
-										<m_nValue>12</m_nValue>
+										<m_nValue>11</m_nValue>
 										<m_ParamName text="Count"/>
 									</Element>
 									<Element class="AssetObjects:FloatValue">
@@ -5059,7 +5486,7 @@
 										<m_ParamName text="ShowDecal"/>
 									</Element>
 									<Element class="AssetObjects:IntValue">
-										<m_nValue>3</m_nValue>
+										<m_nValue>5</m_nValue>
 										<m_ParamName text="Priority"/>
 									</Element>
 									<Element class="AssetObjects:FloatValue">
@@ -5104,7 +5531,7 @@
 										<m_ParamName text="Scale"/>
 									</Element>
 									<Element class="AssetObjects:IntValue">
-										<m_nValue>12</m_nValue>
+										<m_nValue>11</m_nValue>
 										<m_ParamName text="Count"/>
 									</Element>
 									<Element class="AssetObjects:FloatValue">
@@ -5120,7 +5547,7 @@
 										<m_ParamName text="ShowDecal"/>
 									</Element>
 									<Element class="AssetObjects:IntValue">
-										<m_nValue>3</m_nValue>
+										<m_nValue>5</m_nValue>
 										<m_ParamName text="Priority"/>
 									</Element>
 									<Element class="AssetObjects:FloatValue">
@@ -5136,7 +5563,7 @@
 										<m_ParamName text="IsCenterModel"/>
 									</Element>
 									<Element class="AssetObjects:BoolValue">
-										<m_bValue>false</m_bValue>
+										<m_bValue>true</m_bValue>
 										<m_ParamName text="AllowOverlap"/>
 									</Element>
 									<Element class="AssetObjects:IntValue">
@@ -5165,7 +5592,7 @@
 										<m_ParamName text="Scale"/>
 									</Element>
 									<Element class="AssetObjects:IntValue">
-										<m_nValue>12</m_nValue>
+										<m_nValue>11</m_nValue>
 										<m_ParamName text="Count"/>
 									</Element>
 									<Element class="AssetObjects:FloatValue">
@@ -5181,7 +5608,7 @@
 										<m_ParamName text="ShowDecal"/>
 									</Element>
 									<Element class="AssetObjects:IntValue">
-										<m_nValue>3</m_nValue>
+										<m_nValue>5</m_nValue>
 										<m_ParamName text="Priority"/>
 									</Element>
 									<Element class="AssetObjects:FloatValue">
@@ -5197,7 +5624,7 @@
 										<m_ParamName text="IsCenterModel"/>
 									</Element>
 									<Element class="AssetObjects:BoolValue">
-										<m_bValue>false</m_bValue>
+										<m_bValue>true</m_bValue>
 										<m_ParamName text="AllowOverlap"/>
 									</Element>
 									<Element class="AssetObjects:IntValue">
@@ -5208,372 +5635,6 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="Palm3"/>
-							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
-						</Element>
-						<Element>
-							<m_Fields>
-								<m_Values>
-									<Element class="AssetObjects:BLPEntryValue">
-										<m_EntryName text="TER_RiverRock_Grass01"/>
-										<m_XLPClass text="Landmark"/>
-										<m_XLPPath text="clutter.xlp"/>
-										<m_BLPPackage text="environment/clutter"/>
-										<m_LibraryName text="Landmark"/>
-										<m_ParamName text="Asset"/>
-									</Element>
-									<Element class="AssetObjects:FloatValue">
-										<m_fValue>1</m_fValue>
-										<m_ParamName text="Scale"/>
-									</Element>
-									<Element class="AssetObjects:IntValue">
-										<m_nValue>6</m_nValue>
-										<m_ParamName text="Count"/>
-									</Element>
-									<Element class="AssetObjects:FloatValue">
-										<m_fValue>0.100000</m_fValue>
-										<m_ParamName text="ScaleVariation"/>
-									</Element>
-									<Element class="AssetObjects:FloatValue">
-										<m_fValue>0.000000</m_fValue>
-										<m_ParamName text="LowendReduction"/>
-									</Element>
-									<Element class="AssetObjects:BoolValue">
-										<m_bValue>false</m_bValue>
-										<m_ParamName text="ShowDecal"/>
-									</Element>
-									<Element class="AssetObjects:IntValue">
-										<m_nValue>1</m_nValue>
-										<m_ParamName text="Priority"/>
-									</Element>
-									<Element class="AssetObjects:FloatValue">
-										<m_fValue>0.000000</m_fValue>
-										<m_ParamName text="Width"/>
-									</Element>
-									<Element class="AssetObjects:StringValue">
-										<m_Value text="RotateZ"/>
-										<m_ParamName text="RotateMode"/>
-									</Element>
-									<Element class="AssetObjects:BoolValue">
-										<m_bValue>false</m_bValue>
-										<m_ParamName text="IsCenterModel"/>
-									</Element>
-									<Element class="AssetObjects:BoolValue">
-										<m_bValue>false</m_bValue>
-										<m_ParamName text="AllowOverlap"/>
-									</Element>
-									<Element class="AssetObjects:IntValue">
-										<m_nValue>0</m_nValue>
-										<m_ParamName text="MinCount"/>
-									</Element>
-								</m_Values>
-							</m_Fields>
-							<m_ChildCollections/>
-							<m_Name text="Grass1"/>
-							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
-						</Element>
-						<Element>
-							<m_Fields>
-								<m_Values>
-									<Element class="AssetObjects:BLPEntryValue">
-										<m_EntryName text="TER_RiverRock_Grass02"/>
-										<m_XLPClass text="Landmark"/>
-										<m_XLPPath text="clutter.xlp"/>
-										<m_BLPPackage text="environment/clutter"/>
-										<m_LibraryName text="Landmark"/>
-										<m_ParamName text="Asset"/>
-									</Element>
-									<Element class="AssetObjects:FloatValue">
-										<m_fValue>1</m_fValue>
-										<m_ParamName text="Scale"/>
-									</Element>
-									<Element class="AssetObjects:IntValue">
-										<m_nValue>6</m_nValue>
-										<m_ParamName text="Count"/>
-									</Element>
-									<Element class="AssetObjects:FloatValue">
-										<m_fValue>0.100000</m_fValue>
-										<m_ParamName text="ScaleVariation"/>
-									</Element>
-									<Element class="AssetObjects:FloatValue">
-										<m_fValue>0.000000</m_fValue>
-										<m_ParamName text="LowendReduction"/>
-									</Element>
-									<Element class="AssetObjects:BoolValue">
-										<m_bValue>false</m_bValue>
-										<m_ParamName text="ShowDecal"/>
-									</Element>
-									<Element class="AssetObjects:IntValue">
-										<m_nValue>1</m_nValue>
-										<m_ParamName text="Priority"/>
-									</Element>
-									<Element class="AssetObjects:FloatValue">
-										<m_fValue>0.000000</m_fValue>
-										<m_ParamName text="Width"/>
-									</Element>
-									<Element class="AssetObjects:StringValue">
-										<m_Value text="RotateZ"/>
-										<m_ParamName text="RotateMode"/>
-									</Element>
-									<Element class="AssetObjects:BoolValue">
-										<m_bValue>false</m_bValue>
-										<m_ParamName text="IsCenterModel"/>
-									</Element>
-									<Element class="AssetObjects:BoolValue">
-										<m_bValue>false</m_bValue>
-										<m_ParamName text="AllowOverlap"/>
-									</Element>
-									<Element class="AssetObjects:IntValue">
-										<m_nValue>0</m_nValue>
-										<m_ParamName text="MinCount"/>
-									</Element>
-								</m_Values>
-							</m_Fields>
-							<m_ChildCollections/>
-							<m_Name text="Grass2"/>
-							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
-						</Element>
-						<Element>
-							<m_Fields>
-								<m_Values>
-									<Element class="AssetObjects:BLPEntryValue">
-										<m_EntryName text="TER_RiverRock_Grass03"/>
-										<m_XLPClass text="Landmark"/>
-										<m_XLPPath text="clutter.xlp"/>
-										<m_BLPPackage text="environment/clutter"/>
-										<m_LibraryName text="Landmark"/>
-										<m_ParamName text="Asset"/>
-									</Element>
-									<Element class="AssetObjects:FloatValue">
-										<m_fValue>1</m_fValue>
-										<m_ParamName text="Scale"/>
-									</Element>
-									<Element class="AssetObjects:IntValue">
-										<m_nValue>6</m_nValue>
-										<m_ParamName text="Count"/>
-									</Element>
-									<Element class="AssetObjects:FloatValue">
-										<m_fValue>0.100000</m_fValue>
-										<m_ParamName text="ScaleVariation"/>
-									</Element>
-									<Element class="AssetObjects:FloatValue">
-										<m_fValue>0.000000</m_fValue>
-										<m_ParamName text="LowendReduction"/>
-									</Element>
-									<Element class="AssetObjects:BoolValue">
-										<m_bValue>false</m_bValue>
-										<m_ParamName text="ShowDecal"/>
-									</Element>
-									<Element class="AssetObjects:IntValue">
-										<m_nValue>1</m_nValue>
-										<m_ParamName text="Priority"/>
-									</Element>
-									<Element class="AssetObjects:FloatValue">
-										<m_fValue>0.000000</m_fValue>
-										<m_ParamName text="Width"/>
-									</Element>
-									<Element class="AssetObjects:StringValue">
-										<m_Value text="RotateZ"/>
-										<m_ParamName text="RotateMode"/>
-									</Element>
-									<Element class="AssetObjects:BoolValue">
-										<m_bValue>false</m_bValue>
-										<m_ParamName text="IsCenterModel"/>
-									</Element>
-									<Element class="AssetObjects:BoolValue">
-										<m_bValue>false</m_bValue>
-										<m_ParamName text="AllowOverlap"/>
-									</Element>
-									<Element class="AssetObjects:IntValue">
-										<m_nValue>0</m_nValue>
-										<m_ParamName text="MinCount"/>
-									</Element>
-								</m_Values>
-							</m_Fields>
-							<m_ChildCollections/>
-							<m_Name text="Grass3"/>
-							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
-						</Element>
-						<Element>
-							<m_Fields>
-								<m_Values>
-									<Element class="AssetObjects:BLPEntryValue">
-										<m_EntryName text="TER_Cliffs_RockSmall01"/>
-										<m_XLPClass text="Landmark"/>
-										<m_XLPPath text="clutter.xlp"/>
-										<m_BLPPackage text="environment/clutter"/>
-										<m_LibraryName text="Landmark"/>
-										<m_ParamName text="Asset"/>
-									</Element>
-									<Element class="AssetObjects:FloatValue">
-										<m_fValue>1</m_fValue>
-										<m_ParamName text="Scale"/>
-									</Element>
-									<Element class="AssetObjects:IntValue">
-										<m_nValue>6</m_nValue>
-										<m_ParamName text="Count"/>
-									</Element>
-									<Element class="AssetObjects:FloatValue">
-										<m_fValue>0.100000</m_fValue>
-										<m_ParamName text="ScaleVariation"/>
-									</Element>
-									<Element class="AssetObjects:FloatValue">
-										<m_fValue>0.000000</m_fValue>
-										<m_ParamName text="LowendReduction"/>
-									</Element>
-									<Element class="AssetObjects:BoolValue">
-										<m_bValue>false</m_bValue>
-										<m_ParamName text="ShowDecal"/>
-									</Element>
-									<Element class="AssetObjects:IntValue">
-										<m_nValue>2</m_nValue>
-										<m_ParamName text="Priority"/>
-									</Element>
-									<Element class="AssetObjects:FloatValue">
-										<m_fValue>0.000000</m_fValue>
-										<m_ParamName text="Width"/>
-									</Element>
-									<Element class="AssetObjects:StringValue">
-										<m_Value text="RotateZ"/>
-										<m_ParamName text="RotateMode"/>
-									</Element>
-									<Element class="AssetObjects:BoolValue">
-										<m_bValue>false</m_bValue>
-										<m_ParamName text="IsCenterModel"/>
-									</Element>
-									<Element class="AssetObjects:BoolValue">
-										<m_bValue>false</m_bValue>
-										<m_ParamName text="AllowOverlap"/>
-									</Element>
-									<Element class="AssetObjects:IntValue">
-										<m_nValue>0</m_nValue>
-										<m_ParamName text="MinCount"/>
-									</Element>
-								</m_Values>
-							</m_Fields>
-							<m_ChildCollections/>
-							<m_Name text="Rock1"/>
-							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
-						</Element>
-						<Element>
-							<m_Fields>
-								<m_Values>
-									<Element class="AssetObjects:BLPEntryValue">
-										<m_EntryName text="TER_Cliffs_RockSmall02"/>
-										<m_XLPClass text="Landmark"/>
-										<m_XLPPath text="clutter.xlp"/>
-										<m_BLPPackage text="environment/clutter"/>
-										<m_LibraryName text="Landmark"/>
-										<m_ParamName text="Asset"/>
-									</Element>
-									<Element class="AssetObjects:FloatValue">
-										<m_fValue>1</m_fValue>
-										<m_ParamName text="Scale"/>
-									</Element>
-									<Element class="AssetObjects:IntValue">
-										<m_nValue>6</m_nValue>
-										<m_ParamName text="Count"/>
-									</Element>
-									<Element class="AssetObjects:FloatValue">
-										<m_fValue>0.100000</m_fValue>
-										<m_ParamName text="ScaleVariation"/>
-									</Element>
-									<Element class="AssetObjects:FloatValue">
-										<m_fValue>0.000000</m_fValue>
-										<m_ParamName text="LowendReduction"/>
-									</Element>
-									<Element class="AssetObjects:BoolValue">
-										<m_bValue>false</m_bValue>
-										<m_ParamName text="ShowDecal"/>
-									</Element>
-									<Element class="AssetObjects:IntValue">
-										<m_nValue>2</m_nValue>
-										<m_ParamName text="Priority"/>
-									</Element>
-									<Element class="AssetObjects:FloatValue">
-										<m_fValue>0.000000</m_fValue>
-										<m_ParamName text="Width"/>
-									</Element>
-									<Element class="AssetObjects:StringValue">
-										<m_Value text="RotateZ"/>
-										<m_ParamName text="RotateMode"/>
-									</Element>
-									<Element class="AssetObjects:BoolValue">
-										<m_bValue>false</m_bValue>
-										<m_ParamName text="IsCenterModel"/>
-									</Element>
-									<Element class="AssetObjects:BoolValue">
-										<m_bValue>false</m_bValue>
-										<m_ParamName text="AllowOverlap"/>
-									</Element>
-									<Element class="AssetObjects:IntValue">
-										<m_nValue>0</m_nValue>
-										<m_ParamName text="MinCount"/>
-									</Element>
-								</m_Values>
-							</m_Fields>
-							<m_ChildCollections/>
-							<m_Name text="Rock2"/>
-							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
-						</Element>
-						<Element>
-							<m_Fields>
-								<m_Values>
-									<Element class="AssetObjects:BLPEntryValue">
-										<m_EntryName text="TER_Cliffs_RockSmall03"/>
-										<m_XLPClass text="Landmark"/>
-										<m_XLPPath text="clutter.xlp"/>
-										<m_BLPPackage text="environment/clutter"/>
-										<m_LibraryName text="Landmark"/>
-										<m_ParamName text="Asset"/>
-									</Element>
-									<Element class="AssetObjects:FloatValue">
-										<m_fValue>1</m_fValue>
-										<m_ParamName text="Scale"/>
-									</Element>
-									<Element class="AssetObjects:IntValue">
-										<m_nValue>6</m_nValue>
-										<m_ParamName text="Count"/>
-									</Element>
-									<Element class="AssetObjects:FloatValue">
-										<m_fValue>0.100000</m_fValue>
-										<m_ParamName text="ScaleVariation"/>
-									</Element>
-									<Element class="AssetObjects:FloatValue">
-										<m_fValue>0.000000</m_fValue>
-										<m_ParamName text="LowendReduction"/>
-									</Element>
-									<Element class="AssetObjects:BoolValue">
-										<m_bValue>false</m_bValue>
-										<m_ParamName text="ShowDecal"/>
-									</Element>
-									<Element class="AssetObjects:IntValue">
-										<m_nValue>2</m_nValue>
-										<m_ParamName text="Priority"/>
-									</Element>
-									<Element class="AssetObjects:FloatValue">
-										<m_fValue>0.000000</m_fValue>
-										<m_ParamName text="Width"/>
-									</Element>
-									<Element class="AssetObjects:StringValue">
-										<m_Value text="RotateZ"/>
-										<m_ParamName text="RotateMode"/>
-									</Element>
-									<Element class="AssetObjects:BoolValue">
-										<m_bValue>false</m_bValue>
-										<m_ParamName text="IsCenterModel"/>
-									</Element>
-									<Element class="AssetObjects:BoolValue">
-										<m_bValue>false</m_bValue>
-										<m_ParamName text="AllowOverlap"/>
-									</Element>
-									<Element class="AssetObjects:IntValue">
-										<m_nValue>0</m_nValue>
-										<m_ParamName text="MinCount"/>
-									</Element>
-								</m_Values>
-							</m_Fields>
-							<m_ChildCollections/>
-							<m_Name text="Rock3"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>

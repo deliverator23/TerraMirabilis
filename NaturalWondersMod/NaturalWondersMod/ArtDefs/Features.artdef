@@ -2128,35 +2128,6 @@
 						<Element>
 							<m_Fields>
 								<m_Values>
-									<Element class="AssetObjects..StringValue">
-										<m_Value text=""/>
-										<m_ParamName text="XrefName"/>
-									</Element>
-									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="BLOCKER_OCEAN"/>
-										<m_RootCollectionName text="ClutterSets"/>
-										<m_ArtDefPath text="Clutter.artdef"/>
-										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text="Clutter"/>
-										<m_ParamName text="Xref"/>
-									</Element>
-									<Element class="AssetObjects..StringValue">
-										<m_Value text=""/>
-										<m_ParamName text="SelectionRule"/>
-									</Element>
-									<Element class="AssetObjects..IntValue">
-										<m_nValue>0</m_nValue>
-										<m_ParamName text="SelectionPriority"/>
-									</Element>
-								</m_Values>
-							</m_Fields>
-							<m_ChildCollections/>
-							<m_Name text="Clutter001"/>
-							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
-						</Element>
-						<Element>
-							<m_Fields>
-								<m_Values>
 									<Element class="AssetObjects:StringValue">
 										<m_Value text="CLUTTER_OUNIANGA"/>
 										<m_ParamName text="XrefName"/>
@@ -2175,6 +2146,25 @@
 					<Element>
 						<m_CollectionName text="Lighting"/>
 						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..RGBValue">
+										<m_r>58.000000</m_r>
+										<m_g>39.000000</m_g>
+										<m_b>3.000000</m_b>
+										<m_ParamName text="BounceColor"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.600000</m_fValue>
+										<m_ParamName text="BounceAlpha"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Lighting001"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
 					</Element>
 					<Element>
 						<m_CollectionName text="ClutterVariants"/>

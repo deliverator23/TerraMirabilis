@@ -1615,7 +1615,7 @@
 							<m_ParamName text="ForceTerrainType"/>
 						</Element>
 						<Element class="AssetObjects..BLPEntryValue">
-							<m_EntryName text="Water/DeadSea"/>
+							<m_EntryName text="Water/Galapagos"/>
 							<m_XLPClass text="Water"/>
 							<m_XLPPath text="Water.xlp"/>
 							<m_BLPPackage text="Water"/>
@@ -1672,7 +1672,7 @@
 							<m_ParamName text="TerrainElement"/>
 						</Element>
 						<Element class="AssetObjects..BLPEntryValue">
-							<m_EntryName text=""/>
+							<m_EntryName text="NWON_Vredefort"/>
 							<m_XLPClass text="TerrainAsset"/>
 							<m_XLPPath text="TerrainAssetSet_Base.xlp"/>
 							<m_BLPPackage text="terrain/TerrainAssetSet_Base"/>

@@ -3,7 +3,7 @@
 	<m_CookParams>
 		<m_Values>
 			<Element class="AssetObjects..ObjectValue">
-				<m_ObjectName text="Vredefort_HM"/>
+				<m_ObjectName text="Vredefort_HM2"/>
 				<m_eObjectType>TEXTURE</m_eObjectType>
 				<m_ParamName text="Heightmap"/>
 			</Element>
