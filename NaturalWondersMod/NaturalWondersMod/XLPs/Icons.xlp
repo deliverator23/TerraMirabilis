@@ -74,6 +74,22 @@
 			<m_ObjectName text="MOMENT_FEATURE_WULINGYUAN"/>
 		</Element>
 		<Element>
+			<m_EntryID text="MOMENT_FEATURE_VREDEFORT_DOME"/>
+			<m_ObjectName text="MOMENT_FEATURE_VREDEFORT_DOME"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MOMENT_FEATURE_MOSI_OA_TUNYA"/>
+			<m_ObjectName text="MOMENT_FEATURE_MOSI_OA_TUNYA"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MOMENT_FEATURE_OUNIANGA"/>
+			<m_ObjectName text="MOMENT_FEATURE_OUNIANGA"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MOMENT_FEATURE_NAMIB"/>
+			<m_ObjectName text="MOMENT_FEATURE_NAMIB"/>
+		</Element>
+		<Element>
 			<m_EntryID text="RESOURCE_TM_LITHIUM_22"/>
 			<m_ObjectName text="RESOURCE_TM_LITHIUM_22"/>
 		</Element>
