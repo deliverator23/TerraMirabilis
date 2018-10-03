@@ -270,7 +270,7 @@ VALUES
 -- NAMIB
 -----------------------------------------------
 
-	("es_ES",	"LOC_TM_FEATURE_NAMIB_DESCRIPTION",			"Maravilla de naturaleza de tres casillas. Proporciona +1 a Cultura [ICON_CULTURE] y +1 de Oro [ICON_GOLD] a las casillas adyacentes."	),
+	("es_ES",	"LOC_TM_FEATURE_NAMIB_DESCRIPTION",			"Maravilla de naturaleza de tres casillas. Proporciona +3 a Cultura [ICON_CULTURE] y +2 de Oro [ICON_GOLD]."	),
 	("es_ES",	"LOC_TM_FEATURE_NAMIB_EFFECT",				"En cualquier Civilización que tiene al menos una de estas casillas, rutas comerciales de otras civilizaciones [ICON_TRADEROUTE] que pasa por sus ciudades proporciona +1 a Cultura [ICON_CULTURE]."	),
 	("es_ES",	"LOC_TM_FEATURE_NAMIB_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_NAMIB_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_NAMIB_EFFECT}"	),
 	

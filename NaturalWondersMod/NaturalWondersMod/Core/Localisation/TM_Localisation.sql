@@ -277,7 +277,7 @@ VALUES
 -----------------------------------------------
 
 	("en_US",	"LOC_FEATURE_NAMIB_NAME",					"Namib Sand Sea"	),
-	("en_US",	"LOC_TM_FEATURE_NAMIB_DESCRIPTION",			"Three tile natural wonder. Adjacent plots yield +1 [ICON_CULTURE] Culture and +1 [ICON_GOLD] Gold."	),
+	("en_US",	"LOC_TM_FEATURE_NAMIB_DESCRIPTION",			"Three tile natural wonder. Yields +3 [ICON_CULTURE] Culture and +2 [ICON_GOLD] Gold."	),
 	("en_US",	"LOC_TM_FEATURE_NAMIB_EFFECT",				"Foreign [ICON_TRADEROUTE] Trade Routes that pass through your cities provide +1 [ICON_CULTURE] Culture for any Civilization that owns at least one of these tiles."	),
 	("en_US",	"LOC_TM_FEATURE_NAMIB_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_NAMIB_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_NAMIB_EFFECT}"	),
 	
