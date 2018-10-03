@@ -2008,6 +2008,19 @@
 					<Element>
 						<m_CollectionName text="Clutter"/>
 						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects:StringValue">
+										<m_Value text="CLUTTER_VREDEFORT"/>
+										<m_ParamName text="XrefName"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Clutter002"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
 					</Element>
 					<Element>
 						<m_CollectionName text="Landmark"/>
@@ -2032,13 +2045,26 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..StringValue">
-										<m_Value text="NWON_TruckInClose_Camera_Anim"/>
+										<m_Value text="NWON_MultiHex_Camera_Anim"/>
 										<m_ParamName text="XrefName"/>
 									</Element>
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="RevealAnimation"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text="NWON_TruckInFar_Camera_Anim"/>
+										<m_ParamName text="XrefName"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="RevealAnimation001"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
@@ -2181,7 +2207,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..StringValue">
-										<m_Value text="NWON_SingleHex_Camera_Anim"/>
+										<m_Value text="NWON_MultiHex_Camera_Anim"/>
 										<m_ParamName text="XrefName"/>
 									</Element>
 								</m_Values>
@@ -2194,7 +2220,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..StringValue">
-										<m_Value text="NWON_TruckInClose_Camera_Anim"/>
+										<m_Value text="NWON_TruckInFar_Camera_Anim"/>
 										<m_ParamName text="XrefName"/>
 									</Element>
 								</m_Values>

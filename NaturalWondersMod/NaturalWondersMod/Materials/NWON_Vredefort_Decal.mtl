@@ -3,17 +3,17 @@
 	<m_CookParams>
 		<m_Values>
 			<Element class="AssetObjects..ObjectValue">
-				<m_ObjectName text="Vredefort_Decal_B"/>
+				<m_ObjectName text="Vredefort_Decal_B2"/>
 				<m_eObjectType>TEXTURE</m_eObjectType>
 				<m_ParamName text="BaseColor"/>
 			</Element>
 			<Element class="AssetObjects..ObjectValue">
-				<m_ObjectName text="Vredefort_Decal_H3"/>
+				<m_ObjectName text="Vredefort_Decal_H4"/>
 				<m_eObjectType>TEXTURE</m_eObjectType>
 				<m_ParamName text="Heightmap"/>
 			</Element>
 			<Element class="AssetObjects..ObjectValue">
-				<m_ObjectName text="Vredefort_Decal_G"/>
+				<m_ObjectName text="Vredefort_Decal_G2"/>
 				<m_eObjectType>TEXTURE</m_eObjectType>
 				<m_ParamName text="Spec"/>
 			</Element>
