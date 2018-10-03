@@ -1838,7 +1838,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="Sri_Pada"/>
+										<m_ElementName text="Mosi"/>
 										<m_RootCollectionName text="Features"/>
 										<m_ArtDefPath text="StrategicView.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -1945,7 +1945,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="DeadSea_Dash"/>
+										<m_ElementName text="Vredefort_Dash"/>
 										<m_RootCollectionName text="Features"/>
 										<m_ArtDefPath text="StrategicView.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -1966,7 +1966,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="DeadSea_ForwardSlash"/>
+										<m_ElementName text="Vredefort_ForwardSlash"/>
 										<m_RootCollectionName text="Features"/>
 										<m_ArtDefPath text="StrategicView.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -1987,7 +1987,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="DeadSea_Backslash"/>
+										<m_ElementName text="Vredefort_Backslash"/>
 										<m_RootCollectionName text="Features"/>
 										<m_ArtDefPath text="StrategicView.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -2088,7 +2088,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="DeadSea_Dash"/>
+										<m_ElementName text="Ounianga_Dash"/>
 										<m_RootCollectionName text="Features"/>
 										<m_ArtDefPath text="StrategicView.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -2109,7 +2109,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="DeadSea_ForwardSlash"/>
+										<m_ElementName text="Ounianga_ForwardSlash"/>
 										<m_RootCollectionName text="Features"/>
 										<m_ArtDefPath text="StrategicView.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -2130,7 +2130,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="DeadSea_Backslash"/>
+										<m_ElementName text="Ounianga_Backslash"/>
 										<m_RootCollectionName text="Features"/>
 										<m_ArtDefPath text="StrategicView.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>

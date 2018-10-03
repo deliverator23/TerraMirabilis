@@ -113,6 +113,38 @@
 			<m_EntryID text="Sinai_Revealed"/>
 			<m_ObjectName text="Sinai_Revealed"/>
 		</Element>
+		<Element>
+			<m_EntryID text="Mosi_Visible"/>
+			<m_ObjectName text="Mosi_Visible"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Mosi_Revealed"/>
+			<m_ObjectName text="Mosi_Revealed"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Namib_Visible"/>
+			<m_ObjectName text="Namib_Visible"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Namib_Revealed"/>
+			<m_ObjectName text="Namib_Revealed"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Vredefort_Visible"/>
+			<m_ObjectName text="Vredefort_Visible"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Vredefort_Revealed"/>
+			<m_ObjectName text="Vredefort_Revealed"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Ounianga_Visible"/>
+			<m_ObjectName text="Ounianga_Visible"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Ounianga_Revealed"/>
+			<m_ObjectName text="Ounianga_Revealed"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>
