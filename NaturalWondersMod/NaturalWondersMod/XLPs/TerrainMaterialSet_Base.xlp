@@ -29,6 +29,10 @@
 			<m_EntryID text="TER_Grassland_ShortBlend"/>
 			<m_ObjectName text="TER_Grassland_ShortBlend"/>
 		</Element>
+		<Element>
+			<m_EntryID text="TER_Red_Desert_Hills"/>
+			<m_ObjectName text="TER_Red_Desert_Hills"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

@@ -13,13 +13,45 @@
 			<m_EntryID text="RES_Silver_Rock_Indiv_01"/>
 			<m_ObjectName text="RES_Silver_Rock_Indiv_01"/>
 		</Element>
-        		<Element>
+		<Element>
 			<m_EntryID text="RES_Silver_Rock_Indiv_02"/>
 			<m_ObjectName text="RES_Silver_Rock_Indiv_02"/>
 		</Element>
-        		<Element>
+		<Element>
 			<m_EntryID text="RES_Silver_Rock_Indiv_03"/>
 			<m_ObjectName text="RES_Silver_Rock_Indiv_03"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Dead_Tree_A_Lg"/>
+			<m_ObjectName text="Dead_Tree_A_Lg"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Dead_Tree_B_Lg"/>
+			<m_ObjectName text="Dead_Tree_B_Lg"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Dead_Tree_C_Lg"/>
+			<m_ObjectName text="Dead_Tree_C_Lg"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Dead_Tree_D_Lg"/>
+			<m_ObjectName text="Dead_Tree_D_Lg"/>
+		</Element>
+        <Element>
+			<m_EntryID text="Shrub_Round_Lg_CL"/>
+			<m_ObjectName text="Shrub_Round_Lg_CL"/>
+		</Element>
+        <Element>
+			<m_EntryID text="Shrub_Round_Lg_Flowered_White_CL"/>
+			<m_ObjectName text="Shrub_Round_Lg_Flowered_White_CL"/>
+		</Element>
+        <Element>
+			<m_EntryID text="Shrub_Round_Single_CL"/>
+			<m_ObjectName text="Shrub_Round_Single_CL"/>
+		</Element>
+        <Element>
+			<m_EntryID text="Shrub_Round_Single_Flowered_White_CL"/>
+			<m_ObjectName text="Shrub_Round_Single_Flowered_White_CL"/>
 		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>

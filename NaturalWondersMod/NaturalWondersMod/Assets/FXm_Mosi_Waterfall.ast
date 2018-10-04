@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..AssetInstance>
+	<m_BehaviorData>
+		<m_behaviorDataSets>
+			<m_animationBindings>
+				<m_Bindings/>
+			</m_animationBindings>
+			<m_timelineBindings>
+				<m_Bindings/>
+			</m_timelineBindings>
+			<m_timelines>
+				<m_Timelines/>
+			</m_timelines>
+			<m_attachmentPoints>
+				<m_Points/>
+			</m_attachmentPoints>
+			<m_stateSet/>
+		</m_behaviorDataSets>
+		<m_behaviorInstances/>
+		<m_dsgName text="Standard_VFX"/>
+		<m_referenceGeometryNames/>
+	</m_BehaviorData>
+	<m_GeometrySet>
+		<m_ModelInstances>
+			<Element>
+				<m_Name text="FXm_AQD_Tower_Water"/>
+				<m_GeoName text="FXm_Mosi_Waterfall_V2"/>
+				<m_GroupStates>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FX_AQD_Water"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="FX_AQD_Water"/>
+						<m_MeshName text="FXm_AQD_Tower_Water#M"/>
+						<m_StateName text="Default"/>
+					</Element>
+				</m_GroupStates>
+			</Element>
+		</m_ModelInstances>
+	</m_GeometrySet>
+	<m_CookParams>
+		<m_Values>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>1.000000</m_fValue>
+				<m_ParamName text="Scale"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>0.000000</m_fValue>
+				<m_ParamName text="OffsetX"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>0.000000</m_fValue>
+				<m_ParamName text="OffsetY"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>0.000000</m_fValue>
+				<m_ParamName text="OffsetZ"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>0.000000</m_fValue>
+				<m_ParamName text="RotationX"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>0.000000</m_fValue>
+				<m_ParamName text="RotationY"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>0.000000</m_fValue>
+				<m_ParamName text="RotationZ"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>32.000000</m_fValue>
+				<m_ParamName text="VisibilityRadius"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>5.000000</m_fValue>
+				<m_ParamName text="SoftParticles_FadeDistance"/>
+			</Element>
+			<Element class="AssetObjects..BoolValue">
+				<m_bValue>true</m_bValue>
+				<m_ParamName text="SoftParticles_Enabled"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>0.000000</m_fValue>
+				<m_ParamName text="SoftParticles_FadeBias"/>
+			</Element>
+			<Element class="AssetObjects..StringValue">
+				<m_Value text="All"/>
+				<m_ParamName text="TimeOfDay"/>
+			</Element>
+			<Element class="AssetObjects..BoolValue">
+				<m_bValue>true</m_bValue>
+				<m_ParamName text="ApplyLocalScale"/>
+			</Element>
+			<Element class="AssetObjects..BoolValue">
+				<m_bValue>true</m_bValue>
+				<m_ParamName text="ApplyLocalOrientation"/>
+			</Element>
+			<Element class="AssetObjects..BoolValue">
+				<m_bValue>false</m_bValue>
+				<m_ParamName text="ForceParticlesToNearPlane"/>
+			</Element>
+		</m_Values>
+	</m_CookParams>
+	<m_Version>
+		<major>3</major>
+		<minor>0</minor>
+		<build>213</build>
+		<revision>521</revision>
+	</m_Version>
+	<m_ParticleEffects/>
+	<m_Geometries/>
+	<m_Animations/>
+	<m_Materials/>
+	<m_ClassName text="VFX"/>
+	<m_DataFiles/>
+	<m_Name text="FXm_Mosi_Waterfall"/>
+	<m_Description text=""/>
+	<m_Tags>
+		<Element text="VFX"/>
+	</m_Tags>
+	<m_Groups/>
+</AssetObjects..AssetInstance>
+

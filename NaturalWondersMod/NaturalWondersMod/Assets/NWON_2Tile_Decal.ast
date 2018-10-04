@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..AssetInstance>
+	<m_BehaviorData>
+		<m_behaviorDataSets>
+			<m_animationBindings>
+				<m_Bindings/>
+			</m_animationBindings>
+			<m_timelineBindings>
+				<m_Bindings>
+					<Element>
+						<m_SlotName text="IDLE_A"/>
+						<m_TimelineName text="IDLE_A"/>
+					</Element>
+				</m_Bindings>
+			</m_timelineBindings>
+			<m_timelines>
+				<m_Timelines>
+					<Element>
+						<m_Name text="IDLE_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text=""/>
+						<m_fDuration>10.000000</m_fDuration>
+						<m_Triggers>
+						</m_Triggers>
+					</Element>
+				</m_Timelines>
+			</m_timelines>
+			<m_attachmentPoints>
+				<m_Points>
+					
+				</m_Points>
+			</m_attachmentPoints>
+			<m_stateSet/>
+		</m_behaviorDataSets>
+		<m_behaviorInstances/>
+		<m_dsgName text="Standard_TerrainElementAsset"/>
+		<m_referenceGeometryNames/>
+	</m_BehaviorData>
+	<m_GeometrySet>
+		<m_ModelInstances>
+			<Element>
+				<m_Name text="TerrainElement_TwoHex_Decal"/>
+				<m_GeoName text="TerrainElement_TwoHex_Decal"/>
+				<m_GroupStates>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="TwoTileDecalGuide"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="TwoHexNWONDecal"/>
+						<m_MeshName text="TerrainElement_TwoHex_Decal"/>
+						<m_StateName text="Default"/>
+					</Element>
+				</m_GroupStates>
+			</Element>
+			<Element>
+				<m_Name text="NWON_Origin_Dummy"/>
+				<m_GeoName text="NWON_Origin_Dummy"/>
+				<m_GroupStates>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Standardmaterial"/>
+						<m_MeshName text="NWON_Origin_Dummy"/>
+						<m_StateName text="Default"/>
+					</Element>
+				</m_GroupStates>
+			</Element>
+		</m_ModelInstances>
+	</m_GeometrySet>
+	<m_CookParams>
+		<m_Values>
+			<Element class="AssetObjects..BoolValue">
+				<m_bValue>true</m_bValue>
+				<m_ParamName text="CastShadows"/>
+			</Element>
+			<Element class="AssetObjects..BoolValue">
+				<m_bValue>true</m_bValue>
+				<m_ParamName text="CastAO"/>
+			</Element>
+		</m_Values>
+	</m_CookParams>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ParticleEffects/>
+	<m_Geometries/>
+	<m_Animations/>
+	<m_Materials/>
+	<m_ClassName text="TerrainElementAsset"/>
+	<m_DataFiles/>
+	<m_Name text="NWON_2Tile_Decal"/>
+	<m_Description text=""/>
+	<m_Tags>
+		<Element text="TerrainElementAsset"/>
+	</m_Tags>
+	<m_Groups/>
+</AssetObjects..AssetInstance>
+

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..MaterialInstance>
+	<m_CookParams>
+		<m_Values>
+			<Element class="AssetObjects..ObjectValue">
+				<m_ObjectName text="Pillaged_Foliage_2_B4"/>
+				<m_eObjectType>TEXTURE</m_eObjectType>
+				<m_ParamName text="BaseColor"/>
+			</Element>
+			<Element class="AssetObjects..ObjectValue">
+				<m_ObjectName text=""/>
+				<m_eObjectType>TEXTURE</m_eObjectType>
+				<m_ParamName text="Normal"/>
+			</Element>
+			<Element class="AssetObjects..ObjectValue">
+				<m_ObjectName text=""/>
+				<m_eObjectType>TEXTURE</m_eObjectType>
+				<m_ParamName text="AO"/>
+			</Element>
+			<Element class="AssetObjects..ObjectValue">
+				<m_ObjectName text=""/>
+				<m_eObjectType>TEXTURE</m_eObjectType>
+				<m_ParamName text="Metalness"/>
+			</Element>
+			<Element class="AssetObjects..ObjectValue">
+				<m_ObjectName text="Pillaged_Foliage_2_O4"/>
+				<m_eObjectType>TEXTURE</m_eObjectType>
+				<m_ParamName text="Opacity"/>
+			</Element>
+			<Element class="AssetObjects..ObjectValue">
+				<m_ObjectName text=""/>
+				<m_eObjectType>TEXTURE</m_eObjectType>
+				<m_ParamName text="Gloss"/>
+			</Element>
+			<Element class="AssetObjects..ObjectValue">
+				<m_ObjectName text=""/>
+				<m_eObjectType>TEXTURE</m_eObjectType>
+				<m_ParamName text="LightMap"/>
+			</Element>
+			<Element class="AssetObjects..ObjectValue">
+				<m_ObjectName text=""/>
+				<m_eObjectType>TEXTURE</m_eObjectType>
+				<m_ParamName text="Emissive"/>
+			</Element>
+			<Element class="AssetObjects..ObjectValue">
+				<m_ObjectName text=""/>
+				<m_eObjectType>TEXTURE</m_eObjectType>
+				<m_ParamName text="TintMask"/>
+			</Element>
+		</m_Values>
+	</m_CookParams>
+	<m_Version>
+		<major>3</major>
+		<minor>0</minor>
+		<build>174</build>
+		<revision>443</revision>
+	</m_Version>
+	<m_ClassName text="Landmark"/>
+	<m_DataFiles/>
+	<m_Name text="Pillaged_Foliage2"/>
+	<m_Description text=""/>
+	<m_Tags>
+		<Element text="Landmark"/>
+	</m_Tags>
+	<m_Groups/>
+</AssetObjects..MaterialInstance>
+
