@@ -298,7 +298,7 @@ VALUES
 -- OUNIANGA
 -----------------------------------------------
 
-	("es_ES",	"LOC_TM_FEATURE_OUNIANGA_DESCRIPTION",			"Maravilla de naturaleza de dos casillas. Proporciona +3 a Alimentos [ICON_FOOD], +1 a Cultura [ICON_CULTURE], and +1 de Oro [ICON_GOLD] y Agua dulce también."	),
+	("es_ES",	"LOC_TM_FEATURE_OUNIANGA_DESCRIPTION",			"Maravilla de naturaleza de dos casillas. Proporciona +2 a Alimentos [ICON_FOOD], +2 a Cultura [ICON_CULTURE], and +1 de Oro [ICON_GOLD] y Agua dulce también."	),
 	("es_ES",	"LOC_TM_FEATURE_OUNIANGA_EFFECT",				"En cualquier Civilización que tiene al menos una de estas casillas, Distritos especializados reciben una Bonificación mayor por casillas de Oasis."	),
 	("es_ES",	"LOC_TM_FEATURE_OUNIANGA_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_OUNIANGA_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_OUNIANGA_EFFECT}"	),
 

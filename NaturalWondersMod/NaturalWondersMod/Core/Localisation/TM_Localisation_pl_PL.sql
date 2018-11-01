@@ -280,7 +280,7 @@ VALUES
 -----------------------------------------------
 
 	("pl_PL",	"LOC_FEATURE_OUNIANGA_NAME",					"Ounianga"	),
-	("pl_PL",	"LOC_TM_FEATURE_OUNIANGA_DESCRIPTION",			"Two tile natural wonder. Provides fresh water. Yields +3 [ICON_FOOD] Food, +1 [ICON_CULTURE] Culture, and +1 [ICON_GOLD] Gold."	),
+	("pl_PL",	"LOC_TM_FEATURE_OUNIANGA_DESCRIPTION",			"Two tile natural wonder. Provides fresh water. Yields +2 [ICON_FOOD] Food, +2 [ICON_CULTURE] Culture, and +1 [ICON_GOLD] Gold."	),
 	("pl_PL",	"LOC_TM_FEATURE_OUNIANGA_EFFECT",				"Oases provide major adjacency bonuses to Specialty Districts for any Civilization that owns at least one of these tiles."	),
 
 	("pl_PL",	"LOC_ADJ_OUNIANGA_FAITH_DESCRIPTION",			"+{1_num} [ICON_FAITH] Faith from adjacent {1_Num : plural 1?Oasis; other?Oases;} (Ounianga)."	),

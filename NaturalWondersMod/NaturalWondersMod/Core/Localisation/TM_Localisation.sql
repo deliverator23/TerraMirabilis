@@ -307,7 +307,7 @@ VALUES
 -----------------------------------------------
 
 	("en_US",	"LOC_FEATURE_OUNIANGA_NAME",					"Lakes of Ounianga"	),
-	("en_US",	"LOC_TM_FEATURE_OUNIANGA_DESCRIPTION",			"Two tile natural wonder. Provides fresh water. Yields +3 [ICON_FOOD] Food, +1 [ICON_CULTURE] Culture, and +1 [ICON_GOLD] Gold."	),
+	("en_US",	"LOC_TM_FEATURE_OUNIANGA_DESCRIPTION",			"Two tile natural wonder. Provides fresh water. Yields +2 [ICON_FOOD] Food, +2 [ICON_CULTURE] Culture, and +1 [ICON_GOLD] Gold."	),
 	("en_US",	"LOC_TM_FEATURE_OUNIANGA_EFFECT",				"Oases provide major adjacency bonuses to Specialty Districts for any Civilization that owns at least one of these tiles."	),
 	("en_US",	"LOC_TM_FEATURE_OUNIANGA_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_OUNIANGA_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_OUNIANGA_EFFECT}"	),
 
