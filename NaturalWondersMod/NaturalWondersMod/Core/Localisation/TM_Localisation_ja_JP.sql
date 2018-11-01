@@ -280,7 +280,7 @@ VALUES
 -----------------------------------------------
 
 	("ja_JP",	"LOC_FEATURE_OUNIANGA_NAME",					"ウニアンガ湖群"	),
-	("ja_JP",	"LOC_TM_FEATURE_OUNIANGA_DESCRIPTION",			"2タイルの自然遺産。真水をもたらす。 [ICON_FOOD] 食料+3、 [ICON_CULTURE] 文化力+1、 [ICON_GOLD] ゴールド+1。"	),
+	("ja_JP",	"LOC_TM_FEATURE_OUNIANGA_DESCRIPTION",			"2タイルの自然遺産。真水をもたらす。 [ICON_FOOD] 食料+2、 [ICON_CULTURE] 文化力+2、 [ICON_GOLD] ゴールド+1。"	),
 	("ja_JP",	"LOC_TM_FEATURE_OUNIANGA_EFFECT",				"このタイルを1つ以上領有する文明は、専門区域がオアシスから大量の隣接ボーナスを得る。"	),
 
 	("ja_JP",	"LOC_ADJ_OUNIANGA_FAITH_DESCRIPTION",			"隣接するオアシスにより [ICON_FAITH] 信仰力+{1_num} (ウニアンガ湖群)。"	),
