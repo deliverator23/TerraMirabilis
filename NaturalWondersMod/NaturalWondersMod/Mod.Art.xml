@@ -577,6 +577,7 @@
 		<Element>
 			<libraryName text="TileBase"/>
 			<relativePackagePaths>
+				<Element text="landmarks/tilebases"/>
 			</relativePackagePaths>
 		</Element>
 		<Element>

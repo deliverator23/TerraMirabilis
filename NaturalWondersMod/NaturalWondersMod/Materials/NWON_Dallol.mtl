@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..MaterialInstance>
+	<m_CookParams>
+		<m_Values>
+			<Element class="AssetObjects..ObjectValue">
+				<m_ObjectName text="Dallol_01_b"/>
+				<m_eObjectType>TEXTURE</m_eObjectType>
+				<m_ParamName text="BaseColor"/>
+			</Element>
+			<Element class="AssetObjects..ObjectValue">
+				<m_ObjectName text="Dallol_01_h_2"/>
+				<m_eObjectType>TEXTURE</m_eObjectType>
+				<m_ParamName text="Heightmap"/>
+			</Element>
+			<Element class="AssetObjects..ObjectValue">
+				<m_ObjectName text="Dallol_01_g"/>
+				<m_eObjectType>TEXTURE</m_eObjectType>
+				<m_ParamName text="Spec"/>
+			</Element>
+			<Element class="AssetObjects..ObjectValue">
+				<m_ObjectName text="Dallol_01_fow"/>
+				<m_eObjectType>TEXTURE</m_eObjectType>
+				<m_ParamName text="FOWColor"/>
+			</Element>
+		</m_Values>
+	</m_CookParams>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="DecalMaterial"/>
+	<m_DataFiles/>
+	<m_Name text="NWON_Dallol"/>
+	<m_Description text=""/>
+	<m_Tags>
+		<Element text="DecalMaterial"/>
+	</m_Tags>
+	<m_Groups/>
+</AssetObjects..MaterialInstance>

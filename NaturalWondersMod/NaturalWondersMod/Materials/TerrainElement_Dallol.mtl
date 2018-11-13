@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects::MaterialInstance>
+	<m_CookParams>
+		<m_Values>
+			<Element class="AssetObjects::ObjectValue">
+				<m_ObjectName text="Dallol_HM"/>
+				<m_eObjectType>TEXTURE</m_eObjectType>
+				<m_ParamName text="Heightmap"/>
+			</Element>
+			<Element class="AssetObjects::BoolValue">
+				<m_bValue>false</m_bValue>
+				<m_ParamName text="BlockingHex1"/>
+			</Element>
+			<Element class="AssetObjects::BoolValue">
+				<m_bValue>false</m_bValue>
+				<m_ParamName text="BlockingHex2"/>
+			</Element>
+			<Element class="AssetObjects::BoolValue">
+				<m_bValue>false</m_bValue>
+				<m_ParamName text="BlockingHex3"/>
+			</Element>
+			<Element class="AssetObjects::BoolValue">
+				<m_bValue>false</m_bValue>
+				<m_ParamName text="BlockingHex4"/>
+			</Element>
+			<Element class="AssetObjects::BoolValue">
+				<m_bValue>false</m_bValue>
+				<m_ParamName text="BlockingHex5"/>
+			</Element>
+			<Element class="AssetObjects::BoolValue">
+				<m_bValue>false</m_bValue>
+				<m_ParamName text="BlockingHex6"/>
+			</Element>
+			<Element class="AssetObjects::ObjectValue">
+				<m_ObjectName text="Sri_Pada_ID"/>
+				<m_eObjectType>TEXTURE</m_eObjectType>
+				<m_ParamName text="IDMap"/>
+			</Element>
+			<Element class="AssetObjects::ObjectValue">
+				<m_ObjectName text="Dallol_H_BLEND"/>
+				<m_eObjectType>TEXTURE</m_eObjectType>
+				<m_ParamName text="BlendMap"/>
+			</Element>
+		</m_Values>
+	</m_CookParams>
+	<m_ClassName text="TerrainElement"/>
+	<m_DataFiles/>
+	<m_Name text="TerrainElement_Dallol"/>
+	<m_Description text=""/>
+	<m_Tags>
+		<Element text="TerrainElement"/>
+	</m_Tags>
+	<m_Groups/>
+</AssetObjects::MaterialInstance>
+

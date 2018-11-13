@@ -131,23 +131,23 @@
 		</Element>
 		<Element>
 			<m_EntryID text="RESOURCE_TM_SYLVITE_22"/>
-			<m_ObjectName text="RESOURCE_TM_SYLVITE_22"/>
+			<m_ObjectName text="RESOURCE_TM_LITHIUM_22"/>
 		</Element>
 		<Element>
 			<m_EntryID text="RESOURCE_TM_SYLVITE_256"/>
-			<m_ObjectName text="RESOURCE_TM_SYLVITE_256"/>
+			<m_ObjectName text="RESOURCE_TM_LITHIUM_256"/>
 		</Element>
 		<Element>
 			<m_EntryID text="RESOURCE_TM_SYLVITE_38"/>
-			<m_ObjectName text="RESOURCE_TM_SYLVITE_38"/>
+			<m_ObjectName text="RESOURCE_TM_LITHIUM_38"/>
 		</Element>
 		<Element>
 			<m_EntryID text="RESOURCE_TM_SYLVITE_50"/>
-			<m_ObjectName text="RESOURCE_TM_SYLVITE_50"/>
+			<m_ObjectName text="RESOURCE_TM_LITHIUM_50"/>
 		</Element>
 		<Element>
 			<m_EntryID text="RESOURCE_TM_SYLVITE_64"/>
-			<m_ObjectName text="RESOURCE_TM_SYLVITE_64"/>
+			<m_ObjectName text="RESOURCE_TM_LITHIUM_64"/>
 		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
