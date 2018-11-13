@@ -10,18 +10,6 @@
 	<m_PackageName text="UI/Icons"/>
 	<m_Entries>
 		<Element>
-			<m_EntryID text="FEATURE_TM_ATLAS_256"/>
-			<m_ObjectName text="FEATURE_TM_ATLAS_256"/>
-		</Element>
-		<Element>
-			<m_EntryID text="FEATURE_TM_ATLAS_50"/>
-			<m_ObjectName text="FEATURE_TM_ATLAS_50"/>
-		</Element>
-		<Element>
-			<m_EntryID text="FEATURE_TM_ATLAS_64"/>
-			<m_ObjectName text="FEATURE_TM_ATLAS_64"/>
-		</Element>
-		<Element>
 			<m_EntryID text="MOMENT_FEATURE_BARRINGER_CRATER"/>
 			<m_ObjectName text="MOMENT_FEATURE_BARRINGER_CRATER"/>
 		</Element>
@@ -128,6 +116,38 @@
 		<Element>
 			<m_EntryID text="RESOURCE_TM_TORTOISE_64"/>
 			<m_ObjectName text="RESOURCE_TM_TORTOISE_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FEATURE_TM_ATLAS_256"/>
+			<m_ObjectName text="FEATURE_TM_ATLAS_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FEATURE_TM_ATLAS_50"/>
+			<m_ObjectName text="FEATURE_TM_ATLAS_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FEATURE_TM_ATLAS_64"/>
+			<m_ObjectName text="FEATURE_TM_ATLAS_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="RESOURCE_TM_SYLVITE_22"/>
+			<m_ObjectName text="RESOURCE_TM_SYLVITE_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="RESOURCE_TM_SYLVITE_256"/>
+			<m_ObjectName text="RESOURCE_TM_SYLVITE_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="RESOURCE_TM_SYLVITE_38"/>
+			<m_ObjectName text="RESOURCE_TM_SYLVITE_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="RESOURCE_TM_SYLVITE_50"/>
+			<m_ObjectName text="RESOURCE_TM_SYLVITE_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="RESOURCE_TM_SYLVITE_64"/>
+			<m_ObjectName text="RESOURCE_TM_SYLVITE_64"/>
 		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
