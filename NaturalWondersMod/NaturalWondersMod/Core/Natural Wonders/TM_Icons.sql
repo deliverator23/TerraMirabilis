@@ -35,9 +35,9 @@ VALUES  ('ICON_ATLAS_TERRA_MIRABILIS',				256,	 	8,				8,				'FEATURE_TM_ATLAS_2
 
 INSERT INTO IconTextureAtlases	
 		(Name,											IconSize,	Baseline,	IconsPerRow,	IconsPerColumn,	Filename						)
-VALUES	('ICON_ATLAS_RESOURCE_TM_TORTOISE_FONTICON',	22,			6,			8,				1,				'RESOURCE_TM_TORTOISE_22.dds'	),
-		('ICON_ATLAS_RESOURCE_TM_LITHIUM_FONTICON',		22,			6,			8,				1,				'RESOURCE_TM_LITHIUM_22.dds'	),
-		('ICON_ATLAS_RESOURCE_TM_SYLVITE_FONTICON',		22,			6,			8,				1,				'RESOURCE_TM_SYLVITE_22.dds'	);
+VALUES	('ICON_ATLAS_RESOURCE_TM_TORTOISE_FONTICON',	22,			6,			1,				1,				'RESOURCE_TM_TORTOISE_22.dds'	),
+		('ICON_ATLAS_RESOURCE_TM_LITHIUM_FONTICON',		22,			6,			1,				1,				'RESOURCE_TM_LITHIUM_22.dds'	),
+		('ICON_ATLAS_RESOURCE_TM_SYLVITE_FONTICON',		22,			6,			1,				1,				'RESOURCE_TM_SYLVITE_22.dds'	);
 			
 -----------------------------------------------
 -- IconDefinitions
