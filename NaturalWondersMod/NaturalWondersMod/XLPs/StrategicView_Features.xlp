@@ -145,6 +145,22 @@
 			<m_EntryID text="Ounianga_Revealed"/>
 			<m_ObjectName text="Ounianga_Revealed"/>
 		</Element>
+        <Element>
+            <m_EntryID text="Dallol_Visible"/>
+            <m_ObjectName text="Dallol_Visible"/>
+        </Element>
+        <Element>
+            <m_EntryID text="Dallol_Revealed"/>
+            <m_ObjectName text="Dallol_Revealed"/>
+        </Element>
+        <Element>
+            <m_EntryID text="BioBay_Visible"/>
+            <m_ObjectName text="BioBay_Visible"/>
+        </Element>
+        <Element>
+            <m_EntryID text="BioBay_Revealed"/>
+            <m_ObjectName text="BioBay_Revealed"/>
+        </Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>
