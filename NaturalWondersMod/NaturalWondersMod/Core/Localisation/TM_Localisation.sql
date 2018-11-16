@@ -102,7 +102,7 @@ VALUES
 	("en_US",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_DALLOL_CHAPTER_HISTORY_PARA_1",	
 	"Dallol is a cinder cone volcano in the Danakil Depression, northeast of the Erta Ale Range in Ethiopia. It has been formed by the intrusion of basaltic magma into Miocene salt deposits and subsequent hydrothermal activity. Phreatic eruptions took place in 1926, forming Dallol Volcano while numerous other eruption craters dot the salt flats nearby. These craters are the lowest known subaerial volcanic vents in the world, at 45 m (150 ft) or more below sea level."	),
 	("en_US",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_DALLOL_CHAPTER_HISTORY_PARA_2",	
-	"Numerous hot springs are discharging brine and acidic liquid here. Small, widespread, temporary geysers produce cones of salt. The Dallol deposits include significant bodies of potash found directly at the surface. The term Dallol was coined by the Afar people and means dissolution or disintegration, describing a landscape of green acid ponds (pH-values less than 1) and iron oxide, sulfur and salt desert plains."	),
+	"Numerous hot springs are discharging brine and acidic liquid here. Small, widespread, temporary geysers produce cones of salt. The Dallol deposits include significant bodies of potash found directly at the surface. The term 'Dallol' was coined by the Afar people and means 'dissolution' or 'disintegration', describing a landscape of green acid ponds (pH-values less than 1) and iron oxide, sulfur and salt desert plains."	),
 
 	("en_US",	"LOC_RESOURCE_TM_SYLVITE_NAME",	"Sylvite"	),
 	("en_US",	"LOC_PEDIA_RESOURCES_PAGE_RESOURCE_TM_SYLVITE_CHAPTER_HISTORY_PARA_1",
@@ -260,7 +260,7 @@ VALUES
 -- LYSEFJORDEN
 -----------------------------------------------
 
-	("en_US",	"LOC_TM_FEATURE_LYSEFJORDEN_DESCRIPTION",			"Two tile natural wonder. Adjacent plots yield +1 [ICON_Culture] Culture and +1 [ICON_Science] Science"	),
+	("en_US",	"LOC_TM_FEATURE_LYSEFJORDEN_DESCRIPTION",			"Three tile natural wonder. Adjacent plots yield +1 [ICON_Culture] Culture and +1 [ICON_Science] Science"	),
 	("en_US",	"LOC_TM_FEATURE_LYSEFJORDEN_EFFECT",				"Naval units trained in a City that owns at least one of these tiles start with a free [ICON_Promotion] Promotion."	),
 	("en_US",	"LOC_TM_FEATURE_LYSEFJORDEN_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_LYSEFJORDEN_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_LYSEFJORDEN_EFFECT}"	),
 

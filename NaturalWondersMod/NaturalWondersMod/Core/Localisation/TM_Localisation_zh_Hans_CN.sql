@@ -237,7 +237,7 @@ VALUES
 -- LYSEFJORDEN
 -----------------------------------------------
 
-	("zh_Hans_CN",	"LOC_TM_FEATURE_LYSEFJORDEN_DESCRIPTION",	"两格自然奇观. 相邻单元格 +1 [ICON_CULTURE] 文化 and +1 [ICON_SCIENCE] 科研"	),
+	("zh_Hans_CN",	"LOC_TM_FEATURE_LYSEFJORDEN_DESCRIPTION",	"三格自然奇观. 相邻单元格 +1 [ICON_CULTURE] 文化 and +1 [ICON_SCIENCE] 科研"	),
 	("zh_Hans_CN",	"LOC_TM_FEATURE_LYSEFJORDEN_EFFECT",		"至少拥有一格此奇观的城市训练的海军单位+1次 [ICON_PROMOTION] 晋升."	),
 
 -----------------------------------------------

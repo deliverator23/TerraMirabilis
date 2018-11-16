@@ -237,7 +237,7 @@ VALUES
 -- LYSEFJORDEN
 -----------------------------------------------
  
-    ("ja_JP",   "LOC_TM_FEATURE_LYSEFJORDEN_DESCRIPTION",   "2タイルの自然遺産。隣接するタイルに [ICON_Culture] 文化力+1、 [ICON_Science] 科学力+1。"    ),
+    ("ja_JP",   "LOC_TM_FEATURE_LYSEFJORDEN_DESCRIPTION",   "3タイルの自然遺産。隣接するタイルに [ICON_Culture] 文化力+1、 [ICON_Science] 科学力+1。"    ),
     ("ja_JP",   "LOC_TM_FEATURE_LYSEFJORDEN_EFFECT",        "このタイルを領有する都市で生産する海洋ユニットに [ICON_Promotion] レベルアップが1つ無償でもたらされる。" ),
  
 -----------------------------------------------

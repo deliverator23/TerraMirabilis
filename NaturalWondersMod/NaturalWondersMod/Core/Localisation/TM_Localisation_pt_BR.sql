@@ -237,7 +237,7 @@ VALUES
 -- LYSEFJORDEN
 -----------------------------------------------
 
-	("pt_BR",	"LOC_TM_FEATURE_LYSEFJORDEN_DESCRIPTION",	"Two tile natural wonder. Adjacent plots yield +1 [ICON_CULTURE] Culture and +1 [ICON_SCIENCE] Science"	),
+	("pt_BR",	"LOC_TM_FEATURE_LYSEFJORDEN_DESCRIPTION",	"Three tile natural wonder. Adjacent plots yield +1 [ICON_CULTURE] Culture and +1 [ICON_SCIENCE] Science"	),
 	("pt_BR",	"LOC_TM_FEATURE_LYSEFJORDEN_EFFECT",		"Naval units trained in a City that owns at least one of these tiles start with a free [ICON_PROMOTION] Promotion."	),
 
 -----------------------------------------------
