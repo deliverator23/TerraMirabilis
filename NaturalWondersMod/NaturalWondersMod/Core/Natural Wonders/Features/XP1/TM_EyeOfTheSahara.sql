@@ -5,7 +5,7 @@
 
 -----------------------------------------------
 -- Effects for Natural Wonders
--- Effect: Any Civilization that owns at least one of these tiles receives +2 Era Score from Historic Moments if that Moment is usually worth at least +4 Era Score.
+-- Effect: Any Civilization that owns at least one of these tiles receives +1 Era Score from Historic Moments if that Moment is usually worth at least +4 Era Score.
 -----------------------------------------------
 
 UPDATE	Features
@@ -42,5 +42,5 @@ VALUES	('MODIFIER_TM_FEATURE_EYE_OF_THE_SAHARA_ATTACH_PLAYERS',	'MODTYPE_TM_ATTA
 INSERT INTO ModifierArguments
 		(ModifierId,												Name,			Value												)
 VALUES	('MODIFIER_TM_FEATURE_EYE_OF_THE_SAHARA_ATTACH_PLAYERS',	'ModifierId',	'MODIFIER_TM_FEATURE_EYE_OF_THE_SAHARA_ERA_SCORE'	),
-		('MODIFIER_TM_FEATURE_EYE_OF_THE_SAHARA_ERA_SCORE',			'Amount',		2													),
+		('MODIFIER_TM_FEATURE_EYE_OF_THE_SAHARA_ERA_SCORE',			'Amount',		1													),
 		('MODIFIER_TM_FEATURE_EYE_OF_THE_SAHARA_ERA_SCORE',			'MinScore',		4													);

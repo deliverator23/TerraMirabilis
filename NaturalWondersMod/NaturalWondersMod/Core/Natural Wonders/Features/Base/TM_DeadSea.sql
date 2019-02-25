@@ -5,7 +5,7 @@
 
 -----------------------------------------------
 -- Effects for Natural Wonders
--- Effect: Units trained in a City that owns at least one of these tiles may heal an additional 10 HP when Fortified.
+-- Effect: Units may heal an additional 10 HP when [ICON_Fortified] Fortified for any Civilization that owns at least one of these tiles.
 -----------------------------------------------
 
 UPDATE	Features
@@ -19,7 +19,7 @@ WHERE	FeatureType = 'FEATURE_DEAD_SEA';
 	AND EXISTS (SELECT * FROM TM_UserSettings WHERE Setting = 'NW_EFFECTS' AND Value = 1);
 
 	INSERT INTO GameModifiers (ModifierId)
-	SELECT	'MODIFIER_TM_FEATURE_DEAD_SEA_ATTACH_CITIES'
+	SELECT	'MODIFIER_TM_FEATURE_DEAD_SEA_ATTACH_PLAYERS'
 	WHERE EXISTS (SELECT * FROM Features WHERE FeatureType = 'FEATURE_DEAD_SEA')
 	AND EXISTS (SELECT * FROM TM_UserSettings WHERE Setting = 'NW_EFFECTS' AND Value = 1);
 
@@ -34,7 +34,7 @@ WHERE	FeatureType = 'FEATURE_DEAD_SEA';
 
 INSERT INTO Modifiers
 		(ModifierId,									ModifierType,						SubjectRequirementSetId					)
-VALUES	('MODIFIER_TM_FEATURE_DEAD_SEA_ATTACH_CITIES',	'MODTYPE_TM_ATTACH_ALL_CITIES',		'REQSET_TM_CITY_HAS_FEATURE_DEAD_SEA'	),
+VALUES	('MODIFIER_TM_FEATURE_DEAD_SEA_ATTACH_PLAYERS',	'MODTYPE_TM_ATTACH_ALL_PLAYERS',	'REQSET_TM_PLAYER_HAS_FEATURE_DEAD_SEA'	),
 		('MODIFIER_TM_FEATURE_DEAD_SEA_UNIT_HEALING',	'MODTYPE_TM_ADJUST_UNIT_HEALING',	NULL									);
 
 -----------------------------------------------
@@ -43,6 +43,6 @@ VALUES	('MODIFIER_TM_FEATURE_DEAD_SEA_ATTACH_CITIES',	'MODTYPE_TM_ATTACH_ALL_CIT
 
 INSERT INTO ModifierArguments
 		(ModifierId,										Name,			Value										)
-VALUES	('MODIFIER_TM_FEATURE_DEAD_SEA_ATTACH_CITIES',		'ModifierId',	'MODIFIER_TM_FEATURE_DEAD_SEA_UNIT_HEALING'	),
+VALUES	('MODIFIER_TM_FEATURE_DEAD_SEA_ATTACH_PLAYERS',		'ModifierId',	'MODIFIER_TM_FEATURE_DEAD_SEA_UNIT_HEALING'	),
 		('MODIFIER_TM_FEATURE_DEAD_SEA_UNIT_HEALING',		'Amount',		10											),
 		('MODIFIER_TM_FEATURE_DEAD_SEA_UNIT_HEALING',		'Type',			'ALL'										);

@@ -84,6 +84,8 @@ VALUES
 -- Our Default: 'YIELD_GOLD'
 
 -- NOTE: The game will only allow you to purchase with Gold or Faith. Nothing else.
+
+-- ADDENDUM: NOW OBSOLETE. Restructured so you can now purchase with both :)
 -----------------------------------------------
 
 	('NATURALIST_PURCHASE',	'YIELD_GOLD',	NULL),

@@ -5,7 +5,7 @@
 
 -----------------------------------------------
 -- Effects for Natural Wonders
--- Effect: Religious units trained in the City that owns this tile receive Culture upon converting a City to their Religion.
+-- Effect: Religious units from any Civilization that owns this tile receive [ICON_Culture] Culture upon converting a City to their [ICON_Religion] Religion for the first time.
 -----------------------------------------------
 
 	UPDATE	Features
@@ -14,7 +14,7 @@
 	AND EXISTS (SELECT * FROM TM_UserSettings WHERE Setting = 'NW_EFFECTS' AND Value = 1);
 
 	INSERT INTO GameModifiers (ModifierId)
-	SELECT	'MODIFIER_TM_FEATURE_SRI_PADA_ATTACH_CITIES'
+	SELECT	'MODIFIER_TM_FEATURE_SRI_PADA_ATTACH_PLAYERS'
 	WHERE EXISTS (SELECT * FROM TM_UserSettings WHERE Setting = 'NW_EFFECTS' AND Value = 1);
 
 -----------------------------------------------
@@ -23,7 +23,7 @@
 
 INSERT INTO Modifiers
 		(ModifierId,									ModifierType,						SubjectRequirementSetId					)
-VALUES	('MODIFIER_TM_FEATURE_SRI_PADA_ATTACH_CITIES',	'MODTYPE_TM_ATTACH_ALL_CITIES',		'REQSET_TM_CITY_HAS_FEATURE_SRI_PADA'	),
+VALUES	('MODIFIER_TM_FEATURE_SRI_PADA_ATTACH_PLAYERS',	'MODTYPE_TM_ATTACH_ALL_PLAYERS',	'REQSET_TM_PLAYER_HAS_FEATURE_SRI_PADA'	),
 		('MODIFIER_TM_FEATURE_SRI_PADA_INITIATION',		'MODTYPE_TM_INITIATION_YIELD',		NULL									);
 
 -----------------------------------------------
@@ -32,6 +32,6 @@ VALUES	('MODIFIER_TM_FEATURE_SRI_PADA_ATTACH_CITIES',	'MODTYPE_TM_ATTACH_ALL_CIT
 
 INSERT INTO ModifierArguments
 		(ModifierId,									Name,			Value										)
-VALUES	('MODIFIER_TM_FEATURE_SRI_PADA_ATTACH_CITIES',	'ModifierId',	'MODIFIER_TM_FEATURE_SRI_PADA_INITIATION'	),
+VALUES	('MODIFIER_TM_FEATURE_SRI_PADA_ATTACH_PLAYERS',	'ModifierId',	'MODIFIER_TM_FEATURE_SRI_PADA_INITIATION'	),
 		('MODIFIER_TM_FEATURE_SRI_PADA_INITIATION',		'YieldType',	'YIELD_CULTURE'								),
 		('MODIFIER_TM_FEATURE_SRI_PADA_INITIATION',		'Amount',		75											);
