@@ -249,6 +249,13 @@ VALUES
 	("en_US",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_KRAKATOA_CHAPTER_HISTORY_PARA_1",	
 	"Krakatoa is a volcanic island located in Indonesia, between the islands of Java and Sumatra. The volcano exploded violently in August, 1883 with a force equivalent to 13,000 times the power of the Hiroshima nuclear bomb. The blast is widely regarded as the loudest sound ever recorded. The eruption destroyed over half of the island, and was heard in parts of Australia, some 3,200 kilometers (2,000 miles) away. Some 37,000 people were killed by the eruption and subsequent tsunamis. The volcano has been emitting lava steadily for the past eighty years, rebuilding the cone at a rate of about 5 meters per year (15 feet per year)."	),
 
+	("en_US",	"LOC_RANDOM_EVENT_KRAKATOA_GENTLE_NAME",		""	),
+	("en_US",	"LOC_RANDOM_EVENT_KRAKATOA_GENTLE_DESCRIPTION",	""	),
+	("en_US",	"LOC_RANDOM_EVENT_KRAKATOA_CATASTROPHIC_NAME",		""	),
+	("en_US",	"LOC_RANDOM_EVENT_KRAKATOA_CATASTROPHIC_DESCRIPTION",	""	),
+	("en_US",	"LOC_RANDOM_EVENT_KRAKATOA_MEGACOLOSSAL_NAME",		""	),
+	("en_US",	"LOC_RANDOM_EVENT_KRAKATOA_MEGACOLOSSAL_DESCRIPTION",	""	),
+
 -----------------------------------------------
 -- LAKE RETBA
 -----------------------------------------------

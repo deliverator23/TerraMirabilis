@@ -44,3 +44,77 @@ VALUES	('MODIFIER_TM_FEATURE_KRAKATOA_ATTACH_CITIES',			'ModifierId',	'MODIFIER_
 		('MODIFIER_TM_FEATURE_KRAKATOA_DISTRICTS_SCIENCE',		'Amount',		2													),
 		('MODIFIER_TM_FEATURE_KRAKATOA_DISTRICTS_SCIENCE_NP',	'YieldType',	'YIELD_SCIENCE'										),
 		('MODIFIER_TM_FEATURE_KRAKATOA_DISTRICTS_SCIENCE_NP',	'Amount',		1													);
+
+-----------------------------------------------
+-- Volcanic Random Events
+-----------------------------------------------
+
+INSERT INTO Features_XP2(FeatureType, Volcano) VALUES ('FEATURE_KRAKATOA', 1);
+
+INSERT INTO Types (Type, Kind) VALUES ('RANDOM_EVENT_KRAKATOA_MEGACOLOSSAL', 'KIND_RANDOM_EVENT');
+
+INSERT INTO RandomEvents (RandomEventType, Name, Description, EffectString, EffectOperatorType, Severity, NaturalWonder, IconLarge, IconSmall)
+SELECT 'RANDOM_EVENT_KRAKATOA_MEGACOLOSSAL', 'LOC_RANDOM_EVENT_KRAKATOA_MEGACOLOSSAL_NAME', 'LOC_RANDOM_EVENT_KRAKATOA_MEGACOLOSSAL_DESCRIPTION', EffectString, EffectOperatorType, Severity, 'FEATURE_KRAKATOA', IconLarge, IconSmall
+FROM RandomEvents
+WHERE RandomEventType = 'RANDOM_EVENT_VESUVIUS_MEGACOLOSSAL';
+
+INSERT INTO RandomEvent_Frequencies (RandomEventType, RealismSettingType, OccurrencesPerGame)
+SELECT 'RANDOM_EVENT_KRAKATOA_MEGACOLOSSAL', RealismSettingType, OccurrencesPerGame
+FROM RandomEvent_Frequencies
+WHERE RandomEventType = 'RANDOM_EVENT_VESUVIUS_MEGACOLOSSAL';
+
+INSERT INTO RandomEvent_Damages(RandomEventType, DamageType, Percentage, MinHP, MaxHP, ExtraRangePercentage)
+SELECT 'RANDOM_EVENT_KRAKATOA_MEGACOLOSSAL', DamageType, Percentage, MinHP, MaxHP, ExtraRangePercentage
+FROM RandomEvent_Damages
+WHERE RandomEventType = 'RANDOM_EVENT_VESUVIUS_MEGACOLOSSAL';
+
+INSERT INTO RandomEvent_Yields(RandomEventType, YieldType, FeatureType, Percentage, ReplaceFeature)
+SELECT 'RANDOM_EVENT_KRAKATOA_MEGACOLOSSAL',  YieldType, FeatureType, Percentage, ReplaceFeature
+FROM RandomEvent_Yields
+WHERE RandomEventType = 'RANDOM_EVENT_VESUVIUS_MEGACOLOSSAL';
+
+
+INSERT INTO Types (Type, Kind) VALUES ('RANDOM_EVENT_KRAKATOA_CATASTROPHIC', 'KIND_RANDOM_EVENT');
+
+INSERT INTO RandomEvents (RandomEventType, Name, Description, EffectString, EffectOperatorType, Severity, NaturalWonder, IconLarge, IconSmall)
+SELECT 'RANDOM_EVENT_KRAKATOA_CATASTROPHIC', 'LOC_RANDOM_EVENT_KRAKATOA_CATASTROPHIC_NAME', 'LOC_RANDOM_EVENT_KRAKATOA_CATASTROPHIC_DESCRIPTION', EffectString, EffectOperatorType, Severity, 'FEATURE_KRAKATOA', IconLarge, IconSmall
+FROM RandomEvents
+WHERE RandomEventType = 'RANDOM_EVENT_KILIMANJARO_CATASTROPHIC';
+
+INSERT INTO RandomEvent_Frequencies (RandomEventType, RealismSettingType, OccurrencesPerGame)
+SELECT 'RANDOM_EVENT_KRAKATOA_CATASTROPHIC', RealismSettingType, OccurrencesPerGame
+FROM RandomEvent_Frequencies
+WHERE RandomEventType = 'RANDOM_EVENT_KILIMANJARO_CATASTROPHIC';
+
+INSERT INTO RandomEvent_Damages(RandomEventType, DamageType, Percentage, MinHP, MaxHP, ExtraRangePercentage)
+SELECT 'RANDOM_EVENT_KRAKATOA_CATASTROPHIC', DamageType, Percentage, MinHP, MaxHP, ExtraRangePercentage
+FROM RandomEvent_Damages
+WHERE RandomEventType = 'RANDOM_EVENT_KILIMANJARO_CATASTROPHIC';
+
+INSERT INTO RandomEvent_Yields(RandomEventType, YieldType, FeatureType, Percentage, ReplaceFeature)
+SELECT 'RANDOM_EVENT_KRAKATOA_CATASTROPHIC',  YieldType, FeatureType, Percentage, ReplaceFeature
+FROM RandomEvent_Yields
+WHERE RandomEventType = 'RANDOM_EVENT_KILIMANJARO_CATASTROPHIC';
+
+
+INSERT INTO Types (Type, Kind) VALUES ('RANDOM_EVENT_KRAKATOA_GENTLE', 'KIND_RANDOM_EVENT');
+
+INSERT INTO RandomEvents (RandomEventType, Name, Description, EffectString, EffectOperatorType, Severity, NaturalWonder, IconLarge, IconSmall)
+SELECT 'RANDOM_EVENT_KRAKATOA_GENTLE', 'LOC_RANDOM_EVENT_KRAKATOA_GENTLE_NAME', 'LOC_RANDOM_EVENT_KRAKATOA_GENTLE_DESCRIPTION', EffectString, EffectOperatorType, Severity, 'FEATURE_KRAKATOA', IconLarge, IconSmall
+FROM RandomEvents
+WHERE RandomEventType = 'RANDOM_EVENT_KILIMANJARO_GENTLE';
+
+INSERT INTO RandomEvent_Frequencies (RandomEventType, RealismSettingType, OccurrencesPerGame)
+SELECT 'RANDOM_EVENT_KRAKATOA_GENTLE', RealismSettingType, OccurrencesPerGame
+FROM RandomEvent_Frequencies
+WHERE RandomEventType = 'RANDOM_EVENT_KILIMANJARO_GENTLE';
+
+INSERT INTO RandomEvent_Damages(RandomEventType, DamageType, Percentage, MinHP, MaxHP, ExtraRangePercentage)
+SELECT 'RANDOM_EVENT_KRAKATOA_GENTLE', DamageType, Percentage, MinHP, MaxHP, ExtraRangePercentage
+FROM RandomEvent_Damages
+WHERE RandomEventType = 'RANDOM_EVENT_KILIMANJARO_GENTLE';
+
+INSERT INTO RandomEvent_Yields(RandomEventType, YieldType, FeatureType, Percentage, ReplaceFeature)
+SELECT 'RANDOM_EVENT_KRAKATOA_GENTLE',  YieldType, FeatureType, Percentage, ReplaceFeature
+FROM RandomEvent_Yields
+WHERE RandomEventType = 'RANDOM_EVENT_KILIMANJARO_GENTLE';
