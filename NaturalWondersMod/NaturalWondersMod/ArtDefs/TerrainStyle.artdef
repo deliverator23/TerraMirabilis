@@ -411,7 +411,7 @@
 							<m_ParamName text="TerrainElement"/>
 						</Element>
 						<Element class="AssetObjects:BLPEntryValue">
-							<m_EntryName text="NWON_Krakatoa"/>
+							<m_EntryName text=""/>
 							<m_XLPClass text="TerrainAsset"/>
 							<m_XLPPath text="TerrainAssetSet_Base.xlp"/>
 							<m_BLPPackage text="terrain/TerrainAssetSet_Base"/>
