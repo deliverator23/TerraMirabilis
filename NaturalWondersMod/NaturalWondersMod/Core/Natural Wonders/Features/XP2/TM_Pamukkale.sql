@@ -1,11 +1,11 @@
 /*
-	Delicate Arch
+	Pamukkale
 	Credits: ChimpanG, Deliverator
 */
 
 -----------------------------------------------
 -- Effects for Natural Wonders
--- Effect: Plots are 20% cheaper to purchase for any Civilization that owns this tile.
+-- Effect: Regional buildings within Entertainment Complex or Waterpark districts provide +1 Amenity to cities within range for any Civilization that owns at least one of these tiles.
 -----------------------------------------------
 
 UPDATE	Features
