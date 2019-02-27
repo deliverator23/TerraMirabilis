@@ -49,7 +49,7 @@
 
 	INSERT INTO TypeTags
 			(Type,				Tag						)
-	VALUES	('UNIT_NATURLIST',	'CLASS_TM_NATURLIST'	);
+	VALUES	('UNIT_NATURALIST',	'CLASS_TM_NATURLIST'	);
 
 	UPDATE	Units
 	SET		PurchaseYield = 'YIELD_GOLD'

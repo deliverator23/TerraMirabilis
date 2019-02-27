@@ -154,9 +154,11 @@ VALUES
 -- EYJAFJALLAJOKULL
 -----------------------------------------------
 
-	("en_US",	"LOC_TM_FEATURE_EYJAFJALLAJOKULL_DESCRIPTION",			"Two tile impassable natural wonder. Appears as a Mountain. Adjacent plots yield +1 [ICON_Culture] Culture and +1 [ICON_Food] Food."	),
-	("en_US",	"LOC_TM_FEATURE_EYJAFJALLAJOKULL_EFFECT",				"Specialty Districts constructed on Tundra or Snow terrain yield +1 [ICON_Food] Food for any Civilization that owns this tile."	),
-	("en_US",	"LOC_TM_FEATURE_EYJAFJALLAJOKULL_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_EYJAFJALLAJOKULL_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_EYJAFJALLAJOKULL_EFFECT}"	),
+	("en_US",	"LOC_TM_FEATURE_EYJAFJALLAJOKULL_DESCRIPTION",				"Two tile impassable natural wonder. Appears as a Mountain. Adjacent plots yield +1 [ICON_Culture] Culture and +1 [ICON_Food] Food."	),
+	("en_US",	"LOC_TM_FEATURE_EYJAFJALLAJOKULL_XP2_DESCRIPTION",			"Two tile impassable natural wonder. Appears as a Volcano. Adjacent plots yield +1 [ICON_CULTURE] Culture. Provides additional yields on eruption at the cost of [ICON_CITIZEN] Population and damage to infrastructure. Always active."	),
+	("en_US",	"LOC_TM_FEATURE_EYJAFJALLAJOKULL_EFFECT",					"Specialty Districts constructed on Tundra or Snow terrain yield +1 [ICON_Food] Food for any Civilization that owns this tile."	),
+	("en_US",	"LOC_TM_FEATURE_EYJAFJALLAJOKULL_EFFECT_DESCRIPTION",		"{LOC_TM_FEATURE_EYJAFJALLAJOKULL_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_EYJAFJALLAJOKULL_EFFECT}"	),
+	("en_US",	"LOC_TM_FEATURE_EYJAFJALLAJOKULL_EFFECT_XP2_DESCRIPTION",	"{LOC_TM_FEATURE_EYJAFJALLAJOKULL_XP2_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_EYJAFJALLAJOKULL_EFFECT}"	),
 
 -----------------------------------------------
 -- GALAPAGOS
@@ -177,6 +179,14 @@ VALUES
 	("en_US",	"LOC_TM_FEATURE_GIANTS_CAUSEWAY_DESCRIPTION",			"Two tile impassable natural wonder. Adjacent plots yield +2 [ICON_Culture] Culture."	),
 	("en_US",	"LOC_TM_FEATURE_GIANTS_CAUSEWAY_EFFECT",				"Land units trained in a City that owns at least one of these tiles start with a free [ICON_Promotion] Promotion."	),
 	("en_US",	"LOC_TM_FEATURE_GIANTS_CAUSEWAY_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_GIANTS_CAUSEWAY_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_GIANTS_CAUSEWAY_EFFECT}"	),
+
+-----------------------------------------------
+-- GOBUSTAN
+-----------------------------------------------
+
+	("en_US",	"LOC_TM_FEATURE_GOBUSTAN_DESCRIPTION",			"Three tile natural wonder. Yields +3 [ICON_CULTURE] Culture, +1 [ICON_PRODUCTION] Production, and +1 [ICON_SCIENCE] Science."	),
+	("en_US",	"LOC_TM_FEATURE_GOBUSTAN_EFFECT",				"Improved sources of [ICON_RESOURCE_OIL] Oil accumulate 2 more resources per turn for any Civilization that owns at least one of these tiles."	),
+	("en_US",	"LOC_TM_FEATURE_GOBUSTAN_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_GOBUSTAN_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_GOBUSTAN_EFFECT}"	),
 
 -----------------------------------------------
 -- GRAND MESA
@@ -228,9 +238,11 @@ VALUES
 -- KILIMANJARO
 -----------------------------------------------
 
-	("en_US",	"LOC_TM_FEATURE_KILIMANJARO_DESCRIPTION",			"One tile impassable natural wonder. Appears as a Mountain. Adjacent plots yield +2 [ICON_Food] Food."	),
-	("en_US",	"LOC_TM_FEATURE_KILIMANJARO_EFFECT",				"Receive +1 [ICON_Citizen] Population in the City that owns this tile when a Specialty District is constructed."	),
-	("en_US",	"LOC_TM_FEATURE_KILIMANJARO_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_KILIMANJARO_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_KILIMANJARO_EFFECT}"	),
+	("en_US",	"LOC_TM_FEATURE_KILIMANJARO_DESCRIPTION",				"One tile impassable natural wonder. Appears as a Mountain. Adjacent plots yield +2 [ICON_Food] Food."	),
+	("en_US",	"LOC_TM_FEATURE_KILIMANJARO_XP2_DESCRIPTION",			"One tile impassable natural wonder. Appears as a Volcano. Adjacent plots yield +1 [ICON_FOOD] Food. Provides additional yields on eruption at the cost of [ICON_Citizen] Population and damage to infrastructure. Always active."	),
+	("en_US",	"LOC_TM_FEATURE_KILIMANJARO_EFFECT",					"Receive +1 [ICON_Citizen] Population in the City that owns this tile when a Specialty District is constructed."	),
+	("en_US",	"LOC_TM_FEATURE_KILIMANJARO_EFFECT_DESCRIPTION",		"{LOC_TM_FEATURE_KILIMANJARO_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_KILIMANJARO_EFFECT}"	),
+	("en_US",	"LOC_TM_FEATURE_KILIMANJARO_EFFECT_XP2_DESCRIPTION",	"{LOC_TM_FEATURE_KILIMANJARO_XP2_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_KILIMANJARO_EFFECT}"	),
 
 -----------------------------------------------
 -- KRAKATOA
@@ -238,10 +250,12 @@ VALUES
 
 	("en_US",	"LOC_FEATURE_KRAKATOA_NAME",						"Krakatoa"	),
 	("en_US",	"LOC_TM_FEATURE_KRAKATOA_DESCRIPTION",				"One tile impassable natural wonder. Appears as a Mountain. Adjacent plots yield +1 [ICON_Science] Science and +1 [ICON_Culture] Culture."	),
+	("en_US",	"LOC_TM_FEATURE_KRAKATOA_XP2_DESCRIPTION",			"One tile impassable natural wonder. Appears as a Volcano. Adjacent plots yield +1 [ICON_SCIENCE] Science. Provides additional yields on eruption at the cost of [ICON_Citizen] Population and damage to infrastructure. Always active."	),
 	("en_US",	"LOC_TM_FEATURE_KRAKATOA_EFFECT",					"Receive +2 [ICON_Science] Science for each Specialty District in a City that owns this tile, increasing to +3 if the City has a National Park."	),
 	("en_US",	"LOC_TM_FEATURE_KRAKATOA_EFFECT_XP1",				"Any Civilization that owns this tile receives a free [ICON_TechBoosted] Eureka upon earning a [ICON_GreatAdmiral] Great Admiral."	),
 	("en_US",	"LOC_TM_FEATURE_KRAKATOA_EFFECT_DESCRIPTION",		"{LOC_TM_FEATURE_KRAKATOA_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_KRAKATOA_EFFECT}"	),
 	("en_US",	"LOC_TM_FEATURE_KRAKATOA_EFFECT_XP1_DESCRIPTION",	"{LOC_TM_FEATURE_KRAKATOA_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_KRAKATOA_EFFECT_XP1}"	),
+	("en_US",	"LOC_TM_FEATURE_KRAKATOA_EFFECT_XP2_DESCRIPTION",	"{LOC_TM_FEATURE_KRAKATOA_XP2_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_KRAKATOA_EFFECT_XP1}"	),
 	
 	("en_US",	'LOC_TM_FEATURE_KRAKATOA_QUOTE',	
 	'"I saw with amazement that the island of Krakatoa lay completely burnt and barren in front of our eyes and that at four locations was throwing up large chunks of fire."[NEWLINE]- Johann Wilhelm Vogel'	),
@@ -249,12 +263,12 @@ VALUES
 	("en_US",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_KRAKATOA_CHAPTER_HISTORY_PARA_1",	
 	"Krakatoa is a volcanic island located in Indonesia, between the islands of Java and Sumatra. The volcano exploded violently in August, 1883 with a force equivalent to 13,000 times the power of the Hiroshima nuclear bomb. The blast is widely regarded as the loudest sound ever recorded. The eruption destroyed over half of the island, and was heard in parts of Australia, some 3,200 kilometers (2,000 miles) away. Some 37,000 people were killed by the eruption and subsequent tsunamis. The volcano has been emitting lava steadily for the past eighty years, rebuilding the cone at a rate of about 5 meters per year (15 feet per year)."	),
 
-	("en_US",	"LOC_RANDOM_EVENT_KRAKATOA_GENTLE_NAME",		""	),
-	("en_US",	"LOC_RANDOM_EVENT_KRAKATOA_GENTLE_DESCRIPTION",	""	),
-	("en_US",	"LOC_RANDOM_EVENT_KRAKATOA_CATASTROPHIC_NAME",		""	),
-	("en_US",	"LOC_RANDOM_EVENT_KRAKATOA_CATASTROPHIC_DESCRIPTION",	""	),
-	("en_US",	"LOC_RANDOM_EVENT_KRAKATOA_MEGACOLOSSAL_NAME",		""	),
-	("en_US",	"LOC_RANDOM_EVENT_KRAKATOA_MEGACOLOSSAL_DESCRIPTION",	""	),
+	("en_US",	"LOC_RANDOM_EVENT_KRAKATOA_GENTLE_NAME",				"Gentle Eruption"	),
+	("en_US",	"LOC_RANDOM_EVENT_KRAKATOA_GENTLE_DESCRIPTION",			"Smoke billows from the mountain of fire that people call Krakatoa. Could this be a foreboding sign of things to come?"	),
+	("en_US",	"LOC_RANDOM_EVENT_KRAKATOA_CATASTROPHIC_NAME",			"Catastrophic Eruption"	),
+	("en_US",	"LOC_RANDOM_EVENT_KRAKATOA_CATASTROPHIC_DESCRIPTION",	"Must we have forsaken our gods, for when we looked toward the blue sky and asked for rain, it was Krakatoa that answered with fire."	),
+	("en_US",	"LOC_RANDOM_EVENT_KRAKATOA_MEGACOLOSSAL_NAME",			"Megacolossal Eruption"	),
+	("en_US",	"LOC_RANDOM_EVENT_KRAKATOA_MEGACOLOSSAL_DESCRIPTION",	"Cursed be the ground on which Krakatoa casts its mighty shadow. Both fire and rock it wrought upon us. For out of the ground we were taken for the ashes we are... and to the ashes we returned."	),
 
 -----------------------------------------------
 -- LAKE RETBA
@@ -417,14 +431,6 @@ VALUES
 	("en_US",	"LOC_TM_FEATURE_PIOPIOTAHI_DESCRIPTION",		"Three tile impassable natural wonder. Adjacent plots yield +1 [ICON_Culture] Culture and +1 [ICON_Gold] Gold."	),
 	("en_US",	"LOC_TM_FEATURE_PIOPIOTAHI_EFFECT",				"[ICON_Amenities] Amenities provided by regional buildings extend 3 tiles further for any Civilization that owns at least one of these tiles."	),
 	("en_US",	"LOC_TM_FEATURE_PIOPIOTAHI_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_PIOPIOTAHI_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_PIOPIOTAHI_EFFECT}"	),
-
------------------------------------------------
--- QOBUSTAN
------------------------------------------------
-
-	("en_US",	"LOC_TM_FEATURE_QOBUSTAN_DESCRIPTION",			"Three tile natural wonder. Yields +3 [ICON_CULTURE] Culture, +1 [ICON_PRODUCTION] Production, and +1 [ICON_SCIENCE] Science."	),
-	("en_US",	"LOC_TM_FEATURE_QOBUSTAN_EFFECT",				"Improved sources of [ICON_RESOURCE_OIL] Oil accumulate 2 more resources per turn for any Civilization that owns at least one of these tiles."	),
-	("en_US",	"LOC_TM_FEATURE_QOBUSTAN_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_QOBUSTAN_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_QOBUSTAN_EFFECT}"	),
 	
 -----------------------------------------------
 -- ROCK OF GIBRALTAR
@@ -455,7 +461,7 @@ VALUES
 -----------------------------------------------
 
 	("en_US",	"LOC_TM_FEATURE_SAHARA_EL_BEYDAR_DESCRIPTION",			"Four tile natural wonder. Yields +3 [ICON_GOLD] Gold, +1 [ICON_SCIENCE] Science, and +1 [ICON_CULTURE] Culture."	),
-	("en_US",	"LOC_TM_FEATURE_SAHARA_EL_BEYDAR_EFFECT",				"Owned Floodplains provide +2 appeal to adjacent plots for any Civilization that owns at least one of these tiles."	),
+	("en_US",	"LOC_TM_FEATURE_SAHARA_EL_BEYDAR_EFFECT",				"Owned Floodplains do not diminish the appeal of adjacent tiles for any Civilization that owns at least one of these tiles."	),
 	("en_US",	"LOC_TM_FEATURE_SAHARA_EL_BEYDAR_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_SAHARA_EL_BEYDAR_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_SAHARA_EL_BEYDAR_EFFECT}"	),
 
 -----------------------------------------------
