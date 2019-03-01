@@ -19,8 +19,8 @@
     </ModProperties>
     <AssemblyName>NaturalWondersMod</AssemblyName>
     <RootNamespace>NaturalWondersMod</RootNamespace>
-    <InGameActionData><![CDATA[<InGameActions><UpdateArt id="ArtDep"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="TM_Framework_DB"><Properties><LoadOrder>-1</LoadOrder></Properties><File priority="1">Core/Framework/TM_Schema.sql</File></UpdateDatabase><UpdateDatabase id="TM_Master_DB"><Properties><LoadOrder>1</LoadOrder></Properties><File priority="1">Core/Framework/TM_Master.sql</File><File>Core/Framework/TM_Validation.sql</File></UpdateDatabase><UpdateDatabase id="TM_Preliminaries_DB"><Properties><LoadOrder>10</LoadOrder></Properties><File priority="1">Core/Natural Wonders/TM_Features.sql</File><File>Core/Natural Wonders/TM_Preliminaries.sql</File></UpdateDatabase><UpdateDatabase id="TM_Wonders_Base_DB"><Properties><LoadOrder>50</LoadOrder></Properties><File>Core/Natural Wonders/Features/Base/TM_BarrierReef.sql</File><File>Core/Natural Wonders/Features/Base/TM_CliffsDover.sql</File><File>Core/Natural Wonders/Features/Base/TM_CraterLake.sql</File><File>Core/Natural Wonders/Features/Base/TM_DeadSea.sql</File><File>Core/Natural Wonders/Features/Base/TM_Everest.sql</File><File>Core/Natural Wonders/Features/Base/TM_Galapagos.sql</File><File>Core/Natural Wonders/Features/Base/TM_Kilimanjaro.sql</File><File>Core/Natural Wonders/Features/Base/TM_Pantanal.sql</File><File>Core/Natural Wonders/Features/Base/TM_Piopiotahi.sql</File><File>Core/Natural Wonders/Features/Base/TM_TorresDelPaine.sql</File><File>Core/Natural Wonders/Features/Base/TM_Tsingy.sql</File><File>Core/Natural Wonders/Features/Base/TM_Yosemite.sql</File></UpdateDatabase><UpdateDatabase id="TM_Wonders_DB"><Properties><LoadOrder>50</LoadOrder></Properties><File>Core/Natural Wonders/Features/Terra Mirabilis/TM_BarringerCrater.sql</File><File>Core/Natural Wonders/Features/Terra Mirabilis/TM_CerroDePotosi.sql</File><File>Core/Natural Wonders/Features/Terra Mirabilis/TM_Gibraltar.sql</File><File>Core/Natural Wonders/Features/Terra Mirabilis/TM_GrandMesa.sql</File><File>Core/Natural Wonders/Features/Terra Mirabilis/TM_Kailash.sql</File><File>Core/Natural Wonders/Features/Terra Mirabilis/TM_Krakatoa.sql</File><File>Core/Natural Wonders/Features/Terra Mirabilis/TM_LakeVictoria.sql</File><File>Core/Natural Wonders/Features/Terra Mirabilis/TM_MotlatseCanyon.sql</File><File>Core/Natural Wonders/Features/Terra Mirabilis/TM_OldFaithful.sql</File><File>Core/Natural Wonders/Features/Terra Mirabilis/TM_SalarDeUyuni.sql</File><File>Core/Natural Wonders/Features/Terra Mirabilis/TM_Sinai.sql</File><File>Core/Natural Wonders/Features/Terra Mirabilis/TM_SriPada.sql</File><File>Core/Natural Wonders/Features/Terra Mirabilis/TM_Wulingyuan.sql</File><File>Core/Natural Wonders/Features/Terra Mirabilis/TM_MosiOaTunya.sql</File><File>Core/Natural Wonders/Features/Terra Mirabilis/TM_Namib.sql</File><File>Core/Natural Wonders/Features/Terra Mirabilis/TM_Ounianga.sql</File><File>Core/Natural Wonders/Features/Terra Mirabilis/TM_VredefortDome.sql</File><File>Core/Natural Wonders/Features/Terra Mirabilis/TM_Dallol.sql</File></UpdateDatabase><UpdateDatabase id="TM_Wonders_XP1_DB"><Properties><LoadOrder>55</LoadOrder></Properties><Criteria>XP1</Criteria><File>Core/Natural Wonders/Features/XP1/TM_DelicateArch.sql</File><File>Core/Natural Wonders/Features/XP1/TM_EyeOfTheSahara.sql</File><File>Core/Natural Wonders/Features/XP1/TM_Krakatoa_XP1.sql</File><File>Core/Natural Wonders/Features/XP1/TM_LakeRetba.sql</File><File>Core/Natural Wonders/Features/XP1/TM_Matterhorn.sql</File><File>Core/Natural Wonders/Features/XP1/TM_Roraima.sql</File><File>Core/Natural Wonders/Features/XP1/TM_Ubsunur_Hollow.sql</File><File>Core/Natural Wonders/Features/XP1/TM_Zhangye_Danxia.sql</File><File>Core/Natural Wonders/Features/Terra Mirabilis/TM_Bioluminescent_Bay.sql</File></UpdateDatabase><UpdateDatabase id="TM_Preliminaries_XP1_DB"><Properties><LoadOrder>15</LoadOrder></Properties><Criteria>XP1</Criteria><File>Core/Natural Wonders/XP1/TM_Preliminaries_XP1.sql</File><File>Core/Natural Wonders/XP1/TM_Features_XP1.sql</File></UpdateDatabase><UpdateDatabase id="TM_UserSettings_DB"><Properties><LoadOrder>1</LoadOrder></Properties><File>Core/User Settings/TM_UserSettings.sql</File></UpdateDatabase><UpdateDatabase id="TM_Globals_DB"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/Natural Wonders/TM_Globals.sql</File></UpdateDatabase><UpdateText id="TM_Wonders_Text"><Properties><LoadOrder>10</LoadOrder></Properties><File>Core/Localisation/TM_Localisation.sql</File></UpdateText><UpdateIcons id="TM_Wonders_Icons"><Properties><LoadOrder>10</LoadOrder></Properties><File>Core/Natural Wonders/TM_Icons.sql</File></UpdateIcons><UpdateDatabase id="TM_ModSupport_DB"><Properties><LoadOrder>115</LoadOrder></Properties><File>Core/Mod Support/Map Scripts/TM_MS_YNAMP.sql</File><File>Core/Mod Support/Sukritact/TM_MS_Sukritact.sql</File><File>Core/Mod Support/Map Scripts/TM_MS_LargerMapSizes.sql</File></UpdateDatabase><UpdateDatabase id="TM_Globals_XP1_DB"><Properties><LoadOrder>115</LoadOrder></Properties><Criteria>XP1</Criteria><File>Core/Natural Wonders/XP1/TM_Globals_XP1.sql</File></UpdateDatabase><ImportFiles id="TM_Utilities"><File>Core/Utilities/Maps/NaturalWonderGenerator.lua</File></ImportFiles><UpdateDatabase id="TM_Wonders_DLC_DB"><Properties><LoadOrder>55</LoadOrder></Properties><File>Core/Natural Wonders/Features/DLC/TM_Eyjafjallajokull.sql</File><File>Core/Natural Wonders/Features/DLC/TM_GiantsCauseway.sql</File><File>Core/Natural Wonders/Features/DLC/TM_Lysefjorden.sql</File><File>Core/Natural Wonders/Features/DLC/TM_HaLongBay.sql</File><File>Core/Natural Wonders/Features/DLC/TM_Uluru.sql</File></UpdateDatabase><UpdateText id="TM_Translations_Text"><Properties><LoadOrder>5</LoadOrder></Properties><File>Core/Localisation/TM_Localisation_es_ES.sql</File><File>Core/Localisation/TM_Localisation_it_IT.sql</File><File>Core/Localisation/TM_Localisation_zh_Hans_CN.sql</File></UpdateText><UpdateDatabase id="TM_Preliminaries_XP2_DB"><Properties><LoadOrder>15</LoadOrder></Properties><Criteria>XP2</Criteria><File>Core/Natural Wonders/XP2/TM_Preliminaries_XP2.sql</File></UpdateDatabase><UpdateDatabase id="TM_Wonders_XP2_DB"><Properties><LoadOrder>55</LoadOrder></Properties><Criteria>XP2</Criteria><File>Core/Natural Wonders/Features/XP2/TM_ChocolateHills.sql</File><File>Core/Natural Wonders/Features/XP2/TM_IkKil.sql</File><File>Core/Natural Wonders/Features/XP2/TM_MatoTipila.sql</File><File>Core/Natural Wonders/Features/XP2/TM_Pamukkale.sql</File><File>Core/Natural Wonders/Features/XP2/TM_SaharaElBeydar.sql</File><File>Core/Natural Wonders/Features/XP2/TM_Vesuvius.sql</File><File>Core/Natural Wonders/Features/XP2/TM_Krakatoa_XP2.sql</File><File>Core/Natural Wonders/Features/XP2/TM_Kilimanjaro_XP2.sql</File><File>Core/Natural Wonders/Features/XP2/TM_Eyjafjallajokull_XP2.sql</File><File>Core/Natural Wonders/Features/XP2/TM_Gobustan.sql</File></UpdateDatabase></InGameActions>]]></InGameActionData>
-    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="XP1"><RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse></Criteria><Criteria id="XP2"><RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse></Criteria></ActionCriteria>]]></ActionCriteriaData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateArt id="ArtDep"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="TM_Schema"><Properties><LoadOrder>-1</LoadOrder></Properties><File>Core/Framework/TM_Schema.sql</File></UpdateDatabase><UpdateDatabase id="TM_Preliminaries"><Properties><LoadOrder>10</LoadOrder></Properties><File priority="1">Core/Natural Wonders/TM_Features.sql</File></UpdateDatabase><UpdateDatabase id="TM_Preliminaries_XP1"><Properties><LoadOrder>10</LoadOrder></Properties><Criteria>XP1 or XP2</Criteria><File priority="1">Core/Natural Wonders/TM_Features_XP1.sql</File></UpdateDatabase><UpdateDatabase id="TM_Preliminaries_XP2"><Properties><LoadOrder>10</LoadOrder></Properties><Criteria>XP2</Criteria></UpdateDatabase><ImportFiles id="TM_Utilities"><File>Core/Utilities/Maps/NaturalWonderGenerator.lua</File></ImportFiles><UpdateText id="TM_Localisation"><Properties><LoadOrder>10</LoadOrder></Properties><File>Core/Localisation/TM_Localisation.sql</File></UpdateText><UpdateText id="TM_Translations"><Properties><LoadOrder>5</LoadOrder></Properties><File>Core/Localisation/TM_Localisation_es_ES.sql</File><File>Core/Localisation/TM_Localisation_it_IT.sql</File><File>Core/Localisation/TM_Localisation_ja_JP.sql</File><File>Core/Localisation/TM_Localisation_zh_Hans_CN.sql</File></UpdateText><UpdateIcons id="TM_Icons"><Properties><LoadOrder>10</LoadOrder></Properties><File>Core/Natural Wonders/TM_Icons.sql</File></UpdateIcons><UpdateDatabase id="TM_Globals"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/Natural Wonders/TM_Globals.sql</File><File>Core/Natural Wonders/TM_ModSupport.sql</File></UpdateDatabase><UpdateDatabase id="TM_Globals_XPAny"><Properties><LoadOrder>110</LoadOrder></Properties><Criteria>XP1 or XP2</Criteria><File>Core/Natural Wonders/TM_Globals_XP1.sql</File></UpdateDatabase><UpdateDatabase id="TM_Framework"><Properties><LoadOrder>1</LoadOrder></Properties><File priority="3">Core/Framework/TM_Master.sql</File><File priority="2">Core/Framework/TM_Validation.sql</File><File>Core/User Settings/TM_UserSettings.sql</File></UpdateDatabase><UpdateDatabase id="TM_Setup"><Properties><LoadOrder>2</LoadOrder></Properties><File>Core/Framework/TM_Setup.sql</File><File>Core/Natural Wonders/TM_Resources.sql</File></UpdateDatabase><UpdateDatabase id="TM_Common"><Properties><LoadOrder>11</LoadOrder></Properties><File>Core/Natural Wonders/TM_Common.sql</File></UpdateDatabase><UpdateDatabase id="TM_Common_XP1"><Properties><LoadOrder>11</LoadOrder></Properties><Criteria>XP1 or XP2</Criteria><File>Core/Natural Wonders/TM_Common_XP1.sql</File></UpdateDatabase><UpdateDatabase id="TM_Common_XP2"><Properties><LoadOrder>11</LoadOrder></Properties><Criteria>XP2</Criteria><File>Core/Natural Wonders/TM_Common_XP2.sql</File></UpdateDatabase><UpdateDatabase id="TM_Wonders_Base"><Properties><LoadOrder>50</LoadOrder></Properties><File>Core/Natural Wonders/Base/TM_CliffsDover.sql</File><File>Core/Natural Wonders/Base/TM_CraterLake.sql</File><File>Core/Natural Wonders/Base/TM_DeadSea.sql</File><File>Core/Natural Wonders/Base/TM_Everest.sql</File><File>Core/Natural Wonders/Base/TM_Galapagos.sql</File><File>Core/Natural Wonders/Base/TM_Kilimanjaro.sql</File><File>Core/Natural Wonders/Base/TM_Pantanal.sql</File><File>Core/Natural Wonders/Base/TM_BarrierReef.sql</File><File>Core/Natural Wonders/Base/TM_Piopiotahi.sql</File><File>Core/Natural Wonders/Base/TM_TorresDelPaine.sql</File><File>Core/Natural Wonders/Base/TM_Tsingy.sql</File><File>Core/Natural Wonders/Base/TM_Yosemite.sql</File></UpdateDatabase><UpdateDatabase id="TM_Wonders_DLC"><Properties><LoadOrder>50</LoadOrder></Properties><File>Core/Natural Wonders/DLC/TM_Eyjafjallajokull.sql</File><File>Core/Natural Wonders/DLC/TM_GiantsCauseway.sql</File><File>Core/Natural Wonders/DLC/TM_HaLongBay.sql</File><File>Core/Natural Wonders/DLC/TM_Lysefjorden.sql</File><File>Core/Natural Wonders/DLC/TM_Uluru.sql</File><File>Core/Natural Wonders/Terra Mirabilis/TM_Wulingyuan_DLC6.sql</File></UpdateDatabase><UpdateDatabase id="TM_Wonders_XP1"><Properties><LoadOrder>51</LoadOrder></Properties><File>Core/Natural Wonders/XP1/TM_DelicateArch.sql</File><File>Core/Natural Wonders/XP1/TM_EyeOfTheSahara.sql</File><File>Core/Natural Wonders/XP1/TM_LakeRetba.sql</File><File>Core/Natural Wonders/XP1/TM_Matterhorn.sql</File><File>Core/Natural Wonders/XP1/TM_Roraima.sql</File><File>Core/Natural Wonders/XP1/TM_Ubsunur_Hollow.sql</File><File>Core/Natural Wonders/XP1/TM_Zhangye_Danxia.sql</File></UpdateDatabase><UpdateDatabase id="TM_Wonders_XP2"><Properties><LoadOrder>52</LoadOrder></Properties><Criteria>XP2</Criteria><File>Core/Natural Wonders/XP2/TM_ChocolateHills.sql</File><File>Core/Natural Wonders/XP2/TM_Gobustan.sql</File><File>Core/Natural Wonders/XP2/TM_IkKil.sql</File><File>Core/Natural Wonders/XP2/TM_MatoTipila.sql</File><File>Core/Natural Wonders/XP2/TM_Pamukkale.sql</File><File>Core/Natural Wonders/XP2/TM_SaharaElBeyda.sql</File><File>Core/Natural Wonders/XP2/TM_Vesuvius.sql</File><File>Core/Natural Wonders/Base/TM_Kilimanjaro_XP2.sql</File><File>Core/Natural Wonders/DLC/TM_Eyjafjallajokull_XP2.sql</File><File>Core/Natural Wonders/Terra Mirabilis/TM_Krakatoa_XP2.sql</File></UpdateDatabase><UpdateDatabase id="TM_Wonders_TM"><Properties><LoadOrder>50</LoadOrder></Properties><File>Core/Natural Wonders/Terra Mirabilis/TM_BarringerCrater.sql</File><File>Core/Natural Wonders/Terra Mirabilis/TM_BioluminescentBay.sql</File><File>Core/Natural Wonders/Terra Mirabilis/TM_CerroDePotosi.sql</File><File>Core/Natural Wonders/Terra Mirabilis/TM_Dallol.sql</File><File>Core/Natural Wonders/Terra Mirabilis/TM_Gibraltar.sql</File><File>Core/Natural Wonders/Terra Mirabilis/TM_GrandMesa.sql</File><File>Core/Natural Wonders/Terra Mirabilis/TM_Kailash.sql</File><File>Core/Natural Wonders/Terra Mirabilis/TM_LakeVictoria.sql</File><File>Core/Natural Wonders/Terra Mirabilis/TM_MosiOaTunya.sql</File><File>Core/Natural Wonders/Terra Mirabilis/TM_MotlatseCanyon.sql</File><File>Core/Natural Wonders/Terra Mirabilis/TM_Namib.sql</File><File>Core/Natural Wonders/Terra Mirabilis/TM_OldFaithful.sql</File><File>Core/Natural Wonders/Terra Mirabilis/TM_Ounianga.sql</File><File>Core/Natural Wonders/Terra Mirabilis/TM_SalarDeUyuni.sql</File><File>Core/Natural Wonders/Terra Mirabilis/TM_Sinai.sql</File><File>Core/Natural Wonders/Terra Mirabilis/TM_SriPada.sql</File><File>Core/Natural Wonders/Terra Mirabilis/TM_VredefortDome.sql</File></UpdateDatabase></InGameActions>]]></InGameActionData>
+    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="XP1"><GameCoreInUse>Expansion1</GameCoreInUse></Criteria><Criteria id="XP2"><GameCoreInUse>Expansion2</GameCoreInUse></Criteria><Criteria id="XP1 or XP2" any="1"><GameCoreInUse>Expansion1,Expansion2</GameCoreInUse></Criteria></ActionCriteria>]]></ActionCriteriaData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -48,6 +48,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Core\Framework\TM_Schema.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Framework\TM_Setup.sql">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Core\Framework\TM_Validation.sql">
@@ -89,199 +92,190 @@
     <Content Include="Core\Localisation\TM_Localisation_zh_Hans_CN.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Mod Support\Map Scripts\TM_MS_LargerMapSizes.sql">
+    <Content Include="Core\Natural Wonders\Base\TM_BarrierReef.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Mod Support\Map Scripts\TM_MS_YNAMP.sql">
+    <Content Include="Core\Natural Wonders\Base\TM_CliffsDover.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Mod Support\Sukritact\TM_MS_Sukritact.sql">
+    <Content Include="Core\Natural Wonders\Base\TM_CraterLake.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Natural Wonders\Features\Base\TM_BarrierReef.sql">
+    <Content Include="Core\Natural Wonders\Base\TM_DeadSea.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Natural Wonders\Features\Base\TM_CliffsDover.sql">
+    <Content Include="Core\Natural Wonders\Base\TM_Everest.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Natural Wonders\Features\Base\TM_CraterLake.sql">
+    <Content Include="Core\Natural Wonders\Base\TM_Galapagos.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Natural Wonders\Features\Base\TM_DeadSea.sql">
+    <Content Include="Core\Natural Wonders\Base\TM_Kilimanjaro.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Natural Wonders\Features\Base\TM_Everest.sql">
+    <Content Include="Core\Natural Wonders\Base\TM_Kilimanjaro_XP2.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Natural Wonders\Features\Base\TM_Galapagos.sql">
+    <Content Include="Core\Natural Wonders\Base\TM_Pantanal.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Natural Wonders\Features\Base\TM_Kilimanjaro.sql">
+    <Content Include="Core\Natural Wonders\Base\TM_Piopiotahi.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Natural Wonders\Features\Base\TM_Pantanal.sql">
+    <Content Include="Core\Natural Wonders\Base\TM_TorresDelPaine.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Natural Wonders\Features\Base\TM_Piopiotahi.sql">
+    <Content Include="Core\Natural Wonders\Base\TM_Tsingy.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Natural Wonders\Features\Base\TM_TorresDelPaine.sql">
+    <Content Include="Core\Natural Wonders\Base\TM_Yosemite.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Natural Wonders\Features\Base\TM_Tsingy.sql">
+    <Content Include="Core\Natural Wonders\DLC\TM_Eyjafjallajokull.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Natural Wonders\Features\Base\TM_Yosemite.sql">
+    <Content Include="Core\Natural Wonders\DLC\TM_Eyjafjallajokull_XP2.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Natural Wonders\Features\DLC\TM_Eyjafjallajokull.sql">
+    <Content Include="Core\Natural Wonders\DLC\TM_GiantsCauseway.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Natural Wonders\Features\DLC\TM_GiantsCauseway.sql">
+    <Content Include="Core\Natural Wonders\DLC\TM_HaLongBay.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Natural Wonders\Features\DLC\TM_HaLongBay.sql">
+    <Content Include="Core\Natural Wonders\DLC\TM_Lysefjorden.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Natural Wonders\Features\DLC\TM_Lysefjorden.sql">
+    <Content Include="Core\Natural Wonders\DLC\TM_Uluru.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Natural Wonders\Features\DLC\TM_Uluru.sql">
+    <Content Include="Core\Natural Wonders\Terra Mirabilis\TM_BarringerCrater.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Natural Wonders\Features\Terra Mirabilis\TM_BarringerCrater.sql">
+    <Content Include="Core\Natural Wonders\Terra Mirabilis\TM_BioluminescentBay.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Natural Wonders\Features\Terra Mirabilis\TM_Bioluminescent_Bay.sql">
+    <Content Include="Core\Natural Wonders\Terra Mirabilis\TM_CerroDePotosi.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Natural Wonders\Features\Terra Mirabilis\TM_CerroDePotosi.sql">
+    <Content Include="Core\Natural Wonders\Terra Mirabilis\TM_Dallol.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Natural Wonders\Features\Terra Mirabilis\TM_Dallol.sql">
+    <Content Include="Core\Natural Wonders\Terra Mirabilis\TM_Gibraltar.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Natural Wonders\Features\Terra Mirabilis\TM_Gibraltar.sql">
+    <Content Include="Core\Natural Wonders\Terra Mirabilis\TM_GrandMesa.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Natural Wonders\Features\Terra Mirabilis\TM_GrandMesa.sql">
+    <Content Include="Core\Natural Wonders\Terra Mirabilis\TM_Kailash.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Natural Wonders\Features\Terra Mirabilis\TM_Kailash.sql">
+    <Content Include="Core\Natural Wonders\Terra Mirabilis\TM_Krakatoa_XP2.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Natural Wonders\Features\Terra Mirabilis\TM_Krakatoa.sql">
+    <Content Include="Core\Natural Wonders\Terra Mirabilis\TM_LakeVictoria.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Natural Wonders\Features\Terra Mirabilis\TM_LakeVictoria.sql">
+    <Content Include="Core\Natural Wonders\Terra Mirabilis\TM_MosiOaTunya.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Natural Wonders\Features\Terra Mirabilis\TM_MosiOaTunya.sql">
+    <Content Include="Core\Natural Wonders\Terra Mirabilis\TM_MotlatseCanyon.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Natural Wonders\Features\Terra Mirabilis\TM_MotlatseCanyon.sql">
+    <Content Include="Core\Natural Wonders\Terra Mirabilis\TM_Namib.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Natural Wonders\Features\Terra Mirabilis\TM_Namib.sql">
+    <Content Include="Core\Natural Wonders\Terra Mirabilis\TM_OldFaithful.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Natural Wonders\Features\Terra Mirabilis\TM_OldFaithful.sql">
+    <Content Include="Core\Natural Wonders\Terra Mirabilis\TM_Ounianga.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Natural Wonders\Features\Terra Mirabilis\TM_Ounianga.sql">
+    <Content Include="Core\Natural Wonders\Terra Mirabilis\TM_SalarDeUyuni.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Natural Wonders\Features\Terra Mirabilis\TM_SalarDeUyuni.sql">
+    <Content Include="Core\Natural Wonders\Terra Mirabilis\TM_Sinai.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Natural Wonders\Features\Terra Mirabilis\TM_Sinai.sql">
+    <Content Include="Core\Natural Wonders\Terra Mirabilis\TM_SriPada.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Natural Wonders\Features\Terra Mirabilis\TM_SriPada.sql">
+    <Content Include="Core\Natural Wonders\Terra Mirabilis\TM_VredefortDome.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Natural Wonders\Features\Terra Mirabilis\TM_VredefortDome.sql">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Core\Natural Wonders\Features\Terra Mirabilis\TM_Wulingyuan.sql">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Core\Natural Wonders\Features\XP1\TM_DelicateArch.sql">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Core\Natural Wonders\Features\XP1\TM_EyeOfTheSahara.sql">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Core\Natural Wonders\Features\XP1\TM_Krakatoa_XP1.sql">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Core\Natural Wonders\Features\XP1\TM_LakeRetba.sql">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Core\Natural Wonders\Features\XP1\TM_Matterhorn.sql">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Core\Natural Wonders\Features\XP1\TM_Roraima.sql">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Core\Natural Wonders\Features\XP1\TM_Ubsunur_Hollow.sql">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Core\Natural Wonders\Features\XP1\TM_Zhangye_Danxia.sql">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Core\Natural Wonders\Features\XP2\TM_ChocolateHills.sql">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Core\Natural Wonders\Features\XP2\TM_Eyjafjallajokull_XP2.sql">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Core\Natural Wonders\Features\XP2\TM_Kilimanjaro_XP2.sql">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Core\Natural Wonders\Features\XP2\TM_Krakatoa_XP2.sql">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Core\Natural Wonders\Features\XP2\TM_Gobustan.sql">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Core\Natural Wonders\Features\XP2\TM_MatoTipila.sql">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Core\Natural Wonders\Features\XP2\TM_IkKil.sql">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Core\Natural Wonders\Features\XP2\TM_Pamukkale.sql">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Core\Natural Wonders\Features\XP2\TM_SaharaElBeydar.sql">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Core\Natural Wonders\Features\XP2\TM_Vesuvius.sql">
+    <Content Include="Core\Natural Wonders\Terra Mirabilis\TM_Wulingyuan_DLC6.sql">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Core\Natural Wonders\TM_Features.sql">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Core\Natural Wonders\TM_Features_XP1.sql">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Core\Natural Wonders\TM_Globals.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Natural Wonders\TM_Globals_XP1.sql">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Core\Natural Wonders\TM_Icons.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Natural Wonders\TM_Preliminaries.sql">
+    <Content Include="Core\Natural Wonders\TM_ModSupport.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Natural Wonders\XP1\TM_Globals_XP1.sql">
+    <Content Include="Core\Natural Wonders\TM_Common.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Natural Wonders\XP1\TM_Features_XP1.sql">
+    <Content Include="Core\Natural Wonders\TM_Common_XP1.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Natural Wonders\XP1\TM_Preliminaries_XP1.sql">
+    <Content Include="Core\Natural Wonders\TM_Common_XP2.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Natural Wonders\XP2\TM_Preliminaries_XP2.sql">
+    <Content Include="Core\Natural Wonders\TM_Resources.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Natural Wonders\XP1\TM_DelicateArch.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Natural Wonders\XP1\TM_EyeOfTheSahara.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Natural Wonders\XP1\TM_LakeRetba.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Natural Wonders\XP1\TM_Matterhorn.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Natural Wonders\XP1\TM_Roraima.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Natural Wonders\XP1\TM_Ubsunur_Hollow.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Natural Wonders\XP1\TM_Zhangye_Danxia.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Natural Wonders\XP2\TM_ChocolateHills.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Natural Wonders\XP2\TM_Gobustan.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Natural Wonders\XP2\TM_IkKil.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Natural Wonders\XP2\TM_MatoTipila.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Natural Wonders\XP2\TM_Pamukkale.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Natural Wonders\XP2\TM_SaharaElBeyda.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Natural Wonders\XP2\TM_Vesuvius.sql">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Core\User Settings\TM_UserSettings.sql">
@@ -297,18 +291,12 @@
     <Folder Include="Core\Framework\" />
     <Folder Include="Core\Localisation\" />
     <Folder Include="Core\Localisation\Inactive" />
-    <Folder Include="Core\Mod Support\Map Scripts" />
-    <Folder Include="Core\Mod Support\Sukritact" />
     <Folder Include="Core\Natural Wonders\" />
-    <Folder Include="Core\Natural Wonders\Features\" />
-    <Folder Include="Core\Natural Wonders\Features\Base\" />
-    <Folder Include="Core\Natural Wonders\Features\DLC\" />
-    <Folder Include="Core\Natural Wonders\Features\XP2" />
-    <Folder Include="Core\Natural Wonders\Features\Terra Mirabilis\" />
-    <Folder Include="Core\Natural Wonders\Features\XP1\" />
-    <Folder Include="Core\Natural Wonders\XP2" />
+    <Folder Include="Core\Natural Wonders\Base\" />
+    <Folder Include="Core\Natural Wonders\DLC\" />
+    <Folder Include="Core\Natural Wonders\Terra Mirabilis\" />
     <Folder Include="Core\Natural Wonders\XP1\" />
-    <Folder Include="Core\Mod Support" />
+    <Folder Include="Core\Natural Wonders\XP2\" />
     <Folder Include="Core\Utilities" />
     <Folder Include="Core\User Settings\" />
     <Folder Include="Core\Utilities\Maps" />

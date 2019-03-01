@@ -15,11 +15,3 @@
 	SET		Description = 'LOC_TM_FEATURE_KILIMANJARO_EFFECT_XP2_DESCRIPTION'
 	WHERE	FeatureType = 'FEATURE_KILIMANJARO'
 	AND EXISTS (SELECT * FROM TM_UserSettings WHERE Setting = 'NW_EFFECTS' AND Value = 1);
-
------------------------------------------------
--- Yields
------------------------------------------------
-
-UPDATE	Feature_AdjacentYields
-SET		YieldChange = 1
-WHERE	FeatureType = 'FEATURE_KILIMANJARO';

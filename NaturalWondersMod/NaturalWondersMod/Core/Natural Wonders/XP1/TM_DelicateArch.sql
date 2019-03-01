@@ -27,15 +27,23 @@ WHERE	FeatureType = 'FEATURE_DELICATE_ARCH';
 -----------------------------------------------
 
 INSERT INTO Modifiers
-		(ModifierId,											ModifierType,							SubjectRequirementSetId							)
-VALUES	('MODIFIER_TM_FEATURE_DELICATE_ARCH_ATTACH_PLAYERS',	'MODTYPE_TM_ATTACH_ALL_PLAYERS',		'REQSET_TM_PLAYER_HAS_FEATURE_DELICATE_ARCH'	),
-		('MODIFIER_TM_FEATURE_DELICATE_ARCH_PLOT_PURCHASE',		'MODTYPE_TM_PLAYER_PLOT_PURCHASE',		NULL											);
+		(ModifierId,										ModifierType,						SubjectRequirementSetId	)
+SELECT	'MODIFIER_TM_FEATURE_DELICATE_ARCH_ATTACH_PLAYERS',	'MODTYPE_TM_ATTACH_ALL_PLAYERS',	'REQSET_TM_PLAYER_HAS_FEATURE_DELICATE_ARCH'
+WHERE EXISTS (SELECT * FROM Features WHERE FeatureType = 'FEATURE_DELICATE_ARCH');
+
+INSERT INTO Modifiers
+		(ModifierId,										ModifierType,						SubjectRequirementSetId	)
+VALUES	('MODIFIER_TM_FEATURE_DELICATE_ARCH_PLOT_PURCHASE',	'MODTYPE_TM_PLAYER_PLOT_PURCHASE',	NULL					);
 
 -----------------------------------------------
 -- ModifierArguments
 -----------------------------------------------
 
 INSERT INTO ModifierArguments
-		(ModifierId,											Name,			Value												)
-VALUES	('MODIFIER_TM_FEATURE_DELICATE_ARCH_ATTACH_PLAYERS',	'ModifierId',	'MODIFIER_TM_FEATURE_DELICATE_ARCH_PLOT_PURCHASE'	),
-		('MODIFIER_TM_FEATURE_DELICATE_ARCH_PLOT_PURCHASE',		'Amount',		-20													);
+		(ModifierId,										Name,			Value	)
+SELECT	'MODIFIER_TM_FEATURE_DELICATE_ARCH_ATTACH_PLAYERS',	'ModifierId',	'MODIFIER_TM_FEATURE_DELICATE_ARCH_PLOT_PURCHASE'
+WHERE EXISTS (SELECT * FROM Features WHERE FeatureType = 'FEATURE_DELICATE_ARCH');
+
+INSERT INTO ModifierArguments
+		(ModifierId,											Name,			Value	)
+VALUES	('MODIFIER_TM_FEATURE_DELICATE_ARCH_PLOT_PURCHASE',		'Amount',		-20		);

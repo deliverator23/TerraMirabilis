@@ -2,7 +2,7 @@
 	Wulingyuan
 	Credits: ChimpanG, Deliverator
 
-	Required KhmerIndonesia DLC
+	Requires KhmerIndonesia DLC
 */
 
 -----------------------------------------------
@@ -33,12 +33,12 @@
 INSERT INTO Modifiers
 		(ModifierId,												ModifierType,						SubjectRequirementSetId	)
 SELECT	'MODIFIER_TM_FEATURE_WULINGYUAN_ATTACH_PLAYERS_TOURISM',	'MODTYPE_TM_ATTACH_ALL_PLAYERS',	'REQSET_TM_PLAYER_HAS_FEATURE_WULINGYUAN'
-WHERE EXISTS (SELECT * FROM Civilizations WHERE CivilizationType = 'CIVILIZATION_KHMER');
+WHERE EXISTS (SELECT * FROM Features WHERE FeatureType = 'FEATURE_WULINGYUAN');
 
 INSERT INTO Modifiers
 		(ModifierId,											ModifierType,						SubjectRequirementSetId	)
 SELECT	'MODIFIER_TM_FEATURE_WULINGYUAN_ATTACH_PLAYERS_YIELD',	'MODTYPE_TM_ATTACH_ALL_PLAYERS',	'REQSET_TM_PLAYER_HAS_FEATURE_WULINGYUAN'
-WHERE EXISTS (SELECT * FROM Civilizations WHERE CivilizationType = 'CIVILIZATION_KHMER');
+WHERE EXISTS (SELECT * FROM Features WHERE FeatureType = 'FEATURE_WULINGYUAN');
 		
 INSERT INTO Modifiers
 		(ModifierId,									ModifierType,					SubjectRequirementSetId	)
@@ -52,12 +52,12 @@ VALUES	('MODIFIER_TM_FEATURE_WULINGYUAN_GW_TOURISM',	'MODTYPE_TM_CITY_TOURISM',	
 INSERT INTO ModifierArguments	
 		(ModifierId,												Name,					Value	)
 SELECT	'MODIFIER_TM_FEATURE_WULINGYUAN_ATTACH_PLAYERS_TOURISM',	'ModifierId',			'MODIFIER_TM_FEATURE_WULINGYUAN_GW_TOURISM'
-WHERE EXISTS (SELECT * FROM Civilizations WHERE CivilizationType = 'CIVILIZATION_KHMER');
+WHERE EXISTS (SELECT * FROM Features WHERE FeatureType = 'FEATURE_WULINGYUAN');
 
 INSERT INTO ModifierArguments	
 		(ModifierId,											Name,					Value	)
 SELECT	'MODIFIER_TM_FEATURE_WULINGYUAN_ATTACH_PLAYERS_YIELD',	'ModifierId',			'MODIFIER_TM_FEATURE_WULINGYUAN_GW_YIELD'
-WHERE EXISTS (SELECT * FROM Civilizations WHERE CivilizationType = 'CIVILIZATION_KHMER');
+WHERE EXISTS (SELECT * FROM Features WHERE FeatureType = 'FEATURE_WULINGYUAN');
 		
 INSERT INTO ModifierArguments	
 		(ModifierId,											Name,					Value										)

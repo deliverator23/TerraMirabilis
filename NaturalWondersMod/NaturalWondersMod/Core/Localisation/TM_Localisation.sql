@@ -305,9 +305,9 @@ VALUES
 -- MATO TIPILA
 -----------------------------------------------
 
-	("en_US",	"LOC_TM_FEATURE_MATO_TIPILA_DESCRIPTION",			"One tile impassable natural wonder. Adjacent plots yield +1 [ICON_FAITH] Faith and +1 [ICON_PRODUCTION] Production."	),
-	("en_US",	"LOC_TM_FEATURE_MATO_TIPILA_EFFECT",				"Naturalists are 50% cheaper to purchase for any Civilization that owns this tile."	),
-	("en_US",	"LOC_TM_FEATURE_MATO_TIPILA_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_MATO_TIPILA_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_MATO_TIPILA_EFFECT}"	),
+	("en_US",	"LOC_TM_FEATURE_DEVILSTOWER_DESCRIPTION",			"One tile impassable natural wonder. Adjacent plots yield +1 [ICON_FAITH] Faith and +1 [ICON_PRODUCTION] Production."	),
+	("en_US",	"LOC_TM_FEATURE_DEVILSTOWER_EFFECT",				"Naturalists are 50% cheaper to purchase for any Civilization that owns this tile."	),
+	("en_US",	"LOC_TM_FEATURE_DEVILSTOWER_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_DEVILSTOWER_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_DEVILSTOWER_EFFECT}"	),
 
 -----------------------------------------------
 -- MATTERHORN
@@ -457,12 +457,12 @@ VALUES
 
 
 -----------------------------------------------
--- SAHARA EL BEYDAR
+-- SAHARA EL BEYDA
 -----------------------------------------------
 
-	("en_US",	"LOC_TM_FEATURE_SAHARA_EL_BEYDAR_DESCRIPTION",			"Four tile natural wonder. Yields +3 [ICON_GOLD] Gold, +1 [ICON_SCIENCE] Science, and +1 [ICON_CULTURE] Culture."	),
-	("en_US",	"LOC_TM_FEATURE_SAHARA_EL_BEYDAR_EFFECT",				"Owned Floodplains do not diminish the appeal of adjacent tiles for any Civilization that owns at least one of these tiles."	),
-	("en_US",	"LOC_TM_FEATURE_SAHARA_EL_BEYDAR_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_SAHARA_EL_BEYDAR_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_SAHARA_EL_BEYDAR_EFFECT}"	),
+	("en_US",	"LOC_TM_FEATURE_SAHARA_EL_BEYDA_DESCRIPTION",			"Four tile natural wonder. Yields +3 [ICON_GOLD] Gold, +1 [ICON_SCIENCE] Science, and +1 [ICON_CULTURE] Culture."	),
+	("en_US",	"LOC_TM_FEATURE_SAHARA_EL_BEYDA_EFFECT",				"Cities are immune to damage from Dust Storms for any Civilization that owns at least one of these tiles."	),
+	("en_US",	"LOC_TM_FEATURE_SAHARA_EL_BEYDA_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_SAHARA_EL_BEYDA_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_SAHARA_EL_BEYDA_EFFECT}"	),
 
 -----------------------------------------------
 -- SALAR DE UYUNI
@@ -549,8 +549,8 @@ VALUES
 -- VESUVIUS
 -----------------------------------------------
 
-	("en_US",	"LOC_TM_FEATURE_VESUVIUS_DESCRIPTION",				"One tile impassable natural wonder. Appears as a Volcano and is always active. Adjacent plots yield +1 [ICON_PRODUCTION] Production. On eruption, adjacent plots yield an additional +2 [ICON_FOOD] at the cost of [ICON_CITIZEN] Population."	),
-	("en_US",	"LOC_TM_FEATURE_VESUVIUS_EFFECT",					"Cities do not suffer loss of [ICON_CITIZEN] Population from Volcanos other than Vesuvius for any Civilization that owns this tile."	),
+	("en_US",	"LOC_TM_FEATURE_VESUVIUS_DESCRIPTION",				"One tile impassable natural wonder. Appears as a Volcano. Adjacent plots yield +1 [ICON_PRODUCTION] Production. Provides additional yields on eruption at the cost of [ICON_Citizen] Population and damage to infrastructure. Always active."	),
+	("en_US",	"LOC_TM_FEATURE_VESUVIUS_EFFECT",					"Antiquity Sites yield +4 [ICON_CULTURE] Culture, and [ICON_GREATWORK_ARTIFACT] Artifacts yield +2 [ICON_CULTURE] Culture and +2 [ICON_TOURISM] Tourism for any Civilization that owns this tile."	),
 	("en_US",	"LOC_TM_FEATURE_VESUVIUS_EFFECT_DESCRIPTION",		"{LOC_TM_FEATURE_VESUVIUS_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_VESUVIUS_EFFECT}"	),
 
 -----------------------------------------------

@@ -31,16 +31,24 @@ WHERE	FeatureType = 'FEATURE_EYE_OF_THE_SAHARA';
 -----------------------------------------------
 
 INSERT INTO Modifiers
-		(ModifierId,												ModifierType,						SubjectRequirementSetId								)
-VALUES	('MODIFIER_TM_FEATURE_EYE_OF_THE_SAHARA_ATTACH_PLAYERS',	'MODTYPE_TM_ATTACH_ALL_PLAYERS',	'REQSET_TM_PLAYER_HAS_FEATURE_EYE_OF_THE_SAHARA'	),
-		('MODIFIER_TM_FEATURE_EYE_OF_THE_SAHARA_ERA_SCORE',			'MODTYPE_TM_ERA_SCORE',				NULL												);
+		(ModifierId,											ModifierType,						SubjectRequirementSetId	)
+SELECT	'MODIFIER_TM_FEATURE_EYE_OF_THE_SAHARA_ATTACH_PLAYERS',	'MODTYPE_TM_ATTACH_ALL_PLAYERS',	'REQSET_TM_PLAYER_HAS_FEATURE_EYE_OF_THE_SAHARA'
+WHERE EXISTS (SELECT * FROM Features WHERE FeatureType = 'FEATURE_EYE_OF_THE_SAHARA');
+
+INSERT INTO Modifiers
+		(ModifierId,												ModifierType,						SubjectRequirementSetId	)
+VALUES	('MODIFIER_TM_FEATURE_EYE_OF_THE_SAHARA_ERA_SCORE',			'MODTYPE_TM_ERA_SCORE',				NULL					);
 
 -----------------------------------------------
 -- ModifierArguments
 -----------------------------------------------
 
 INSERT INTO ModifierArguments
-		(ModifierId,												Name,			Value												)
-VALUES	('MODIFIER_TM_FEATURE_EYE_OF_THE_SAHARA_ATTACH_PLAYERS',	'ModifierId',	'MODIFIER_TM_FEATURE_EYE_OF_THE_SAHARA_ERA_SCORE'	),
-		('MODIFIER_TM_FEATURE_EYE_OF_THE_SAHARA_ERA_SCORE',			'Amount',		1													),
-		('MODIFIER_TM_FEATURE_EYE_OF_THE_SAHARA_ERA_SCORE',			'MinScore',		4													);
+		(ModifierId,											Name,			Value	)
+SELECT	'MODIFIER_TM_FEATURE_EYE_OF_THE_SAHARA_ATTACH_PLAYERS',	'ModifierId',	'MODIFIER_TM_FEATURE_EYE_OF_THE_SAHARA_ERA_SCORE'
+WHERE EXISTS (SELECT * FROM Features WHERE FeatureType = 'FEATURE_EYE_OF_THE_SAHARA');		
+		
+INSERT INTO ModifierArguments
+		(ModifierId,											Name,			Value	)
+VALUES	('MODIFIER_TM_FEATURE_EYE_OF_THE_SAHARA_ERA_SCORE',		'Amount',		1		),
+		('MODIFIER_TM_FEATURE_EYE_OF_THE_SAHARA_ERA_SCORE',		'MinScore',		4		);

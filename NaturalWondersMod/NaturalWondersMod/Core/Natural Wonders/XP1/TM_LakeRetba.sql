@@ -32,7 +32,8 @@ INSERT INTO Modifiers
 		(ModifierId,														ModifierType,						SubjectRequirementSetId	)
 SELECT	'MODIFIER_TM_FEATURE_LAKE_RETBA_ATTACH_PLAYERS_'||ResourceType,		'MODTYPE_TM_ATTACH_ALL_PLAYERS',	'REQSET_TM_PLAYER_HAS_FEATURE_LAKE_RETBA'
 FROM	Resources
-WHERE	ResourceClassType = 'RESOURCECLASS_LUXURY';
+WHERE	ResourceClassType = 'RESOURCECLASS_LUXURY'
+AND EXISTS (SELECT * FROM Features WHERE FeatureType = 'FEATURE_LAKE_RETBA');
 		
 INSERT INTO Modifiers
 		(ModifierId,											ModifierType,						SubjectRequirementSetId	)
@@ -48,7 +49,8 @@ INSERT INTO ModifierArguments
 		(ModifierId,													Name,			Value	)
 SELECT	'MODIFIER_TM_FEATURE_LAKE_RETBA_ATTACH_PLAYERS_'||ResourceType,	'ModifierId',	'MODIFIER_TM_FEATURE_LAKE_RETBA_GOLD_'||ResourceType
 FROM	Resources
-WHERE	ResourceClassType = 'RESOURCECLASS_LUXURY';
+WHERE	ResourceClassType = 'RESOURCECLASS_LUXURY'
+AND EXISTS (SELECT * FROM Features WHERE FeatureType = 'FEATURE_LAKE_RETBA');
 
 INSERT INTO ModifierArguments
 		(ModifierId,											Name,			Value	)

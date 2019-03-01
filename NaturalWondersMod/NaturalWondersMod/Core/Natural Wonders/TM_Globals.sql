@@ -272,23 +272,23 @@
 -----------------------------------------------
 
 	DELETE FROM Types
-	WHERE Type IN (SELECT Setting FROM TM_UserSettings WHERE Section = 'DISABLED' AND Setting IN (SELECT FeatureType FROM TM_Validation WHERE Active = 1))
+	WHERE Type IN (SELECT Setting FROM TM_UserSettings WHERE Section = 'DISABLED' AND Setting IN (SELECT FeatureType FROM TM_Validation))
 	AND Kind = 'KIND_FEATURE';
 
 	DELETE FROM Features
-	WHERE FeatureType = (SELECT Setting FROM TM_UserSettings WHERE Section = 'DISABLED' AND Setting IN (SELECT FeatureType FROM TM_Validation WHERE Active = 1));
+	WHERE FeatureType = (SELECT Setting FROM TM_UserSettings WHERE Section = 'DISABLED' AND Setting IN (SELECT FeatureType FROM TM_Validation));
 
 	DELETE FROM Feature_YieldChanges
-	WHERE FeatureType = (SELECT Setting FROM TM_UserSettings WHERE Section = 'DISABLED' AND Setting IN (SELECT FeatureType FROM TM_Validation WHERE Active = 1));
+	WHERE FeatureType = (SELECT Setting FROM TM_UserSettings WHERE Section = 'DISABLED' AND Setting IN (SELECT FeatureType FROM TM_Validation));
 
 	DELETE FROM Feature_AdjacentYields
-	WHERE FeatureType = (SELECT Setting FROM TM_UserSettings WHERE Section = 'DISABLED' AND Setting IN (SELECT FeatureType FROM TM_Validation WHERE Active = 1));
+	WHERE FeatureType = (SELECT Setting FROM TM_UserSettings WHERE Section = 'DISABLED' AND Setting IN (SELECT FeatureType FROM TM_Validation));
 
 	DELETE FROM Feature_ValidTerrains
-	WHERE FeatureType = (SELECT Setting FROM TM_UserSettings WHERE Section = 'DISABLED' AND Setting IN (SELECT FeatureType FROM TM_Validation WHERE Active = 1));
+	WHERE FeatureType = (SELECT Setting FROM TM_UserSettings WHERE Section = 'DISABLED' AND Setting IN (SELECT FeatureType FROM TM_Validation));
 
 	DELETE FROM Feature_AdjacentTerrains
-	WHERE FeatureType = (SELECT Setting FROM TM_UserSettings WHERE Section = 'DISABLED' AND Setting IN (SELECT FeatureType FROM TM_Validation WHERE Active = 1));
+	WHERE FeatureType = (SELECT Setting FROM TM_UserSettings WHERE Section = 'DISABLED' AND Setting IN (SELECT FeatureType FROM TM_Validation));
 
 	DELETE FROM GameModifiers
 	WHERE ModifierId IN (SELECT a.*

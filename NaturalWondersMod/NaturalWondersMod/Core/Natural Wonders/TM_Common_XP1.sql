@@ -28,26 +28,12 @@ VALUES	('MODTYPE_TM_PLAYER_PLOT_PURCHASE',		'COLLECTION_PLAYER_CITIES',		'EFFECT
 		('MODTYPE_TM_ERA_SCORE',				'COLLECTION_OWNER',				'EFFECT_ADJUST_PLAYER_ERA_SCORE_PER_PRIDE_MOMENT'	);
 
 -----------------------------------------------
--- RequirementSets
------------------------------------------------
-
-INSERT INTO RequirementSets
-		(RequirementSetId,						RequirementSetType	)
-SELECT	'REQSET_TM_PLAYER_HAS_'||ResourceType,	'REQUIREMENTSET_TEST_ALL'
-FROM	Resources WHERE ResourceClassType = 'RESOURCECLASS_LUXURY';
-
------------------------------------------------
 -- RequirementSetRequirements
 -----------------------------------------------
 
 INSERT INTO RequirementSetRequirements
 		(RequirementSetId,						RequirementId							)
 VALUES	('REQSET_TM_DISTRICT_IS_ENTERTAINMENT',	'REQ_TM_DISTRICT_IS_WATER_PARK'			);
-		
-INSERT INTO RequirementSetRequirements
-		(RequirementSetId,						RequirementId)
-SELECT	'REQSET_TM_PLAYER_HAS_'||ResourceType,	'REQ_TM_IS_'||ResourceType
-FROM	Resources WHERE ResourceClassType = 'RESOURCECLASS_LUXURY';
 
 -----------------------------------------------
 -- Requirements
@@ -57,11 +43,6 @@ INSERT INTO Requirements
 		(RequirementId, 					RequirementType,						Inverse	)
 VALUES	('REQ_TM_DISTRICT_IS_WATER_PARK',	'REQUIREMENT_DISTRICT_TYPE_MATCHES',	0		);
 
-INSERT INTO Requirements
-		(RequirementId, 			RequirementType	)
-SELECT	'REQ_TM_IS_'||ResourceType,	'REQUIREMENT_PLAYER_HAS_RESOURCE_OWNED'
-FROM	Resources WHERE ResourceClassType = 'RESOURCECLASS_LUXURY';
-
 -----------------------------------------------
 -- RequirementArguments
 -----------------------------------------------
@@ -69,8 +50,3 @@ FROM	Resources WHERE ResourceClassType = 'RESOURCECLASS_LUXURY';
 INSERT INTO RequirementArguments
 		(RequirementId, 					Name,			Value									)
 VALUES	('REQ_TM_DISTRICT_IS_WATER_PARK',	'DistrictType',	'DISTRICT_WATER_ENTERTAINMENT_COMPLEX'	);
-
-INSERT INTO RequirementArguments
-		(RequirementId, 			Name,			Value	)
-SELECT	'REQ_TM_IS_'||ResourceType,	'ResourceType',	ResourceType
-FROM	Resources WHERE ResourceClassType = 'RESOURCECLASS_LUXURY';

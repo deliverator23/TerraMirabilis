@@ -35,19 +35,3 @@ INSERT INTO ModifierArguments
 VALUES	('MODIFIER_TM_FEATURE_SALAR_DE_UYUNI_ATTACH_PLAYERS',	'ModifierId',	'MODIFIER_TM_FEATURE_SALAR_DE_UYUNI_IMPORT_RESOURCE'	),
 		('MODIFIER_TM_FEATURE_SALAR_DE_UYUNI_IMPORT_RESOURCE',	'ResourceType',	'RESOURCE_TM_LITHIUM'									),
 		('MODIFIER_TM_FEATURE_SALAR_DE_UYUNI_IMPORT_RESOURCE',	'Amount',		1														);
-
------------------------------------------------
--- Types
------------------------------------------------
-
-INSERT INTO Types
-		(Type, 						Kind			)
-VALUES	('RESOURCE_TM_LITHIUM', 	'KIND_RESOURCE'	);
-
------------------------------------------------
--- Resources
------------------------------------------------
-
-INSERT INTO Resources
-		(ResourceType, 			Name, 							ResourceClassType, 			Happiness,	Frequency	)
-VALUES	('RESOURCE_TM_LITHIUM',	'LOC_RESOURCE_TM_LITHIUM_NAME',	'RESOURCECLASS_LUXURY', 	6, 			0			);

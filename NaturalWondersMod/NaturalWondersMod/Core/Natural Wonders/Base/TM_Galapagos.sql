@@ -40,19 +40,3 @@ INSERT INTO ModifierArguments
 VALUES	('MODIFIER_TM_FEATURE_GALAPAGOS_ATTACH_PLAYERS',	'ModifierId',	'MODIFIER_TM_FEATURE_GALAPAGOS_IMPORT_RESOURCE'	),
 		('MODIFIER_TM_FEATURE_GALAPAGOS_IMPORT_RESOURCE',	'ResourceType',	'RESOURCE_TM_TORTOISE'							),
 		('MODIFIER_TM_FEATURE_GALAPAGOS_IMPORT_RESOURCE',	'Amount',		1												);
-
------------------------------------------------
--- Types
------------------------------------------------
-
-INSERT INTO Types
-		(Type, 						Kind			)
-VALUES	('RESOURCE_TM_TORTOISE', 	'KIND_RESOURCE'	);
-
------------------------------------------------
--- Resources
------------------------------------------------
-
-INSERT INTO Resources
-		(ResourceType, 				Name, 								ResourceClassType, 			Happiness,	Frequency	)
-VALUES	('RESOURCE_TM_TORTOISE',	'LOC_RESOURCE_TM_TORTOISE_NAME',	'RESOURCECLASS_LUXURY', 	6, 			0			);

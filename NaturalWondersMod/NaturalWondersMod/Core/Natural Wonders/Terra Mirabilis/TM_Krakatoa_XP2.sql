@@ -1,10 +1,11 @@
 /*
-	Krakatoa XP2
+	Krakatoa
 	Credits: ChimpanG, Deliverator
 */
 
 -----------------------------------------------
--- General Changes
+-- Effects for Natural Wonders
+-- Effect: Any Civilization that owns this tile receives a free Eureka upon earning a Great Scientist.
 -----------------------------------------------
 
 	UPDATE	Features
@@ -16,13 +17,30 @@
 	WHERE	FeatureType = 'FEATURE_KRAKATOA'
 	AND EXISTS (SELECT * FROM TM_UserSettings WHERE Setting = 'NW_EFFECTS' AND Value = 1);
 
+	INSERT INTO GameModifiers (ModifierId)
+	SELECT	'MODIFIER_TM_FEATURE_KRAKATOA_ATTACH_PLAYERS'
+	WHERE EXISTS (SELECT * FROM Features WHERE FeatureType = 'FEATURE_KRAKATOA')
+	AND EXISTS (SELECT * FROM TM_UserSettings WHERE Setting = 'NW_EFFECTS' AND Value = 1);
+
 -----------------------------------------------
--- Yields
+-- Modifiers
 -----------------------------------------------
 
-DELETE FROM Feature_AdjacentYields
-WHERE	FeatureType IN ('FEATURE_KRAKATOA')
-AND		YieldType NOT IN ('YIELD_SCIENCE');
+INSERT INTO Modifiers
+		(ModifierId,										ModifierType,						SubjectRequirementSetId					)
+VALUES	('MODIFIER_TM_FEATURE_KRAKATOA_ATTACH_PLAYERS',		'MODTYPE_TM_ATTACH_ALL_PLAYERS',	'REQSET_TM_PLAYER_HAS_FEATURE_KRAKATOA'	),
+		('MODIFIER_TM_FEATURE_KRAKATOA_SCIENTIST_BOOST',	'MODTYPE_TM_GP_BOOST',				NULL									);
+
+-----------------------------------------------
+-- ModifierArguments
+-----------------------------------------------
+
+INSERT INTO ModifierArguments
+		(ModifierId,										Name,				Value											)
+VALUES	('MODIFIER_TM_FEATURE_KRAKATOA_ATTACH_PLAYERS',		'ModifierId',		'MODIFIER_TM_FEATURE_KRAKATOA_SCIENTIST_BOOST'	),
+		('MODIFIER_TM_FEATURE_KRAKATOA_SCIENTIST_BOOST',	'GreatPersonClass',	'GREAT_PERSON_CLASS_ADMIRAL'					),
+		('MODIFIER_TM_FEATURE_KRAKATOA_SCIENTIST_BOOST',	'OtherPlayers',		0												),
+		('MODIFIER_TM_FEATURE_KRAKATOA_SCIENTIST_BOOST',	'TechBoost',		1												);
 
 -----------------------------------------------
 -- Types
