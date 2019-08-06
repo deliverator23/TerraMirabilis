@@ -42,11 +42,7 @@ function GetUnitActionsTable( pUnit )
 			if (actionHash == UnitCommandTypes.ENTER_FORMATION) then
 				--Check if there are any units in the same tile that this unit can create a formation with
 				--Call CanStartCommand asking for results
-
-				-- TERRA MIRABILIS - change this next line to overcome massive Builder lag
-				local bCanStart, tResults = UnitManager.CanStartCommand( pUnit, actionHash, nil, false, false);
-				-- TERRA MIRABILIS - end
-
+				local bCanStart, tResults = UnitManager.CanStartCommand( pUnit, actionHash, nil, true);
 				if (bCanStart and tResults) then
 					if (tResults[UnitCommandResults.UNITS] ~= nil and #tResults[UnitCommandResults.UNITS] ~= 0) then
 						local tUnits = tResults[UnitCommandResults.UNITS];
