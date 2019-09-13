@@ -268,7 +268,7 @@ function CustomGetMultiTileFeaturePlotList(pPlot, eFeatureType, aPlots)
 			return false;
 		end
 
-		if (TerrainBuilder.CanHaveFeature(pSecondPlot, eFeatureType, true)) then
+		if (pSecondPlot ~= nil and TerrainBuilder.CanHaveFeature(pSecondPlot, eFeatureType, true)) then
 			table.insert(aPlots, pSecondPlot:GetIndex());
 			return true;
 		end
@@ -414,7 +414,7 @@ function CustomGetMultiTileFeaturePlotList(pPlot, eFeatureType, aPlots)
 				pWaterCheck1 = Map.GetAdjacentPlot(pSEPlot:GetX(), pSEPlot:GetY(), DirectionTypes.DIRECTION_SOUTHEAST);
 				pWaterCheck2 = Map.GetAdjacentPlot(pSWPlot:GetX(), pSWPlot:GetY(), DirectionTypes.DIRECTION_SOUTHEAST);
 				pWaterCheck3 = Map.GetAdjacentPlot(pSWPlot:GetX(), pSWPlot:GetY(), DirectionTypes.DIRECTION_SOUTHWEST);
-				if (pWaterCheck1:IsWater() == false or pWaterCheck2:IsWater() == false or pWaterCheck3:IsWater() == false) then
+				if (pWaterCheck1 == nil or pWaterCheck1:IsWater() == false or pWaterCheck2:IsWater() == false or pWaterCheck3:IsWater() == false) then
 					return false;
 				else
 					table.insert(aPlots, pSEPlot:GetIndex());
