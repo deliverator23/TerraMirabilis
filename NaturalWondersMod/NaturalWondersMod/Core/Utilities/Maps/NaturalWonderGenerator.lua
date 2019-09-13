@@ -273,6 +273,37 @@ function CustomGetMultiTileFeaturePlotList(pPlot, eFeatureType, aPlots)
 			return true;
 		end
 
+	elseif (customPlacement == "PLACEMENT_GIBRALTAR") then
+
+        -- Assume first tile a land tile without hills, check around it in a preferred order for water
+        if (pPlot:IsWater() or pPlot:IsHills()) then
+            return false;
+        end
+
+        local pSWPlot = Map.GetAdjacentPlot(pPlot:GetX(), pPlot:GetY(), DirectionTypes.DIRECTION_SOUTHWEST);
+		local pSEPlot = Map.GetAdjacentPlot(pPlot:GetX(), pPlot:GetY(), DirectionTypes.DIRECTION_SOUTHEAST);
+        if (pSWPlot ~= nil and pSWPlot:IsWater() and pSWPlot:IsLake() == false and pSEPlot ~= nil and pSEPlot:IsWater() and pSEPlot:IsLake() == false) then
+            return true;
+		end
+
+	elseif (customPlacement == "PLACEMENT_MOSI_OA_TUNYA") then
+
+        if (pPlot:IsWater() or pPlot:IsHills()) then
+            return false;
+        end
+
+		if (pPlot:IsWOfRiver() or pPlot:IsNWOfRiver() or pPlot:IsNEOfRiver()) then
+			return false;
+		end
+
+		local pNWPlot = Map.GetAdjacentPlot(pPlot:GetX(), pPlot:GetY(), DirectionTypes.DIRECTION_NORTHWEST);
+		local pNEPlot = Map.GetAdjacentPlot(pPlot:GetX(), pPlot:GetY(), DirectionTypes.DIRECTION_NORTHEAST);
+		local pWPlot = Map.GetAdjacentPlot(pPlot:GetX(), pPlot:GetY(), DirectionTypes.DIRECTION_WEST);
+
+		if (pNWPlot:IsNWOfRiver() and pNEPlot:IsNEOfRiver() and not pWPlot:IsWOfRiver()) then
+			return true;
+		end
+
 		-- 2 tiles, one on coastal land and one in water, try to face camera if possible
 	elseif (customPlacement == "PLACEMENT_GIANTS_CAUSEWAY") then
 
