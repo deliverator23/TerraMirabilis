@@ -1,6 +1,6 @@
 /*
 	Chocolate Hills
-	Credits: ChimpanG, Deliverator
+	Authors: ChimpanG, Deliverator
 */
 
 -----------------------------------------------

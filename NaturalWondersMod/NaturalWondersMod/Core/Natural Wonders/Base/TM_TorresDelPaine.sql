@@ -1,6 +1,6 @@
 /*
 	Torres Del Paine
-	Credits: ChimpanG, Deliverator
+	Authors: ChimpanG, Deliverator
 */
 
 -----------------------------------------------

@@ -1,6 +1,6 @@
 /*
 	Gobustan
-	Credits: ChimpanG, Deliverator
+	Authors: ChimpanG, Deliverator
 */
 
 -----------------------------------------------

@@ -1,7 +1,7 @@
 /*
 	Localisation
 	Language: Chinese ("zh_Hans_CN")
-	Credits: boynextdoor
+	Authors: boynextdoor
 	
 	Guide:
 	~ Make a copy of this file on your local drive. This is to ensure that your work isn't overwritten when the mod gets updated on Steam.
@@ -547,6 +547,7 @@ VALUES
 	("zh_Hans_CN",	"LOC_TM_ADJ_NW_CULTURE_DESCRIPTION",		"+{1_num} [ICON_CULTURE] 文化 来自邻接 {1_Num : plural 1?Natural Wonder; other?Natural Wonder plots;}."	),
 	("zh_Hans_CN",	"LOC_TM_ADJ_NW_PRODUCTION_DESCRIPTION",		"+{1_num} [ICON_PRODUCTION] 产能 来自邻接 {1_Num : plural 1?Natural Wonder; other?Natural Wonder plots;}."	),
 	("zh_Hans_CN",	"LOC_TM_ADJ_NW_GOLD_DESCRIPTION",			"+{1_num} [ICON_GOLD] 金币 来自邻接 {1_Num : plural 1?Natural Wonder; other?Natural Wonder plots;}."	),
+	("zh_Hans_CN",	"LOC_TM_ADJ_NW_FOOD_DESCRIPTION",			"+{1_num} [ICON_FOOD] 餐饮 来自邻接 {1_Num : plural 1?Natural Wonder; other?Natural Wonder plots;}."	),
 
 -----------------------------------------------
 -- MISC - Naturlist

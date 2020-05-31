@@ -1,7 +1,7 @@
 /*
 	Localisation
 	Language: Korean ("ko_KR")
-	Credits: nut9931
+	Authors: nut9931
 
 Guide:
 	~ Make a copy of this file on your local drive. This is to ensure that your work isn't overwritten when the mod gets updated on Steam.
@@ -608,6 +608,7 @@ VALUES
 	("ko_KR",	"LOC_TM_ADJ_NW_CULTURE_DESCRIPTION",		"+{1_num} [ICON_Culture] 문화 인접보너스 {1_Num : plural 1?Natural Wonder; other?Natural Wonder plots;}."	),
 	("ko_KR",	"LOC_TM_ADJ_NW_PRODUCTION_DESCRIPTION",		"+{1_num} [ICON_Production] 생산 인접보너스 {1_Num : plural 1?Natural Wonder; other?Natural Wonder plots;}."	),
 	("ko_KR",	"LOC_TM_ADJ_NW_GOLD_DESCRIPTION",			"+{1_num} [ICON_Gold] 금 인접보너스 {1_Num : plural 1?Natural Wonder; other?Natural Wonder plots;}."	),
+	("ko_KR",	"LOC_TM_ADJ_NW_FOOD_DESCRIPTION",			"+{1_num} [ICON_Food] 식품 인접보너스 {1_Num : plural 1?Natural Wonder; other?Natural Wonder plots;}."	),
 
 -----------------------------------------------
 -- MISC - Naturlist

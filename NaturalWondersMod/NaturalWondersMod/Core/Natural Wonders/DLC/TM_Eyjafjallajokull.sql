@@ -1,6 +1,6 @@
 /*
 	Uluru
-	Credits: ChimpanG, Deliverator
+	Authors: ChimpanG, Deliverator
 */
 
 -----------------------------------------------

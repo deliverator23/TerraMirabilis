@@ -1,7 +1,7 @@
 /*
 	Localisation
 	Language: Spanish ("es_ES")
-	Credits: SeelingCat y Ari
+	Authors: SeelingCat y Ari
 	
 	Guide:
 	~ Make a copy of this file on your local drive. This is to ensure that your work isn't overwritten when the mod gets updated on Steam.
@@ -630,6 +630,7 @@ VALUES
 	("es_ES",	"LOC_TM_ADJ_NW_CULTURE_DESCRIPTION",		"+{1_num} a Cultura [ICON_CULTURE] por {1_Num : plural 1?la maravilla natural adyacente; other?las maravillas naturales adyacentes;}."	),
 	("es_ES",	"LOC_TM_ADJ_NW_PRODUCTION_DESCRIPTION",		"+{1_num} a la Producción [ICON_PRODUCTION] por {1_Num : plural 1?la maravilla natural adyacente; other?las maravillas naturales adyacentes;}."	),
 	("es_ES",	"LOC_TM_ADJ_NW_GOLD_DESCRIPTION",			"+{1_num} de Oro [ICON_GOLD] por {1_Num : plural 1?la maravilla natural adyacente; other?las maravillas naturales adyacentes;}."	),
+	("es_ES",	"LOC_TM_ADJ_NW_FOOD_DESCRIPTION",			"+{1_num} a Comida [ICON_GOLD] por {1_Num : plural 1?la maravilla natural adyacente; other?las maravillas naturales adyacentes;}."	),
 
 -----------------------------------------------
 -- MISC - Naturlist

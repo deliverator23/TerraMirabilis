@@ -1,6 +1,6 @@
 /*
 	Eye of the Sahara
-	Credits: ChimpanG, Deliverator
+	Authors: ChimpanG, Deliverator
 */
 
 -----------------------------------------------

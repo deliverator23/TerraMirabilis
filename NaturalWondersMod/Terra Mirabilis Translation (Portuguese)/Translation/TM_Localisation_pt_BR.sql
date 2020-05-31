@@ -1,7 +1,7 @@
 /*
 	Localisation
 	Language: Portuguese ("pt_BR")
-	Credits: Gabriel ("lornard")
+	Authors: Gabriel ("lornard")
 
 	Guide:
 	~ Make a copy of this file on your local drive. This is to ensure that your work isn't overwritten when the mod gets updated on Steam.
@@ -620,6 +620,7 @@ VALUES
 	("pt_BR",	"LOC_TM_ADJ_NW_CULTURE_DESCRIPTION",		"+{1_num} de [ICON_CULTURE] Cultura de {1_Num : plural 1?painel de Maravilha Natural adjacente; other?painéis de Maravilha Natural adjacentes;}."	),
 	("pt_BR",	"LOC_TM_ADJ_NW_PRODUCTION_DESCRIPTION",		"+{1_num} de [ICON_PRODUCTION] Produção de {1_Num : plural 1?painel de Maravilha Natural adjacente; other?painéis de Maravilha Natural adjacentes;}."	),
 	("pt_BR",	"LOC_TM_ADJ_NW_GOLD_DESCRIPTION",			"+{1_num} de [ICON_GOLD] Ouro de {1_Num : plural 1?painel de Maravilha Natural adjacente; other?painéis de Maravilha Natural adjacentes;}."	),
+	("pt_BR",	"LOC_TM_ADJ_NW_FOOD_DESCRIPTION",			"+{1_num} de [ICON_GOLD] Comida de {1_Num : plural 1?painel de Maravilha Natural adjacente; other?painéis de Maravilha Natural adjacentes;}."	),
 
 -----------------------------------------------
 -- MISC - Naturlist

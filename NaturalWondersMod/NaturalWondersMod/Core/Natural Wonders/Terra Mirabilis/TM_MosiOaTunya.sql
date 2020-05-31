@@ -1,6 +1,6 @@
 /*
 	Mosi Oa Tunya
-	Credits: ChimpanG, Deliverator
+	Authors: ChimpanG, Deliverator
 */
 
 -----------------------------------------------

@@ -1,6 +1,6 @@
 /*
 	Tsingy
-	Credits: ChimpanG, Deliverator
+	Authors: ChimpanG, Deliverator
 */
 
 -----------------------------------------------

@@ -1,7 +1,7 @@
 /*
 	Localisation
 	Language: Chinese ("zh_Hant_HK")
-	Credits: boynextdoor
+	Authors: boynextdoor
 	
 	Guide:
 	~ Do not change anything in UPPERCASE text, including [ICONS]. These are important references.
@@ -599,6 +599,7 @@ VALUES
 	("zh_Hant_HK",	"LOC_TM_ADJ_NW_CULTURE_DESCRIPTION",		"+{1_num} [ICON_CULTURE] 文化來自鄰近{1_Num : plural 1?自然奇觀; other?Natural Wonder plots;}."	),
 	("zh_Hant_HK",	"LOC_TM_ADJ_NW_PRODUCTION_DESCRIPTION",		"+{1_num} [ICON_PRODUCTION] 生產力來自鄰近{1_Num : plural 1?自然奇觀; other?Natural Wonder plots;}."	),
 	("zh_Hant_HK",	"LOC_TM_ADJ_NW_GOLD_DESCRIPTION",			"+{1_num} [ICON_GOLD] 金幣來自鄰近{1_Num : plural 1?自然奇觀; other?Natural Wonder plots;}."	),
+	("zh_Hant_HK",	"LOC_TM_ADJ_NW_FOOD_DESCRIPTION",			"+{1_num} [ICON_FOOD] 食物来自邻居{1_Num : plural 1?自然奇觀; other?Natural Wonder plots;}."	),
 
 -----------------------------------------------
 -- MISC - Naturlist

@@ -1,6 +1,6 @@
 /*
 	Globals
-	Credits: ChimpanG, Deliverator
+	Authors: ChimpanG, Deliverator
 */
 
 -----------------------------------------------
@@ -39,43 +39,6 @@
 	SET		NumNaturalWonders = (SELECT Value FROM TM_UserSettings WHERE Setting = 'WONDERS_HUGE')
 	WHERE	MapSizeType = 'MAPSIZE_HUGE';
 
------------------------------------------------
--- Naturalist purchase with Gold AND Faith
------------------------------------------------
-
-	INSERT INTO Tags
-			(Tag,					Vocabulary		)
-	VALUES	('CLASS_TM_NATURLIST',	'ABILITY_CLASS'	);
-
-	INSERT INTO TypeTags
-			(Type,				Tag						)
-	VALUES	('UNIT_NATURALIST',	'CLASS_TM_NATURLIST'	);
-
-	UPDATE	Units
-	SET		PurchaseYield = 'YIELD_GOLD'
-	WHERE	UnitType = 'UNIT_NATURALIST';
-
-	INSERT INTO TraitModifiers
-			(TraitType,					ModifierId								)
-	VALUES	('TRAIT_LEADER_MAJOR_CIV',	'MODIFIER_TM_NATURALIST_FAITH_PURCHASE'	);
-
-	INSERT INTO Modifiers
-			(ModifierId,								ModifierType						)
-	VALUES	('MODIFIER_TM_NATURALIST_FAITH_PURCHASE',	'MODTYPE_TM_UNIT_FAITH_PURCHASE'	);
-
-	INSERT INTO ModifierArguments
-			(ModifierId,								Name,	Value					)
-	VALUES	('MODIFIER_TM_NATURALIST_FAITH_PURCHASE',	'Tag',	'CLASS_TM_NATURLIST'	);
-/*
-	UPDATE	Units
-	SET		PurchaseYield = (SELECT Section FROM TM_UserSettings WHERE Setting = 'NATURALIST_PURCHASE')			
-	WHERE	UnitType = 'UNIT_NATURALIST';
-	
-	UPDATE	Units
-	SET		Description = (SELECT 'LOC_TM_UNIT_NATURALIST_DESCRIPTION' FROM TM_UserSettings WHERE Setting = 'NATURALIST_PURCHASE' AND Section = 'YIELD_GOLD')			
-	WHERE	UnitType = 'UNIT_NATURALIST'
-	AND EXISTS (SELECT * FROM TM_UserSettings WHERE Setting = 'NATURALIST_PURCHASE' AND Section = 'YIELD_GOLD');
-*/
 -----------------------------------------------
 -- National Parks provide Gold equal to their tourism
 -----------------------------------------------
@@ -130,7 +93,8 @@
 			('ADJ_TM_NW_SCIENCE',		'LOC_TM_ADJ_NW_SCIENCE_DESCRIPTION',	'YIELD_SCIENCE',	1,				1,				1						),
 			('ADJ_TM_NW_CULTURE',		'LOC_TM_ADJ_NW_CULTURE_DESCRIPTION',	'YIELD_CULTURE',	1,				1,				1						),
 			('ADJ_TM_NW_PRODUCTION',	'LOC_TM_ADJ_NW_PRODUCTION_DESCRIPTION',	'YIELD_PRODUCTION',	1,				1,				1						),
-			('ADJ_TM_NW_GOLD',			'LOC_TM_ADJ_NW_GOLD_DESCRIPTION',		'YIELD_GOLD',		1,				1,				1						);
+			('ADJ_TM_NW_GOLD',			'LOC_TM_ADJ_NW_GOLD_DESCRIPTION',		'YIELD_GOLD',		1,				1,				1						),
+			('ADJ_TM_NW_FOOD',			'LOC_TM_ADJ_NW_FOOD_DESCRIPTION',		'YIELD_FOOD',		1,				1,				1						);
 	
 	DELETE FROM District_Adjacencies
 	WHERE YieldChangeId = 'NaturalWonder_Faith'
@@ -300,8 +264,3 @@
 							AND s.Section = 'DISABLED'
 							)
 						);
-
-	-- Special Case for Bioluminescent Bay
-	DELETE FROM ImprovementModifiers
-	WHERE ModifierId IN ('MODIFIER_TM_FEATURE_BIOLUMINESCENT_BAY_OUTGOING_TRADE')
-	AND EXISTS (SELECT * FROM TM_UserSettings WHERE Setting = 'NW_EFFECTS' AND Value = 0);

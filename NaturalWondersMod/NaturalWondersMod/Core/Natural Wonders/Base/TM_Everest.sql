@@ -1,11 +1,11 @@
 /*
 	Everest
-	Credits: ChimpanG, Deliverator
+	Authors: ChimpanG, Deliverator
 */
 
 -----------------------------------------------
 -- Effects for Natural Wonders
--- Effect: Religious units ignore [ICON_Movement] Movement penalties on Hills and receive +1 additional spread charge for any Civilization that owns at least one of these tiles.
+-- Effect: Religious units ignore Movement penalties on Hills and receive +1 additional spread charge for any Civilization that owns at least one of these tiles.
 -----------------------------------------------
 
 UPDATE	Features
@@ -22,9 +22,15 @@ WHERE	FeatureType = 'FEATURE_EVEREST';
 	WHERE EXISTS (SELECT * FROM Features WHERE FeatureType = 'FEATURE_EVEREST')
 	AND EXISTS (SELECT * FROM TM_UserSettings WHERE Setting = 'NW_EFFECTS' AND Value = 1);
 
+	-- Original Effect
 	DELETE FROM GameModifiers
 	WHERE ModifierId = 'EVEREST_ADJACENT_UNITS_GRANT_ABILITY'
 	AND EXISTS (SELECT * FROM TM_UserSettings WHERE Setting = 'NW_EFFECTS' AND Value = 1);
+
+	UPDATE	Features
+	SET		Description = 'LOC_TM_FEATURE_EVEREST_ORIGINAL_EFFECT_DESCRIPTION'
+	WHERE	FeatureType = 'FEATURE_EVEREST'
+	AND EXISTS (SELECT * FROM TM_UserSettings WHERE Setting = 'NW_EFFECTS' AND Value = 0);
 
 -----------------------------------------------
 -- Modifiers

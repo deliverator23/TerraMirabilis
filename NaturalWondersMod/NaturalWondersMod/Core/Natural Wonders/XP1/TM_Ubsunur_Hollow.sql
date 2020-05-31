@@ -1,6 +1,6 @@
 /*
 	Ubsunur Hollow
-	Credits: ChimpanG, Deliverator
+	Authors: ChimpanG, Deliverator
 */
 
 -----------------------------------------------

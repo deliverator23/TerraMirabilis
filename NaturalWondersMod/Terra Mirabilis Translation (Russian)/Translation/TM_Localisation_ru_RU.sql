@@ -1,7 +1,7 @@
 /*
 	Localisation
 	Language: Russian ("ru_RU")
-	Credits: Portland Trail Blazers
+	Authors: Portland Trail Blazers
 
 	Guide:
 	~ Make a copy of this file on your local drive. This is to ensure that your work isn't overwritten when the mod gets updated on Steam.

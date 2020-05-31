@@ -1,6 +1,6 @@
 /*
 	Cerro de Potosi
-	Credits: ChimpanG, Deliverator
+	Authors: ChimpanG, Deliverator
 */
 
 -----------------------------------------------

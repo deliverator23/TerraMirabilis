@@ -1,6 +1,6 @@
 /*
 	Wulingyuan
-	Credits: ChimpanG, Deliverator
+	Authors: ChimpanG, Deliverator
 
 	Requires KhmerIndonesia DLC
 */

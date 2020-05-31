@@ -1,7 +1,7 @@
 /*
     Localisation
     Language: Italian ("it_IT")
-    Credits: YamiNick
+    Authors: YamiNick
    
     Guide:
 	~ Make a copy of this file on your local drive. This is to ensure that your work isn't overwritten when the mod gets updated on Steam.
@@ -545,7 +545,8 @@ L'ampia area, il cielo terso e l'eccezionale planarità della superficie lo rend
     ("it_IT",   "LOC_TM_ADJ_NW_SCIENCE_DESCRIPTION",        "+{1_num} [ICON_SCIENCE] Scienza dalla vicinanza di {1_Num : plural 1?Meraviglia naturale; other?Meraviglie naturali;}."    ),
     ("it_IT",   "LOC_TM_ADJ_NW_CULTURE_DESCRIPTION",        "+{1_num} [ICON_CULTURE] Cultura dalla vicinanza di {1_Num : plural 1?Meraviglia naturale; other?Meraviglie naturali;}."    ),
     ("it_IT",   "LOC_TM_ADJ_NW_PRODUCTION_DESCRIPTION",     "+{1_num} [ICON_PRODUCTION] Produzione dalla vicinanza di {1_Num : plural 1?Meraviglia naturale; other?Meraviglie naturali;}."  ),
-    ("it_IT",   "LOC_TM_ADJ_NW_GOLD_DESCRIPTION",       "+{1_num} [ICON_GOLD] Oro dalla vicinanza di {1_Num : plural 1?Meraviglia naturale; other?Meraviglie naturali;}."   ),
+    ("it_IT",   "LOC_TM_ADJ_NW_GOLD_DESCRIPTION",			"+{1_num} [ICON_GOLD] Oro dalla vicinanza di {1_Num : plural 1?Meraviglia naturale; other?Meraviglie naturali;}."   ),
+	("it_IT",   "LOC_TM_ADJ_NW_FOOD_DESCRIPTION",			"+{1_num} [ICON_FOOD] Cibo dalla vicinanza di {1_Num : plural 1?Meraviglia naturale; other?Meraviglie naturali;}."   ),
  
 -----------------------------------------------
 -- MISC - Naturlist

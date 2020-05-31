@@ -1,6 +1,6 @@
 /*
 	Lake Victoria
-	Credits: ChimpanG, Deliverator
+	Authors: ChimpanG, Deliverator
 */
 
 -----------------------------------------------

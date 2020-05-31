@@ -1,6 +1,6 @@
 /*
 	Lake Retba
-	Credits: ChimpanG, Deliverator
+	Authors: ChimpanG, Deliverator
 */
 
 -----------------------------------------------

@@ -1,6 +1,6 @@
 /*
 	Delicate Arch
-	Credits: ChimpanG, Deliverator
+	Authors: ChimpanG, Deliverator
 */
 
 -----------------------------------------------

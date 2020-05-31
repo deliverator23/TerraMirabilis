@@ -1,6 +1,6 @@
 /*
 	Zhangye Danxia
-	Credits: ChimpanG, Deliverator
+	Authors: ChimpanG, Deliverator
 */
 
 -----------------------------------------------

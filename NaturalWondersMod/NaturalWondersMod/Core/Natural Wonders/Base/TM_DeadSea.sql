@@ -1,6 +1,6 @@
 /*
 	Dead Sea
-	Credits: ChimpanG, Deliverator
+	Authors: ChimpanG, Deliverator
 */
 
 -----------------------------------------------
@@ -23,9 +23,15 @@ WHERE	FeatureType = 'FEATURE_DEAD_SEA';
 	WHERE EXISTS (SELECT * FROM Features WHERE FeatureType = 'FEATURE_DEAD_SEA')
 	AND EXISTS (SELECT * FROM TM_UserSettings WHERE Setting = 'NW_EFFECTS' AND Value = 1);
 
+	-- Original Effect
 	DELETE FROM GameModifiers
 	WHERE ModifierId = 'DEAD_SEA_ADJACENT_UNITS_ADJUST_HEAL_PER_TURN'
 	AND EXISTS (SELECT * FROM TM_UserSettings WHERE Setting = 'NW_EFFECTS' AND Value = 1);
+
+	UPDATE	Features
+	SET		Description = 'LOC_TM_FEATURE_DEAD_SEA_ORIGINAL_EFFECT_DESCRIPTION'
+	WHERE	FeatureType = 'FEATURE_DEAD_SEA'
+	AND EXISTS (SELECT * FROM TM_UserSettings WHERE Setting = 'NW_EFFECTS' AND Value = 0);
 
 -----------------------------------------------
 -- Modifiers

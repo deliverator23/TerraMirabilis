@@ -1,6 +1,6 @@
 /*
 	Ha Long Bay
-	Credits: ChimpanG, Deliverator
+	Authors: ChimpanG, Deliverator
 */
 
 -----------------------------------------------

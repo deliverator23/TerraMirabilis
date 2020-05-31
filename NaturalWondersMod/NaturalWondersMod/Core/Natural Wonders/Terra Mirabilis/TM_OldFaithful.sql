@@ -1,6 +1,6 @@
 /*
 	Old Faithful
-	Credits: ChimpanG, Deliverator
+	Authors: ChimpanG, Deliverator
 */
 
 -----------------------------------------------

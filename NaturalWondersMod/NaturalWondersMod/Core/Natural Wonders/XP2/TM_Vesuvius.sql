@@ -1,6 +1,6 @@
 /*
 	Vesuvius
-	Credits: ChimpanG, Deliverator
+	Authors: ChimpanG, Deliverator
 */
 
 -----------------------------------------------

@@ -1,6 +1,6 @@
 /*
 	Barrier Reef
-	Credits: ChimpanG, Deliverator
+	Authors: ChimpanG, Deliverator
 */
 
 -----------------------------------------------

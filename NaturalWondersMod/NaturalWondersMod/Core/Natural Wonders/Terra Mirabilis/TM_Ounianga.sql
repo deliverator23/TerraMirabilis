@@ -1,6 +1,6 @@
 /*
 	Ounianga
-	Credits: ChimpanG, Deliverator
+	Authors: ChimpanG, Deliverator
 */
 
 -----------------------------------------------

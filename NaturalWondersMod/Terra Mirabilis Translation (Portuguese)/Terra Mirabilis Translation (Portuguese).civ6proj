@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>Terra Mirabilis (Portuguese Translation)</Name>
+    <Guid>e6f593dc-d995-45c4-93bd-39cc9312918f</Guid>
+    <ProjectGuid>41feac24-37f0-4c96-90ff-17a4fe7c84d3</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>Portuguese translation for Terra Mirabilis.</Teaser>
+    <Description>Portuguese translation for Terra Mirabilis.</Description>
+    <Authors>lornard</Authors>
+    <SpecialThanks>
+    </SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+    <AssemblyName>Terra Mirabilis Translation (Portuguese)</AssemblyName>
+    <RootNamespace>Terra Mirabilis Translation (Portuguese)</RootNamespace>
+    <InGameActionData><![CDATA[<InGameActions><UpdateText id="TM_Translation_Portuguese"><Properties><LoadOrder>5</LoadOrder></Properties><File>Translation/TM_Localisation_pt_BR.sql</File></UpdateText></InGameActions>]]></InGameActionData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="Terra_Mirabilis_Translation__Portuguese_.Art.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Translation" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Translation\TM_Localisation_pt_BR.sql">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

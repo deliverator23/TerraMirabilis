@@ -1,6 +1,6 @@
 /*
 	Salar de Uyuni
-	Credits: ChimpanG, Deliverator
+	Authors: ChimpanG, Deliverator
 */
 
 -----------------------------------------------

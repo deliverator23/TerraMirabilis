@@ -1,6 +1,6 @@
 /*
 	Grand Mesa
-	Credits: ChimpanG, Deliverator
+	Authors: ChimpanG, Deliverator
 */
 
 -----------------------------------------------

@@ -1,6 +1,6 @@
 /*
 	Rock of Gibraltar
-	Credits: ChimpanG, Deliverator
+	Authors: ChimpanG, Deliverator
 */
 
 -----------------------------------------------

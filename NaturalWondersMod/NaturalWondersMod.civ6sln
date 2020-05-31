@@ -5,6 +5,20 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "NaturalWondersMod", "NaturalWondersMod\NaturalWondersMod.civ6proj", "{4A671998-0439-4547-AFBA-8DAB5D29459E}"
 EndProject
+Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "Terra Mirabilis Translation (Spanish)", "Terra Mirabilis Translation (Spanish)\Terra Mirabilis Translation (Spanish).civ6proj", "{6AE677D9-580F-483B-B6E5-81917CEE3FB8}"
+EndProject
+Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "Terra Mirabilis Translation (Chinese)", "Terra Mirabilis Translation (Chinese)\Terra Mirabilis Translation (Chinese).civ6proj", "{72AF606D-7F83-4C8A-8864-E32427464B1F}"
+EndProject
+Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "Terra Mirabilis Translation (Italian)", "Terra Mirabilis Translation (Italian)\Terra Mirabilis Translation (Italian).civ6proj", "{D61218D9-FFF3-45CB-A74E-C686A31DE8AA}"
+EndProject
+Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "Terra Mirabilis Translation (Japanese)", "Terra Mirabilis Translation (Japanese)\Terra Mirabilis Translation (Japanese).civ6proj", "{CA613858-B333-433F-AEF6-1C604DD27406}"
+EndProject
+Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "Terra Mirabilis Translation (Korean)", "Terra Mirabilis Translation (Korean)\Terra Mirabilis Translation (Korean).civ6proj", "{789F3C9E-B107-4BFF-BA5E-DE15C0B0DC2E}"
+EndProject
+Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "Terra Mirabilis Translation (Portuguese)", "Terra Mirabilis Translation (Portuguese)\Terra Mirabilis Translation (Portuguese).civ6proj", "{41FEAC24-37F0-4C96-90FF-17A4FE7C84D3}"
+EndProject
+Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "Terra Mirabilis Translation (Russian)", "Terra Mirabilis Translation (Russian)\Terra Mirabilis Translation (Russian).civ6proj", "{5ABA388B-162C-4E02-8F3E-ABFA368449AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Civ6 = Default|Civ6
@@ -12,6 +26,20 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{4A671998-0439-4547-AFBA-8DAB5D29459E}.Default|Civ6.ActiveCfg = Default|Civ6
 		{4A671998-0439-4547-AFBA-8DAB5D29459E}.Default|Civ6.Build.0 = Default|Civ6
+		{6AE677D9-580F-483B-B6E5-81917CEE3FB8}.Default|Civ6.ActiveCfg = Default|Civ6
+		{6AE677D9-580F-483B-B6E5-81917CEE3FB8}.Default|Civ6.Build.0 = Default|Civ6
+		{72AF606D-7F83-4C8A-8864-E32427464B1F}.Default|Civ6.ActiveCfg = Default|Civ6
+		{72AF606D-7F83-4C8A-8864-E32427464B1F}.Default|Civ6.Build.0 = Default|Civ6
+		{D61218D9-FFF3-45CB-A74E-C686A31DE8AA}.Default|Civ6.ActiveCfg = Default|Civ6
+		{D61218D9-FFF3-45CB-A74E-C686A31DE8AA}.Default|Civ6.Build.0 = Default|Civ6
+		{CA613858-B333-433F-AEF6-1C604DD27406}.Default|Civ6.ActiveCfg = Default|Civ6
+		{CA613858-B333-433F-AEF6-1C604DD27406}.Default|Civ6.Build.0 = Default|Civ6
+		{789F3C9E-B107-4BFF-BA5E-DE15C0B0DC2E}.Default|Civ6.ActiveCfg = Default|Civ6
+		{789F3C9E-B107-4BFF-BA5E-DE15C0B0DC2E}.Default|Civ6.Build.0 = Default|Civ6
+		{41FEAC24-37F0-4C96-90FF-17A4FE7C84D3}.Default|Civ6.ActiveCfg = Default|Civ6
+		{41FEAC24-37F0-4C96-90FF-17A4FE7C84D3}.Default|Civ6.Build.0 = Default|Civ6
+		{5ABA388B-162C-4E02-8F3E-ABFA368449AF}.Default|Civ6.ActiveCfg = Default|Civ6
+		{5ABA388B-162C-4E02-8F3E-ABFA368449AF}.Default|Civ6.Build.0 = Default|Civ6
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

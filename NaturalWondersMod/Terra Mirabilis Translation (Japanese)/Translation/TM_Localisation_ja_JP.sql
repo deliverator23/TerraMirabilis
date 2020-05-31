@@ -1,7 +1,7 @@
 /*
 	Localisation
 	Language: Japanese ("ja_JP")
-	Credits: Sub6
+	Authors: Sub6
 */
 
 -----------------------------------------------
@@ -610,6 +610,7 @@ VALUES
 	("ja_JP",	"LOC_TM_ADJ_NW_CULTURE_DESCRIPTION",		"隣接する自然遺産により [ICON_Culture] 文化力+{1_num}。"	),
 	("ja_JP",	"LOC_TM_ADJ_NW_PRODUCTION_DESCRIPTION",		"隣接する自然遺産により [ICON_Production] 生産力+{1_num}。"	),
 	("ja_JP",	"LOC_TM_ADJ_NW_GOLD_DESCRIPTION",			"隣接する自然遺産により [ICON_Gold] ゴールド+{1_num}。"	),
+	("ja_JP",	"LOC_TM_ADJ_NW_FOOD_DESCRIPTION",			"隣接する自然遺産により [ICON_Food] フード+{1_num}。"	),
 
 -----------------------------------------------
 -- MISC - Naturlist

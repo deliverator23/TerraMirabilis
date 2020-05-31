@@ -1,6 +1,6 @@
 /*
 	Cliffs of Dover
-	Credits: ChimpanG, Deliverator
+	Authors: ChimpanG, Deliverator
 */
 
 -----------------------------------------------

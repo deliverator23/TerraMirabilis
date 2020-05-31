@@ -1,6 +1,6 @@
 /*
 	Mato Tipila
-	Credits: ChimpanG, Deliverator
+	Authors: ChimpanG, Deliverator
 */
 
 -----------------------------------------------

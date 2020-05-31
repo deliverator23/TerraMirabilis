@@ -1,6 +1,6 @@
 /*
 	Sahara El Beyda
-	Credits: ChimpanG, Deliverator
+	Authors: ChimpanG, Deliverator
 */
 
 -----------------------------------------------

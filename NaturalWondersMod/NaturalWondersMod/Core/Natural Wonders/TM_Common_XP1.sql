@@ -1,6 +1,6 @@
 /*
-	Preliminaries XP1
-	Credits: ChimpanG, Deliverator
+	Common XP1
+	Authors: ChimpanG, Deliverator
 */
 
 -----------------------------------------------

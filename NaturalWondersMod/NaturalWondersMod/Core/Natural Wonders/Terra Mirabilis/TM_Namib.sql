@@ -1,6 +1,6 @@
 /*
 	Namib
-	Credits: ChimpanG, Deliverator
+	Authors: ChimpanG, Deliverator
 */
 
 -----------------------------------------------
