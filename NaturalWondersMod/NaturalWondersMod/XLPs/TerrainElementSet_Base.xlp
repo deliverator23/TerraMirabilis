@@ -85,6 +85,10 @@
 			<m_EntryID text="TerrainElement_Dallol"/>
 			<m_ObjectName text="TerrainElement_Dallol"/>
 		</Element>
+		<Element>
+			<m_EntryID text="TerrainElement_Lencois"/>
+			<m_ObjectName text="TerrainElement_Lencois"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

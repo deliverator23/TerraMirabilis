@@ -3,7 +3,7 @@
 	<m_CookParams>
 		<m_Values>
 			<Element class="AssetObjects::ObjectValue">
-				<m_ObjectName text="Kailash_HM"/>
+				<m_ObjectName text="Lencois_HM"/>
 				<m_eObjectType>TEXTURE</m_eObjectType>
 				<m_ParamName text="Heightmap"/>
 			</Element>
@@ -32,12 +32,12 @@
 				<m_ParamName text="BlockingHex6"/>
 			</Element>
 			<Element class="AssetObjects::ObjectValue">
-				<m_ObjectName text="Sri_Pada_ID"/>
+				<m_ObjectName text="Lencois_ID"/>
 				<m_eObjectType>TEXTURE</m_eObjectType>
 				<m_ParamName text="IDMap"/>
 			</Element>
 			<Element class="AssetObjects::ObjectValue">
-				<m_ObjectName text="Kailash_H_BLEND"/>
+				<m_ObjectName text="NWON_DeadSea_H_BLEND"/>
 				<m_eObjectType>TEXTURE</m_eObjectType>
 				<m_ParamName text="BlendMap"/>
 			</Element>
@@ -45,7 +45,7 @@
 	</m_CookParams>
 	<m_ClassName text="TerrainElement"/>
 	<m_DataFiles/>
-	<m_Name text="TerrainElement_Kailash"/>
+	<m_Name text="TerrainElement_Lencois"/>
 	<m_Description text=""/>
 	<m_Tags>
 		<Element text="TerrainElement"/>

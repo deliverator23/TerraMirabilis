@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<AssetObjects:ArtDefSet>
+<AssetObjects..ArtDefSet>
 	<m_Version>
 		<major>4</major>
 		<minor>0</minor>
@@ -6024,5 +6024,5 @@
 			</Element>
 		</Element>
 	</m_RootCollections>
-</AssetObjects:ArtDefSet>
+</AssetObjects..ArtDefSet>
 

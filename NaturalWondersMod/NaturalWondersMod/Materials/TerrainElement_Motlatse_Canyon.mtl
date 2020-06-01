@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<AssetObjects::MaterialInstance>
+<AssetObjects..MaterialInstance>
 	<m_CookParams>
 		<m_Values>
 			<Element class="AssetObjects::ObjectValue">
@@ -51,5 +51,5 @@
 		<Element text="TerrainElement"/>
 	</m_Tags>
 	<m_Groups/>
-</AssetObjects::MaterialInstance>
+</AssetObjects..MaterialInstance>
 
