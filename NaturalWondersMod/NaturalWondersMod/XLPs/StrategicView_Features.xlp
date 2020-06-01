@@ -10,6 +10,14 @@
 	<m_PackageName text="strategicview/strategicview_features"/>
 	<m_Entries>
 		<Element>
+			<m_EntryID text="Lencois_Visible"/>
+			<m_ObjectName text="Lencois_Visible"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Lencois_Revealed"/>
+			<m_ObjectName text="Lencois_Revealed"/>
+		</Element>
+		<Element>
 			<m_EntryID text="Krakatoa_Visible"/>
 			<m_ObjectName text="Krakatoa_Visible"/>
 		</Element>

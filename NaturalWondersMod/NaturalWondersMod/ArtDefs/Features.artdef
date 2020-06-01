@@ -2764,7 +2764,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="DeadSea_Dash"/>
+										<m_ElementName text="Lencois_Dash"/>
 										<m_RootCollectionName text="Features"/>
 										<m_ArtDefPath text="StrategicView.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -2785,7 +2785,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="DeadSea_ForwardSlash"/>
+										<m_ElementName text="Lencois_ForwardSlash"/>
 										<m_RootCollectionName text="Features"/>
 										<m_ArtDefPath text="StrategicView.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -2806,7 +2806,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="DeadSea_Backslash"/>
+										<m_ElementName text="Lencois_Backslash"/>
 										<m_RootCollectionName text="Features"/>
 										<m_ArtDefPath text="StrategicView.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -2839,9 +2839,9 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..RGBValue">
-										<m_r>58.000000</m_r>
-										<m_g>39.000000</m_g>
-										<m_b>3.000000</m_b>
+										<m_r>56.000000</m_r>
+										<m_g>48.000000</m_g>
+										<m_b>31.000000</m_b>
 										<m_ParamName text="BounceColor"/>
 									</Element>
 									<Element class="AssetObjects..FloatValue">
@@ -2870,7 +2870,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..StringValue">
-										<m_Value text="NWON_SingleHex_Camera_Anim"/>
+										<m_Value text="NWON_MultiHex_Camera_Anim"/>
 										<m_ParamName text="XrefName"/>
 									</Element>
 								</m_Values>

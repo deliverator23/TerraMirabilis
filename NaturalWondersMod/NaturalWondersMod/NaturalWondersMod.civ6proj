@@ -287,12 +287,6 @@
     <Content Include="Core\User Settings\TM_UserSettings.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Utilities\Archived\Interface\TM_UnitPanel.lua">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Core\Utilities\Archived\TM_UnitPanel.lua">
-      <SubType>Content</SubType>
-    </Content>
     <Content Include="Core\Utilities\Maps\NaturalWonderGenerator.lua">
       <SubType>Content</SubType>
     </Content>
@@ -311,9 +305,7 @@
     <Folder Include="Core\Natural Disasters" />
     <Folder Include="Core\Utilities" />
     <Folder Include="Core\User Settings\" />
-    <Folder Include="Core\Utilities\Archived\Interface\" />
     <Folder Include="Core\Utilities\Maps" />
-    <Folder Include="Core\Utilities\Archived" />
   </ItemGroup>
   <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
 </Project>
