@@ -529,6 +529,21 @@ function CustomGetMultiTileFeaturePlotList(pPlot, eFeatureType, aPlots)
 				end
 			end
 		end
+
+		-- 3 tiles in a triangle that is always "pointing up"
+	elseif (customPlacement == "PLACEMENT_PAITITI") then
+
+		local pSEPlot = Map.GetAdjacentPlot(pPlot:GetX(), pPlot:GetY(), DirectionTypes.DIRECTION_SOUTHEAST);
+		local pSWPlot = Map.GetAdjacentPlot(pPlot:GetX(), pPlot:GetY(), DirectionTypes.DIRECTION_SOUTHWEST);
+		if (pSEPlot ~= nil and pSWPlot ~= nil) then
+			local bSEValid:boolean = TerrainBuilder.CanHaveFeature(pSEPlot, eFeatureType, true);
+		local bSWValid:boolean = TerrainBuilder.CanHaveFeature(pSWPlot, eFeatureType, true);
+		if (bSEValid and bSWValid) then
+		table.insert(aPlots, pSEPlot:GetIndex());
+		table.insert(aPlots, pSWPlot:GetIndex());
+			return true;
+			end
+		end
 	end
 
 	return false;
