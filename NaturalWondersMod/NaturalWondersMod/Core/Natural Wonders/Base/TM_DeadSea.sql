@@ -38,9 +38,9 @@ WHERE	FeatureType = 'FEATURE_DEAD_SEA';
 -----------------------------------------------
 
 INSERT INTO Modifiers
-		(ModifierId,									ModifierType,						SubjectRequirementSetId					)
-VALUES	('MODIFIER_TM_FEATURE_DEAD_SEA_ATTACH_PLAYERS',	'MODTYPE_TM_ATTACH_ALL_PLAYERS',	'REQSET_TM_PLAYER_HAS_FEATURE_DEAD_SEA'	),
-		('MODIFIER_TM_FEATURE_DEAD_SEA_UNIT_HEALING',	'MODTYPE_TM_ADJUST_UNIT_HEALING',	NULL									);
+		(ModifierId,									ModifierType,									OwnerRequirementSetId,					SubjectRequirementSetId					)
+VALUES	('MODIFIER_TM_FEATURE_DEAD_SEA_ATTACH_PLAYERS',	'MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER',			'REQSET_TM_MAP_HAS_FEATURE_DEAD_SEA',	'REQSET_TM_PLAYER_HAS_FEATURE_DEAD_SEA'	),
+		('MODIFIER_TM_FEATURE_DEAD_SEA_UNIT_HEALING',	'MODIFIER_PLAYER_UNITS_ADJUST_HEAL_PER_TURN',	NULL,									NULL									);
 
 -----------------------------------------------
 -- ModifierArguments

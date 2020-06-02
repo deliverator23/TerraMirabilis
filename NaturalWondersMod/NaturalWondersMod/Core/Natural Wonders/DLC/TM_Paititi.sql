@@ -36,25 +36,28 @@ WHERE	FeatureType = 'FEATURE_PAITITI';
 -- Modifiers
 -----------------------------------------------
 
-INSERT INTO Modifiers
-		(ModifierId,									ModifierType,					SubjectRequirementSetId	)
-SELECT	'MODIFIER_TM_FEATURE_PAITITI_ATTACH_CITIES',	'MODTYPE_TM_ATTACH_ALL_CITIES',	'REQSET_TM_CITY_HAS_FEATURE_PAITITI'
+INSERT INTO Modifiers (ModifierId, ModifierType, OwnerRequirementSetId, SubjectRequirementSetId)
+SELECT	'MODIFIER_TM_FEATURE_PAITITI_ATTACH_CITIES',
+		'MODIFIER_ALL_CITIES_ATTACH_MODIFIER',
+		'REQSET_TM_MAP_HAS_FEATURE_PAITITI',	
+		'REQSET_TM_CITY_HAS_FEATURE_PAITITI'
 WHERE EXISTS (SELECT * FROM Features WHERE FeatureType = 'FEATURE_PAITITI');
 
 INSERT INTO Modifiers
-		(ModifierId,								ModifierType,						SubjectRequirementSetId	)
-VALUES	('MODIFIER_TM_FEATURE_PAITITI_CITY_GOLD',	'MODTYPE_TM_ADJUST_CITY_YIELD',		NULL					);
+		(ModifierId,								ModifierType,										SubjectRequirementSetId	)
+VALUES	('MODIFIER_TM_FEATURE_PAITITI_CITY_GOLD',	'MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER',	NULL					);
 
 -----------------------------------------------
 -- ModifierArguments
 -----------------------------------------------
 
-INSERT INTO ModifierArguments
-		(ModifierId,									Name,			Value	)
-SELECT	'MODIFIER_TM_FEATURE_PAITITI_ATTACH_CITIES',	'ModifierId',	'MODIFIER_TM_FEATURE_PAITITI_CITY_GOLD'
+INSERT INTO ModifierArguments (ModifierId, Name, Value)
+SELECT	'MODIFIER_TM_FEATURE_PAITITI_ATTACH_CITIES',
+		'ModifierId',
+		'MODIFIER_TM_FEATURE_PAITITI_CITY_GOLD'
 WHERE EXISTS (SELECT * FROM Features WHERE FeatureType = 'FEATURE_PAITITI');
 
 INSERT INTO ModifierArguments
-		(ModifierId,									Name,			Value			)
-VALUES	('MODIFIER_TM_FEATURE_PAITITI_CITY_GOLD',		'YieldType',	'YIELD_GOLD'	),
-		('MODIFIER_TM_FEATURE_PAITITI_CITY_GOLD',		'Amount',		100				);
+		(ModifierId,								Name,			Value			)
+VALUES	('MODIFIER_TM_FEATURE_PAITITI_CITY_GOLD',	'YieldType',	'YIELD_GOLD'	),
+		('MODIFIER_TM_FEATURE_PAITITI_CITY_GOLD',	'Amount',		100				);

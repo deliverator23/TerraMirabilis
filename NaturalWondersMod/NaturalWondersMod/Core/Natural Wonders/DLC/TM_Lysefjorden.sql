@@ -38,9 +38,11 @@ WHERE	FeatureType = 'FEATURE_LYSEFJORDEN';
 -- Modifiers
 -----------------------------------------------
 
-INSERT INTO Modifiers
-		(ModifierId,										ModifierType,						SubjectRequirementSetId	)
-SELECT	'MODIFIER_TM_FEATURE_LYSEFJORDEN_ATTACH_CITIES',	'MODTYPE_TM_ATTACH_ALL_CITIES',		'REQSET_TM_CITY_HAS_FEATURE_LYSEFJORDEN'
+INSERT INTO Modifiers (ModifierId, ModifierType, OwnerRequirementSetId, SubjectRequirementSetId)
+SELECT	'MODIFIER_TM_FEATURE_LYSEFJORDEN_ATTACH_CITIES',
+		'MODIFIER_ALL_CITIES_ATTACH_MODIFIER',
+		'REQSET_TM_MAP_HAS_FEATURE_LYSEFJORDEN',
+		'REQSET_TM_CITY_HAS_FEATURE_LYSEFJORDEN'
 WHERE EXISTS (SELECT * FROM Features WHERE FeatureType = 'FEATURE_LYSEFJORDEN');
 				
 INSERT INTO Modifiers
@@ -51,11 +53,12 @@ VALUES	('MODIFIER_TM_FEATURE_LYSEFJORDEN_NAVAL_PROMOTION',	'MODTYPE_TM_GRANT_UNI
 -- ModifierArguments
 -----------------------------------------------
 
-INSERT INTO ModifierArguments
-		(ModifierId,										Name,			Value	)
-SELECT	'MODIFIER_TM_FEATURE_LYSEFJORDEN_ATTACH_CITIES',	'ModifierId',	'MODIFIER_TM_FEATURE_LYSEFJORDEN_NAVAL_PROMOTION'
+INSERT INTO ModifierArguments (ModifierId, Name, Value)
+SELECT	'MODIFIER_TM_FEATURE_LYSEFJORDEN_ATTACH_CITIES',
+		'ModifierId',
+		'MODIFIER_TM_FEATURE_LYSEFJORDEN_NAVAL_PROMOTION'
 WHERE EXISTS (SELECT * FROM Features WHERE FeatureType = 'FEATURE_LYSEFJORDEN');
 		
 INSERT INTO ModifierArguments
-		(ModifierId,										Name,			Value												)
-VALUES	('MODIFIER_TM_FEATURE_LYSEFJORDEN_NAVAL_PROMOTION',	'Amount',		-1													);
+		(ModifierId,										Name,			Value	)
+VALUES	('MODIFIER_TM_FEATURE_LYSEFJORDEN_NAVAL_PROMOTION',	'Amount',		-1		);

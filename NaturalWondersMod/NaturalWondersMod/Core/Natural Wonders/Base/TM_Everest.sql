@@ -37,9 +37,9 @@ WHERE	FeatureType = 'FEATURE_EVEREST';
 -----------------------------------------------
 
 INSERT INTO Modifiers
-		(ModifierId,											ModifierType,						SubjectRequirementSetId					)
-VALUES	('MODIFIER_TM_FEATURE_EVEREST_ATTACH_PLAYERS_SPREAD',	'MODTYPE_TM_ATTACH_ALL_PLAYERS',	'REQSET_TM_PLAYER_HAS_FEATURE_EVEREST'	),
-		('MODIFIER_TM_FEATURE_EVEREST_SPREAD',					'MODTYPE_TM_ADJUST_UNIT_SPREAD',	'REQSET_TM_UNIT_IS_RELIGIOUS'			);
+		(ModifierId,											ModifierType,									OwnerRequirementSetId,					SubjectRequirementSetId					)
+VALUES	('MODIFIER_TM_FEATURE_EVEREST_ATTACH_PLAYERS_SPREAD',	'MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER',			'REQSET_TM_MAP_HAS_FEATURE_EVEREST',	'REQSET_TM_PLAYER_HAS_FEATURE_EVEREST'	),
+		('MODIFIER_TM_FEATURE_EVEREST_SPREAD',					'MODIFIER_PLAYER_UNITS_ADJUST_SPREAD_CHARGES',	NULL,									'REQSET_TM_UNIT_IS_RELIGIOUS'			);
 
 -----------------------------------------------
 -- ModifierArguments

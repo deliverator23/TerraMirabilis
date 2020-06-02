@@ -41,9 +41,9 @@ WHERE	FeatureType = 'FEATURE_IKKIL';
 -----------------------------------------------
 
 INSERT INTO Modifiers
-		(ModifierId,										ModifierType,							SubjectRequirementSetId					)
-VALUES	('MODIFIER_TM_FEATURE_IK_KIL_ATTACH_PLAYERS',		'MODTYPE_TM_ATTACH_ALL_PLAYERS',		'REQSET_TM_PLAYER_HAS_FEATURE_IKKIL'	),
-		('MODIFIER_TM_FEATURE_IK_KIL_WONDER_PRODUCTION',	'MODTYPE_TM_PLAYER_WONDER_PRODUCTION',	NULL									);
+		(ModifierId,										ModifierType,										OwnerRequirementSetId,				SubjectRequirementSetId					)
+VALUES	('MODIFIER_TM_FEATURE_IK_KIL_ATTACH_PLAYERS',		'MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER',				'REQSET_TM_MAP_HAS_FEATURE_IKKIL',	'REQSET_TM_PLAYER_HAS_FEATURE_IKKIL'	),
+		('MODIFIER_TM_FEATURE_IK_KIL_WONDER_PRODUCTION',	'MODIFIER_PLAYER_CITIES_ADJUST_WONDER_PRODUCTION',	NULL,								NULL									);
 
 -----------------------------------------------
 -- ModifierArguments

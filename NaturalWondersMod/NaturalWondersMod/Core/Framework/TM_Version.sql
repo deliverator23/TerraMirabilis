@@ -11,8 +11,18 @@ INSERT INTO GlobalParameters
 		(Name,								Value	)
 VALUES	('TERRA_MIRABILIS_VERSION_MAJOR',	2		),
 		('TERRA_MIRABILIS_VERSION_MINOR',	21		),
-		('TERRA_MIRABILIS_VERSION_PATCH',	0		);
+		('TERRA_MIRABILIS_VERSION_PATCH',	1		);
 /*
+
+-----------------------------------------------
+-- VERSION 2.21.1
+-----------------------------------------------
+
+	Changed
+	~ Updated modifiers and requrements for the project for optimisation
+
+	Removed
+	~ Obsolete effects and requirements
 
 -----------------------------------------------
 -- VERSION 2.21.0
@@ -29,7 +39,7 @@ VALUES	('TERRA_MIRABILIS_VERSION_MAJOR',	2		),
 
 	Removed
 	~ Translation files (will now be released as separate projects to minimise steam updates)
-	~ Lua for Builder Lag fix removed (it a better solution is available separately on the workshop)
+	~ Lua for Builder Lag fix removed (a better solution is available separately on the workshop by Adriaman)
 		- Link: https://steamcommunity.com/sharedfiles/filedetails/?id=2040092722
 
 

@@ -233,6 +233,10 @@
 			<m_EntryID text="FEATURE_TM_ATLAS_64"/>
 			<m_ObjectName text="FEATURE_TM_ATLAS_64"/>
 		</Element>
+		<Element>
+			<m_EntryID text="MOMENT_FEATURE_LENCOIS_MARANHENSES"/>
+			<m_ObjectName text="MOMENT_FEATURE_LENCOIS_MARANHENSES"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>
