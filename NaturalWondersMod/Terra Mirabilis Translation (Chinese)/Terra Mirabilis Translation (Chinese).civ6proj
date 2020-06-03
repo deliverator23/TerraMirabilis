@@ -31,9 +31,6 @@
     <Folder Include="Translation" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="README.txt">
-      <SubType>Content</SubType>
-    </Content>
     <Content Include="Translation\TM_Localisation_zh_Hans_CN.sql">
       <SubType>Content</SubType>
     </Content>
