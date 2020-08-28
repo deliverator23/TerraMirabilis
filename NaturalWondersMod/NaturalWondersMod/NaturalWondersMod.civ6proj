@@ -51,6 +51,7 @@
 				</Criteria>
 			</ActionCriteria>
 		]]></ActionCriteriaData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateText id="TM_Config_Text"><File>Core/Localisation/TM_Localisation.sql</File></UpdateText><UpdateIcons id="TM_Config_Icons"><File>Core/Natural Wonders/TM_Icons.sql</File></UpdateIcons><UpdateDatabase id="TM_Config_Schema"><Properties><LoadOrder>1</LoadOrder></Properties><File>Core/Framework/TM_Schema.sql</File></UpdateDatabase><UpdateDatabase id="TM_Config_Master"><Properties><LoadOrder>2</LoadOrder></Properties><File>Core/Framework/TM_Master.sql</File><File>Core/User Settings/TM_UserSettings.sql</File></UpdateDatabase><UpdateDatabase id="TM_Config_Data"><Properties><LoadOrder>3</LoadOrder></Properties><File>Core/Natural Wonders/TM_Features_Config.sql</File></UpdateDatabase></FrontEndActions>]]></FrontEndActionData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -216,6 +217,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Core\Natural Wonders\TM_Features.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Natural Wonders\TM_Features_Config.sql">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Core\Natural Wonders\TM_Features_XP1.sql">
