@@ -102,27 +102,27 @@
 
 	INSERT INTO District_Adjacencies (DistrictType, YieldChangeId)
 	SELECT	DistrictType, 'ADJ_TM_NW_FAITH'
-	FROM	Districts WHERE DistrictType = 'DISTRICT_HOLY_SITE' OR DistrictType IN (SELECT CivUniqueDistrictType FROM DistrictReplaces WHERE ReplacesDistrictType = 'DISTRICT_HOLY_SITE')
+	FROM	Districts WHERE (DistrictType = 'DISTRICT_HOLY_SITE' OR DistrictType IN (SELECT CivUniqueDistrictType FROM DistrictReplaces WHERE ReplacesDistrictType = 'DISTRICT_HOLY_SITE'))
 	AND EXISTS (SELECT * FROM TM_UserSettings WHERE Setting = 'NW_ADJACENCY' AND Value = 1);
 
 	INSERT INTO District_Adjacencies (DistrictType, YieldChangeId)
 	SELECT	DistrictType, 'ADJ_TM_NW_SCIENCE'
-	FROM	Districts WHERE DistrictType = 'DISTRICT_CAMPUS' OR DistrictType IN (SELECT CivUniqueDistrictType FROM DistrictReplaces WHERE ReplacesDistrictType = 'DISTRICT_CAMPUS')
+	FROM	Districts WHERE (DistrictType = 'DISTRICT_CAMPUS' OR DistrictType IN (SELECT CivUniqueDistrictType FROM DistrictReplaces WHERE ReplacesDistrictType = 'DISTRICT_CAMPUS'))
 	AND EXISTS (SELECT * FROM TM_UserSettings WHERE Setting = 'NW_ADJACENCY' AND Value = 1);
 
 	INSERT INTO District_Adjacencies (DistrictType, YieldChangeId)
 	SELECT	DistrictType, 'ADJ_TM_NW_CULTURE'
-	FROM	Districts WHERE DistrictType = 'DISTRICT_THEATER' OR DistrictType IN (SELECT CivUniqueDistrictType FROM DistrictReplaces WHERE ReplacesDistrictType = 'DISTRICT_THEATER')
+	FROM	Districts WHERE (DistrictType = 'DISTRICT_THEATER' OR DistrictType IN (SELECT CivUniqueDistrictType FROM DistrictReplaces WHERE ReplacesDistrictType = 'DISTRICT_THEATER'))
 	AND EXISTS (SELECT * FROM TM_UserSettings WHERE Setting = 'NW_ADJACENCY' AND Value = 1);
 
 	INSERT INTO District_Adjacencies (DistrictType, YieldChangeId)
 	SELECT	DistrictType, 'ADJ_TM_NW_PRODUCTION'
-	FROM	Districts WHERE DistrictType = 'DISTRICT_INDUSTRIAL_ZONE' OR DistrictType IN (SELECT CivUniqueDistrictType FROM DistrictReplaces WHERE ReplacesDistrictType = 'DISTRICT_INDUSTRIAL_ZONE')
+	FROM	Districts WHERE (DistrictType = 'DISTRICT_INDUSTRIAL_ZONE' OR DistrictType IN (SELECT CivUniqueDistrictType FROM DistrictReplaces WHERE ReplacesDistrictType = 'DISTRICT_INDUSTRIAL_ZONE'))
 	AND EXISTS (SELECT * FROM TM_UserSettings WHERE Setting = 'NW_ADJACENCY' AND Value = 1);
 
 	INSERT INTO District_Adjacencies (DistrictType, YieldChangeId)
 	SELECT	DistrictType, 'ADJ_TM_NW_GOLD'
-	FROM	Districts WHERE DistrictType IN ('DISTRICT_COMMERCIAL_HUB', 'DISTRICT_HARBOR') OR DistrictType IN (SELECT CivUniqueDistrictType FROM DistrictReplaces WHERE ReplacesDistrictType IN ('DISTRICT_COMMERCIAL_HUB', 'DISTRICT_HARBOR'))
+	FROM	Districts WHERE (DistrictType IN ('DISTRICT_COMMERCIAL_HUB', 'DISTRICT_HARBOR') OR DistrictType IN (SELECT CivUniqueDistrictType FROM DistrictReplaces WHERE ReplacesDistrictType IN ('DISTRICT_COMMERCIAL_HUB', 'DISTRICT_HARBOR')))
 	AND EXISTS (SELECT * FROM TM_UserSettings WHERE Setting = 'NW_ADJACENCY' AND Value = 1);
 
 -----------------------------------------------
